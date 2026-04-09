@@ -2,7 +2,7 @@ import { defineConfig } from 'astro/config';
 
 export default defineConfig({
   site: 'https://hawk-on.github.io',
-  base: '/blog',
+  base: '/Blog',
   markdown: {
     shikiConfig: {
       theme: 'github-dark',
