@@ -1,0 +1,100 @@
+---
+import Grunnoppsett from '../layouts/Grunnoppsett.astro';
+---
+
+<Grunnoppsett tittel="Om" beskriving="Om Håkon Hole Lønning">
+  <div class="container">
+    <div class="om-grid">
+      <div>
+        <div style="padding: 4rem 0 2rem;">
+          <p class="seksjon-tittel">Om</p>
+          <h1 style="font-size: clamp(2rem, 4vw, 3rem); margin-top: 0.5rem; margin-bottom: 2rem;">
+            Håkon Hole Lønning
+          </h1>
+        </div>
+
+        <p>
+          Eg er seniorutviklar (<em>overingeniør</em>) med bakgrunn frå helsesektoren, no
+          på veg til Lånekassen. Til dagleg arbeider eg med .NET, C#, Angular og
+          skybasert infrastruktur.
+        </p>
+
+        <p>
+          På denne bloggen skriv eg om det som opptek meg utanfor koden:
+          politisk økonomi, geopolitikk, norsk arbeidsliv og
+          teknologiens rolle i maktstrukturar. Eg nærmar meg desse temaa
+          med ein strukturalistisk linse — eg er meir interessert i system
+          enn i einskildpersonar.
+        </p>
+
+        <p>
+          Eg er NITO-medlem, tidlegare fagforeningsorganisator, og har bakgrunn
+          som vektar. Det har forma korleis eg ser på makt, arbeid og institusjonar.
+        </p>
+
+        <p>
+          Eg bur i Bergen saman med Sofie og to søner, og flyttar til
+          Nordfjordeid sommaren 2026.
+        </p>
+
+        <h2>Kontakt</h2>
+        <p>
+          Du finn meg på
+          <a href="https://github.com/hakonhole">GitHub</a>.
+          Innspel og tilbakemeldingar er velkomne.
+        </p>
+      </div>
+
+      <aside>
+        <div style="
+          background: var(--lys-grå);
+          padding: 2rem;
+          margin-top: 4rem;
+          border-top: 3px solid var(--raud);
+        ">
+          <p style="
+            font-family: var(--skrift-kode);
+            font-size: 0.7rem;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--grå);
+            margin-bottom: 1rem;
+          ">Fagleg bakgrunn</p>
+          <ul style="list-style: none; font-size: 0.9rem; line-height: 2;">
+            <li>.NET Core / C#</li>
+            <li>Angular</li>
+            <li>Kubernetes / Docker</li>
+            <li>Azure DevOps</li>
+            <li>HelseID / OIDC</li>
+            <li>GitOps / Flux</li>
+          </ul>
+        </div>
+
+        <div style="
+          padding: 2rem;
+          margin-top: 1rem;
+          border: 1px solid var(--lys-grå);
+        ">
+          <p style="
+            font-family: var(--skrift-kode);
+            font-size: 0.7rem;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--grå);
+            margin-bottom: 1rem;
+          ">Abonner</p>
+          <p style="font-size: 0.85rem; color: var(--grå); margin-bottom: 1rem;">
+            Ny innlegg via RSS
+          </p>
+          <a href="/rss.xml" style="
+            font-family: var(--skrift-kode);
+            font-size: 0.75rem;
+            letter-spacing: 0.05em;
+            text-decoration: none;
+            color: var(--raud);
+          ">RSS-feed →</a>
+        </div>
+      </aside>
+    </div>
+  </div>
+</Grunnoppsett>

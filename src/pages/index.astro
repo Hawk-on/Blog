@@ -1,0 +1,59 @@
+---
+import Grunnoppsett from '../layouts/Grunnoppsett.astro';
+
+// Hent siste blogginnlegg
+const innlegg = await Astro.glob('./blogg/*.md');
+const sortertInnlegg = innlegg
+  .sort((a, b) => new Date(b.frontmatter.dato).valueOf() - new Date(a.frontmatter.dato).valueOf())
+  .slice(0, 5);
+---
+
+<Grunnoppsett tittel="Heim">
+  <div class="container">
+
+    <section class="forsida-hero">
+      <div class="forsida-hero__kicker">Analysar · Geopolitikk · Teknologi</div>
+      <h1 class="forsida-hero__tittel">Tankar om makt, system og kva som eigentleg skjer</h1>
+      <p class="forsida-hero__beskriving">
+        Seniorutviklar og samfunnsengasjert skrivent frå Bergen.
+        Eg skriv om politisk økonomi, geopolitikk og teknologi —
+        med ein strukturalistisk linse og frå eit norsk perspektiv.
+      </p>
+    </section>
+
+    <section>
+      <p class="seksjon-tittel">Siste innlegg</p>
+      <ul class="artikkel-liste">
+        {sortertInnlegg.map(innlegg => {
+          const { tittel, dato, ingress, tags = [] } = innlegg.frontmatter;
+          const datoFormatert = new Date(dato).toLocaleDateString('nn-NO', {
+            year: 'numeric', month: 'short', day: 'numeric'
+          });
+          const slug = innlegg.file.split('/').pop()?.replace('.md', '');
+          return (
+            <li class="artikkel-kort">
+              <div class="artikkel-kort__dato">{datoFormatert}</div>
+              <div>
+                <h2 class="artikkel-kort__tittel">
+                  <a href={`/blogg/${slug}`}>{tittel}</a>
+                </h2>
+                {ingress && <p class="artikkel-kort__ingress">{ingress}</p>}
+                {tags.length > 0 && (
+                  <div class="artikkel-kort__tags">
+                    {tags.map((tag: string) => <span class="tag">{tag}</span>)}
+                  </div>
+                )}
+              </div>
+            </li>
+          );
+        })}
+      </ul>
+      <p style="margin-top: 2rem;">
+        <a href="/blogg" style="font-family: var(--skrift-kode); font-size: 0.8rem; letter-spacing: 0.05em;">
+          Alle innlegg →
+        </a>
+      </p>
+    </section>
+
+  </div>
+</Grunnoppsett>

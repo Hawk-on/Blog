@@ -1,0 +1,42 @@
+---
+import Grunnoppsett from '../../layouts/Grunnoppsett.astro';
+
+const innlegg = await Astro.glob('./*.md');
+const sortertInnlegg = innlegg
+  .sort((a, b) => new Date(b.frontmatter.dato).valueOf() - new Date(a.frontmatter.dato).valueOf());
+---
+
+<Grunnoppsett tittel="Blogg" beskriving="Alle innlegg">
+  <div class="container">
+    <div style="padding: 4rem 0 3rem;">
+      <p class="seksjon-tittel">Alle innlegg</p>
+      <h1 style="font-size: clamp(2rem, 4vw, 3rem); margin-top: 0.5rem;">Blogg</h1>
+    </div>
+
+    <ul class="artikkel-liste">
+      {sortertInnlegg.map(innlegg => {
+        const { tittel, dato, ingress, tags = [] } = innlegg.frontmatter;
+        const datoFormatert = new Date(dato).toLocaleDateString('nn-NO', {
+          year: 'numeric', month: 'short', day: 'numeric'
+        });
+        const slug = innlegg.file.split('/').pop()?.replace('.md', '');
+        return (
+          <li class="artikkel-kort">
+            <div class="artikkel-kort__dato">{datoFormatert}</div>
+            <div>
+              <h2 class="artikkel-kort__tittel">
+                <a href={`/blogg/${slug}`}>{tittel}</a>
+              </h2>
+              {ingress && <p class="artikkel-kort__ingress">{ingress}</p>}
+              {tags.length > 0 && (
+                <div class="artikkel-kort__tags">
+                  {tags.map((tag: string) => <span class="tag">{tag}</span>)}
+                </div>
+              )}
+            </div>
+          </li>
+        );
+      })}
+    </ul>
+  </div>
+</Grunnoppsett>

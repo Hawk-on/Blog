@@ -1,0 +1,43 @@
+---
+import Grunnoppsett from './Grunnoppsett.astro';
+
+interface Props {
+  tittel: string;
+  dato: string;
+  ingress?: string;
+  tags?: string[];
+  lesetid?: number;
+}
+
+const { tittel, dato, ingress, tags = [], lesetid } = Astro.props;
+
+const datoFormatert = new Date(dato).toLocaleDateString('nn-NO', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric'
+});
+---
+
+<Grunnoppsett tittel={tittel} beskriving={ingress} erArtikkel={true}>
+  <div class="container">
+    <header class="artikkel-header">
+      <div class="artikkel-header__meta">
+        <span>{datoFormatert}</span>
+        {lesetid && <span>~{lesetid} min lesing</span>}
+        {tags.map(tag => <span class="tag">{tag}</span>)}
+      </div>
+      <h1 class="artikkel-header__tittel">{tittel}</h1>
+      {ingress && <p class="artikkel-header__ingress">{ingress}</p>}
+    </header>
+
+    <article class="artikkel-kropp">
+      <slot />
+    </article>
+
+    <nav style="border-top: 1px solid var(--lys-grå); padding-top: 2rem; margin-top: 2rem;">
+      <a href="/blogg" style="font-family: var(--skrift-kode); font-size: 0.8rem; letter-spacing: 0.05em; text-decoration: none; color: var(--grå);">
+        ← Tilbake til alle innlegg
+      </a>
+    </nav>
+  </div>
+</Grunnoppsett>

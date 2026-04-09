@@ -1,0 +1,57 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  tittel: string;
+  beskriving?: string;
+  erArtikkel?: boolean;
+}
+
+const { tittel, beskriving = 'Analysar av politikk, økonomi og teknologi.', erArtikkel = false } = Astro.props;
+const aktuellSti = Astro.url.pathname;
+---
+
+<!DOCTYPE html>
+<html lang="nn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content={beskriving} />
+  <title>{tittel} — Håkon Hole Lønning</title>
+  {erArtikkel && <meta property="og:type" content="article" />}
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.xml" />
+</head>
+<body>
+
+  <header class="nettstad-header">
+    <div class="container--brei">
+      <div class="nettstad-header__indre">
+        <a href="/" class="nettstad-header__logo">Håkon Hole Lønning</a>
+        <nav>
+          <ul class="nettstad-nav">
+            <li><a href="/blogg" class={aktuellSti.startsWith('/blogg') ? 'aktiv' : ''}>Blogg</a></li>
+            <li><a href="/om" class={aktuellSti === '/om' ? 'aktiv' : ''}>Om</a></li>
+            <li><a href="https://hawk-on.github.io">CV</a></li>
+            <li><a href="/rss.xml">RSS</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <slot />
+  </main>
+
+  <footer class="nettstad-footer">
+    <div class="container--brei">
+      <div class="nettstad-footer__indre">
+        <span>© {new Date().getFullYear()} Håkon Hole Lønning</span>
+        <span>Skrive i Nynorsk · Bygd med <a href="https://astro.build">Astro</a></span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
