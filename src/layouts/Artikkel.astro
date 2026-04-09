@@ -3,7 +3,7 @@ import Grunnoppsett from './Grunnoppsett.astro';
 
 interface Props {
   tittel: string;
-  dato: string;
+  dato: string | Date;
   ingress?: string;
   tags?: string[];
   lesetid?: number;
@@ -12,10 +12,13 @@ interface Props {
 const { tittel, dato, ingress, tags = [], lesetid } = Astro.props;
 const base = import.meta.env.BASE_URL;
 
-const d = dato ? new Date(dato + 'T12:00:00') : null;
+const datoStr = dato instanceof Date
+  ? dato.toISOString().slice(0, 10)
+  : String(dato ?? '');
+const d = datoStr ? new Date(datoStr + 'T12:00:00') : null;
 const datoFormatert = d && !isNaN(d.getTime())
   ? d.toLocaleDateString('nb-NO', { year: 'numeric', month: 'long', day: 'numeric' })
-  : dato ?? '';
+  : datoStr;
 ---
 
 <Grunnoppsett tittel={tittel} beskriving={ingress} erArtikkel={true}>
