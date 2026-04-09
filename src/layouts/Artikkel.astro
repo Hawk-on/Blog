@@ -12,11 +12,10 @@ interface Props {
 const { tittel, dato, ingress, tags = [], lesetid } = Astro.props;
 const base = import.meta.env.BASE_URL;
 
-const datoFormatert = new Date(dato).toLocaleDateString('nn-NO', {
-  year: 'numeric',
-  month: 'long',
-  day: 'numeric'
-});
+const d = dato ? new Date(dato + 'T12:00:00') : null;
+const datoFormatert = d && !isNaN(d.getTime())
+  ? d.toLocaleDateString('nb-NO', { year: 'numeric', month: 'long', day: 'numeric' })
+  : dato ?? '';
 ---
 
 <Grunnoppsett tittel={tittel} beskriving={ingress} erArtikkel={true}>
@@ -44,9 +43,11 @@ const datoFormatert = new Date(dato).toLocaleDateString('nn-NO', {
         for (const m of milestones) {
           if (pct >= m && !reached.has(m)) {
             reached.add(m);
-            if (typeof umami !== 'undefined') {
-              umami.track('les-djupn', { prosent: m, tittel: document.title });
-            }
+            try {
+              if (typeof umami !== 'undefined') {
+                umami.track('les-djupn', { prosent: m, tittel: document.title });
+              }
+            } catch (e) {}
           }
         }
       }, { passive: true });
