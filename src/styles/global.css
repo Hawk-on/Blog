@@ -139,6 +139,17 @@ hr {
 
 .nettstad-header__logo:hover { color: var(--raud); }
 
+.nettstad-header__ikon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+  position: relative;
+  top: -1px;
+}
+
 .nettstad-nav {
   display: flex;
   gap: 2rem;

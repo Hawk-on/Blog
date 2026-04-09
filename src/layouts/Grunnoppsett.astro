@@ -29,7 +29,10 @@ const aktuellSti = Astro.url.pathname;
   <header class="nettstad-header">
     <div class="container--brei">
       <div class="nettstad-header__indre">
-        <a href="/" class="nettstad-header__logo">Håkon Hole Lønning</a>
+        <a href="/" class="nettstad-header__logo">
+          <img src={`${import.meta.env.BASE_URL}favicon.png`} alt="" class="nettstad-header__ikon" aria-hidden="true" />
+          Håkon Hole Lønning
+        </a>
         <nav>
           <ul class="nettstad-nav">
             <li><a href="/blogg" class={aktuellSti.startsWith('/blogg') ? 'aktiv' : ''}>Blogg</a></li>
