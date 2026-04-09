@@ -26,12 +26,12 @@ const sortertInnlegg = innlegg
             <div class="artikkel-kort__dato">{datoFormatert}</div>
             <div>
               <h2 class="artikkel-kort__tittel">
-                <a href={`${base}blogg/${slug}`}>{tittel}</a>
+                <a href={`${base}/blogg/${slug}`}>{tittel}</a>
               </h2>
               {ingress && <p class="artikkel-kort__ingress">{ingress}</p>}
               {tags.length > 0 && (
                 <div class="artikkel-kort__tags">
-                  {tags.map((tag: string) => <a href={`${base}blogg/tag/${tag}`} class="tag" data-umami-event="tagg-klikk" data-umami-event-tag={tag}>{tag}</a>)}
+                  {tags.map((tag: string) => <a href={`${base}/blogg/tag/${tag}`} class="tag" data-umami-event="tagg-klikk" data-umami-event-tag={tag}>{tag}</a>)}
                 </div>
               )}
             </div>
