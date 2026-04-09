@@ -1,5 +1,6 @@
 ---
 import Grunnoppsett from './Grunnoppsett.astro';
+import { formaterDato } from '../utils/dato';
 
 interface Props {
   tittel: string;
@@ -12,13 +13,7 @@ interface Props {
 const { tittel, dato, ingress, tags = [], lesetid } = Astro.props;
 const base = import.meta.env.BASE_URL;
 
-const datoStr = dato instanceof Date
-  ? dato.toISOString().slice(0, 10)
-  : String(dato ?? '');
-const d = datoStr ? new Date(datoStr + 'T12:00:00') : null;
-const datoFormatert = d && !isNaN(d.getTime())
-  ? d.toLocaleDateString('nb-NO', { year: 'numeric', month: 'long', day: 'numeric' })
-  : datoStr;
+const datoFormatert = formaterDato(dato, 'lang');
 ---
 
 <Grunnoppsett tittel={tittel} beskriving={ingress} erArtikkel={true}>

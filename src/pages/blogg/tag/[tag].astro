@@ -1,5 +1,6 @@
 ---
 import Grunnoppsett from '../../../layouts/Grunnoppsett.astro';
+import { formaterDato } from '../../../utils/dato';
 
 export async function getStaticPaths() {
   const innlegg = await Astro.glob('../*.md');
@@ -35,9 +36,7 @@ const sortertInnlegg = innlegg.sort(
     <ul class="artikkel-liste">
       {sortertInnlegg.map(innlegg => {
         const { tittel, dato, ingress, tags = [] } = innlegg.frontmatter;
-        const datoFormatert = new Date(dato).toLocaleDateString('nn-NO', {
-          year: 'numeric', month: 'short', day: 'numeric'
-        });
+        const datoFormatert = formaterDato(dato);
         const slug = innlegg.file.split('/').pop()?.replace('.md', '');
         return (
           <li class="artikkel-kort">
