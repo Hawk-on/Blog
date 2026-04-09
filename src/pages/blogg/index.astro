@@ -30,7 +30,7 @@ const sortertInnlegg = innlegg
               {ingress && <p class="artikkel-kort__ingress">{ingress}</p>}
               {tags.length > 0 && (
                 <div class="artikkel-kort__tags">
-                  {tags.map((tag: string) => <span class="tag">{tag}</span>)}
+                  {tags.map((tag: string) => <a href={`/blogg/tag/${tag}`} class="tag" data-umami-event="tagg-klikk" data-umami-event-tag={tag}>{tag}</a>)}
                 </div>
               )}
             </div>

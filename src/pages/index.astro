@@ -40,7 +40,7 @@ const sortertInnlegg = innlegg
                 {ingress && <p class="artikkel-kort__ingress">{ingress}</p>}
                 {tags.length > 0 && (
                   <div class="artikkel-kort__tags">
-                    {tags.map((tag: string) => <span class="tag">{tag}</span>)}
+                    {tags.map((tag: string) => <a href={`/blogg/tag/${tag}`} class="tag" data-umami-event="tagg-klikk" data-umami-event-tag={tag}>{tag}</a>)}
                   </div>
                 )}
               </div>
@@ -49,7 +49,7 @@ const sortertInnlegg = innlegg
         })}
       </ul>
       <p style="margin-top: 2rem;">
-        <a href="/blogg" style="font-family: var(--skrift-kode); font-size: 0.8rem; letter-spacing: 0.05em;">
+        <a href="/blogg" style="font-family: var(--skrift-kode); font-size: 0.8rem; letter-spacing: 0.05em;" data-umami-event="forsida-alle-innlegg">
           Alle innlegg →
         </a>
       </p>

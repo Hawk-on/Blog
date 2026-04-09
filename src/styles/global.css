@@ -243,6 +243,11 @@ hr {
   border: 1px solid var(--lys-grå);
   padding: 0.2em 0.6em;
   border-radius: 2px;
+  text-decoration: none;
+}
+.tag:hover {
+  color: var(--svart);
+  border-color: var(--grå);
 }
 
 /* Artikkel-side */
