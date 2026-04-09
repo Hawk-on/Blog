@@ -20,8 +20,8 @@ const aktuellSti = Astro.url.pathname;
   <meta name="description" content={beskriving} />
   <title>{tittel} — Håkon Hole Lønning</title>
   {erArtikkel && <meta property="og:type" content="article" />}
-  <link rel="icon" type="image/x-icon" href={`${base}favicon.ico`} />
-  <link rel="icon" type="image/png" href={`${base}favicon.png`} />
+  <link rel="icon" type="image/x-icon" href={`${base}/favicon.ico`} />
+  <link rel="icon" type="image/png" href={`${base}/favicon.png`} />
   <link rel="alternate" type="application/rss+xml" title="RSS" href={`${base}rss.xml`} />
   <script defer src="https://cloud.umami.is/script.js" data-website-id="fd43352d-8e75-4352-8f82-92eb8a269859"></script>
 </head>
@@ -31,7 +31,7 @@ const aktuellSti = Astro.url.pathname;
     <div class="container--brei">
       <div class="nettstad-header__indre">
         <a href={base} class="nettstad-header__logo">
-          <img src={`${base}favicon.png`} alt="" class="nettstad-header__ikon" aria-hidden="true" />
+          <img src={`${base}/favicon.png`} alt="" class="nettstad-header__ikon" aria-hidden="true" />
           Håkon Hole Lønning
         </a>
         <nav>
