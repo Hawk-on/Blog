@@ -36,7 +36,7 @@ const aktuellSti = Astro.url.pathname;
         </a>
         <nav>
           <ul class="nettstad-nav">
-            <li><a href={`${base}/blogg`} class={aktuellSti.startsWith(`${base}/blogg`) ? 'aktiv' : ''}>Blogg</a></li>
+            <li><a href={base} class={aktuellSti === base || aktuellSti === `${base}/` || (!aktuellSti.startsWith(`${base}/om`) && !aktuellSti.startsWith(`${base}/tag`)) ? 'aktiv' : ''}>Blogg</a></li>
             <li><a href={`${base}/om`} class={aktuellSti === `${base}/om` ? 'aktiv' : ''}>Om</a></li>
             <li><a href="https://hawk-on.github.io">CV</a></li>
             <li><a href={`${base}/rss.xml`} data-umami-event="nav-rss">RSS</a></li>
