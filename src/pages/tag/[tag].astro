@@ -25,10 +25,10 @@ const sortertInnlegg = innlegg.sort(
 
 <Grunnoppsett tittel={`#${tag}`} beskriving={`Alle innlegg merka med ${tag}`}>
   <div class="container">
-    <div style="padding: 4rem 0 3rem;">
-      <p class="seksjon-tittel"><a href={base} style="color: var(--grå); text-decoration: none;">Alle innlegg</a></p>
-      <h1 style="font-size: clamp(2rem, 4vw, 3rem); margin-top: 0.5rem;">#{tag}</h1>
-      <p style="font-family: var(--skrift-kode); font-size: 0.8rem; color: var(--grå); margin-top: 1rem;">
+    <div class="tag-header">
+      <p class="seksjon-tittel"><a href={base} class="tag-header__tilbake">Alle innlegg</a></p>
+      <h1 class="tag-header__tittel">#{tag}</h1>
+      <p class="tag-header__tal">
         {sortertInnlegg.length} {sortertInnlegg.length === 1 ? 'innlegg' : 'innlegg'}
       </p>
     </div>

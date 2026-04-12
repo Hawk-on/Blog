@@ -28,17 +28,62 @@ const datoFormatert = formaterDato(dato, 'lang');
       {ingress && <p class="artikkel-header__ingress">{ingress}</p>}
     </header>
 
+    <nav class="innhaldstabell" id="innhaldstabell" aria-label="Innhaldstabell">
+      <p class="innhaldstabell__tittel">Innhald</p>
+      <ol class="innhaldstabell__liste" id="innhaldstabell-liste"></ol>
+    </nav>
+
     <article class="artikkel-kropp">
       <slot />
     </article>
 
+    <div class="les-framgang" id="les-framgang" aria-hidden="true"></div>
+
+    <button type="button" class="til-toppen" id="til-toppen" aria-label="Til toppen">↑</button>
+
     <script>
-      const milestones = [25, 50, 75, 100];
-      const reached = new Set();
-      window.addEventListener('scroll', () => {
-        const el = document.documentElement;
-        const pct = Math.round((el.scrollTop / (el.scrollHeight - el.clientHeight)) * 100);
-        for (const m of milestones) {
+      // Bygg innhaldstabell
+      (function() {
+        var headings = document.querySelectorAll('.artikkel-kropp h2, .artikkel-kropp h3');
+        var liste = document.getElementById('innhaldstabell-liste');
+        var toc = document.getElementById('innhaldstabell');
+        if (headings.length < 2) { toc.style.display = 'none'; return; }
+        headings.forEach(function(h, i) {
+          if (!h.id) h.id = 'seksjon-' + i;
+          var li = document.createElement('li');
+          li.className = h.tagName === 'H3' ? 'innhaldstabell__element--h3' : '';
+          var a = document.createElement('a');
+          a.href = '#' + h.id;
+          a.textContent = h.textContent;
+          li.appendChild(a);
+          liste.appendChild(li);
+        });
+      })();
+
+      // Leseprogresjon + analytics + tilbake-til-toppen
+      var milestones = [25, 50, 75, 100];
+      var reached = new Set();
+      var progressBar = document.getElementById('les-framgang');
+      var tilToppenBtn = document.getElementById('til-toppen');
+
+      window.addEventListener('scroll', function() {
+        var el = document.documentElement;
+        var scrollPct = el.scrollTop / (el.scrollHeight - el.clientHeight);
+        var pct = Math.round(scrollPct * 100);
+
+        // Leseprogresjon
+        progressBar.style.width = Math.min(scrollPct * 100, 100) + '%';
+
+        // Tilbake-til-toppen synlegheit
+        if (el.scrollTop > el.clientHeight * 0.5) {
+          tilToppenBtn.classList.add('synleg');
+        } else {
+          tilToppenBtn.classList.remove('synleg');
+        }
+
+        // Analytics
+        for (var i = 0; i < milestones.length; i++) {
+          var m = milestones[i];
           if (pct >= m && !reached.has(m)) {
             reached.add(m);
             try {
@@ -49,10 +94,14 @@ const datoFormatert = formaterDato(dato, 'lang');
           }
         }
       }, { passive: true });
+
+      tilToppenBtn.addEventListener('click', function() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
     </script>
 
-    <nav style="border-top: 1px solid var(--lys-grå); padding-top: 2rem; margin-top: 2rem;">
-      <a href={base} style="font-family: var(--skrift-kode); font-size: 0.8rem; letter-spacing: 0.05em; text-decoration: none; color: var(--grå);" data-umami-event="artikkel-tilbake">
+    <nav class="artikkel-tilbake-nav">
+      <a href={base} class="artikkel-tilbake-lenke" data-umami-event="artikkel-tilbake">
         ← Tilbake til alle innlegg
       </a>
     </nav>
