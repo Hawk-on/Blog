@@ -3,13 +3,12 @@ import Grunnoppsett from '../layouts/Grunnoppsett.astro';
 import { formaterDato } from '../utils/dato';
 
 const base = import.meta.env.BASE_URL;
-const innlegg = await Astro.glob('./blogg/*.md');
+const innlegg = await Astro.glob('./*.md');
 const sortertInnlegg = innlegg
-  .sort((a, b) => new Date(b.frontmatter.dato).valueOf() - new Date(a.frontmatter.dato).valueOf())
-  .slice(0, 5);
+  .sort((a, b) => new Date(b.frontmatter.dato).valueOf() - new Date(a.frontmatter.dato).valueOf());
 ---
 
-<Grunnoppsett tittel="Heim">
+<Grunnoppsett tittel="Håkon Hole Lønning">
   <div class="container">
 
     <section class="forsida-hero">
@@ -22,7 +21,7 @@ const sortertInnlegg = innlegg
     </section>
 
     <section>
-      <p class="seksjon-tittel">Siste innlegg</p>
+      <p class="seksjon-tittel">Alle innlegg</p>
       <ul class="artikkel-liste">
         {sortertInnlegg.map(innlegg => {
           const { tittel, dato, ingress, tags = [] } = innlegg.frontmatter;
@@ -33,12 +32,12 @@ const sortertInnlegg = innlegg
               <div class="artikkel-kort__dato">{datoFormatert}</div>
               <div>
                 <h2 class="artikkel-kort__tittel">
-                  <a href={`${base}/blogg/${slug}`}>{tittel}</a>
+                  <a href={`${base}/${slug}`}>{tittel}</a>
                 </h2>
                 {ingress && <p class="artikkel-kort__ingress">{ingress}</p>}
                 {tags.length > 0 && (
                   <div class="artikkel-kort__tags">
-                    {tags.map((tag: string) => <a href={`${base}/blogg/tag/${tag}`} class="tag" data-umami-event="tagg-klikk" data-umami-event-tag={tag}>{tag}</a>)}
+                    {tags.map((tag: string) => <a href={`${base}/tag/${tag}`} class="tag" data-umami-event="tagg-klikk" data-umami-event-tag={tag}>{tag}</a>)}
                   </div>
                 )}
               </div>
@@ -46,11 +45,6 @@ const sortertInnlegg = innlegg
           );
         })}
       </ul>
-      <p style="margin-top: 2rem;">
-        <a href={`${base}/blogg`} style="font-family: var(--skrift-kode); font-size: 0.8rem; letter-spacing: 0.05em;" data-umami-event="forsida-alle-innlegg">
-          Alle innlegg →
-        </a>
-      </p>
     </section>
 
   </div>

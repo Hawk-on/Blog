@@ -22,7 +22,7 @@ const datoFormatert = formaterDato(dato, 'lang');
       <div class="artikkel-header__meta">
         <span>{datoFormatert}</span>
         {lesetid && <span>~{lesetid} min lesing</span>}
-        {tags.map(tag => <a href={`${base}/blogg/tag/${tag}`} class="tag" data-umami-event="tagg-klikk" data-umami-event-tag={tag}>{tag}</a>)}
+        {tags.map(tag => <a href={`${base}/tag/${tag}`} class="tag" data-umami-event="tagg-klikk" data-umami-event-tag={tag}>{tag}</a>)}
       </div>
       <h1 class="artikkel-header__tittel">{tittel}</h1>
       {ingress && <p class="artikkel-header__ingress">{ingress}</p>}
@@ -52,7 +52,7 @@ const datoFormatert = formaterDato(dato, 'lang');
     </script>
 
     <nav style="border-top: 1px solid var(--lys-grå); padding-top: 2rem; margin-top: 2rem;">
-      <a href={`${base}/blogg`} style="font-family: var(--skrift-kode); font-size: 0.8rem; letter-spacing: 0.05em; text-decoration: none; color: var(--grå);" data-umami-event="artikkel-tilbake">
+      <a href={base} style="font-family: var(--skrift-kode); font-size: 0.8rem; letter-spacing: 0.05em; text-decoration: none; color: var(--grå);" data-umami-event="artikkel-tilbake">
         ← Tilbake til alle innlegg
       </a>
     </nav>

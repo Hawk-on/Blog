@@ -1,6 +1,6 @@
 ---
-import Grunnoppsett from '../../../layouts/Grunnoppsett.astro';
-import { formaterDato } from '../../../utils/dato';
+import Grunnoppsett from '../../layouts/Grunnoppsett.astro';
+import { formaterDato } from '../../utils/dato';
 
 export async function getStaticPaths() {
   const innlegg = await Astro.glob('../*.md');
@@ -26,7 +26,7 @@ const sortertInnlegg = innlegg.sort(
 <Grunnoppsett tittel={`#${tag}`} beskriving={`Alle innlegg merka med ${tag}`}>
   <div class="container">
     <div style="padding: 4rem 0 3rem;">
-      <p class="seksjon-tittel"><a href={`${base}/blogg`} style="color: var(--grå); text-decoration: none;">Alle innlegg</a></p>
+      <p class="seksjon-tittel"><a href={base} style="color: var(--grå); text-decoration: none;">Alle innlegg</a></p>
       <h1 style="font-size: clamp(2rem, 4vw, 3rem); margin-top: 0.5rem;">#{tag}</h1>
       <p style="font-family: var(--skrift-kode); font-size: 0.8rem; color: var(--grå); margin-top: 1rem;">
         {sortertInnlegg.length} {sortertInnlegg.length === 1 ? 'innlegg' : 'innlegg'}
@@ -43,13 +43,13 @@ const sortertInnlegg = innlegg.sort(
             <div class="artikkel-kort__dato">{datoFormatert}</div>
             <div>
               <h2 class="artikkel-kort__tittel">
-                <a href={`${base}/blogg/${slug}`}>{tittel}</a>
+                <a href={`${base}/${slug}`}>{tittel}</a>
               </h2>
               {ingress && <p class="artikkel-kort__ingress">{ingress}</p>}
               {tags.length > 0 && (
                 <div class="artikkel-kort__tags">
                   {tags.map((t: string) => (
-                    <a href={`${base}/blogg/tag/${t}`} class="tag" data-umami-event="tagg-klikk" data-umami-event-tag={t}>{t}</a>
+                    <a href={`${base}/tag/${t}`} class="tag" data-umami-event="tagg-klikk" data-umami-event-tag={t}>{t}</a>
                   ))}
                 </div>
               )}
