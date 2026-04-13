@@ -40,3 +40,19 @@ gjennom desse linser:
 - Strukturalistisk — system framfor einskildpersonar
 - Nynorsk, aldri bokmål
 - Kjeldebasert der mogleg
+
+## Kjeldebruk og referansar
+- Bruk IEEE-referansestil for alle kjelder i artiklane
+- Legg til inline-sitatmerke [N] i teksten og ei nummerert referanseliste under overskrifta `## Kjelder` nedst i artikkelen
+- Søk etter og verifiser kjelder før dei vert lagde inn — ikkje lenk til ukontrollerte URLar
+- Format for nettbaserte kjelder:
+  `[N] Forfattar/org, "Tittel," *Publikasjon*, Dato. [Online]. Available: URL. [Accessed: dato].`
+- Deutsche Bank, Citigroup og liknande interne rapportar som ikkje er offentleg tilgjengelege skal merkast eksplisitt utan lenkje
+
+## Git og GitHub-proxy
+- GitHub-proxyen køyrer lokalt på telefonen via `127.0.0.1:62343`
+- Koplinga kan brytast dersom ein byter app — dette skuldast Android/iOS sin bakgrunnssuspensjon
+- Løysing: kvitelist Claude-appen i batteriinnstillingane per app (ikkje global bryter — den vart fjerna i Android 12+)
+  - Stock Android 12+: Innstillingar → Appar → Claude → Batteri → «Ingen restriksjonar»
+  - Samsung One UI: Innstillingar → Batteri → Bakgrunnsbruk → legg til Claude
+- Ved nettverksfeil: prøv push på nytt opptil 4 gonger med eksponentiell backoff (2s, 4s, 8s, 16s)
