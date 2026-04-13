@@ -27,7 +27,7 @@ Kven som tener på dette, bør ikkje vera vanskeleg å forstå.
 
 Dette er ikkje ein ny observasjon. Allereie under den fyrste handelskrigen mot Kina i 2018–2019 dokumenterte finansanalytikarar at presidentens Twitter-meldingar om toll konsekvent føregjekk store rørslur i opsjonsmarknaden [2]. Det som er nytt i 2026, er *skalaen* og *systematikken*. Trugslane er større, svingane er brattare, og tidspunktet for «avspenning» er meir presist kalibrert mot handelsvindu på Wall Street. Kongressmedlemmer frå begge parti har no opna etterforsking av suspekt opsjonshandel i timane før Trumps tollkunngjersler [3].
 
-Ein Citigroup-rapport frå mars 2026 formulerte det diplomatisk: «Volatile policy signaling creates asymmetric information advantages for market participants with proximity to decision-makers.» [4]
+Ein Citigroup-rapport frå mars 2026 formulerte det diplomatisk — etter det som vart referert i finanspressa: «Volatile policy signaling creates asymmetric information advantages for market participants with proximity to decision-makers.» *(sitat ikkje verifisert i offentleg rapport)* [4]
 
 Omsetjinga er enklare: Dersom du veit at tollen vert kunngjord klokka ni og tilbaketrekt klokka tolv, kan du gjera deg svært rik på tolv timar.
 
@@ -69,7 +69,7 @@ Det strukturelle biletet er ikkje eit bilete av ein supermakt som spelar sjakk p
 
 [1] China Briefing, "Trump's China Tariffs Raised to 145% — Overview and Trade Implications," *China Briefing*, Apr. 2025. [Online]. Available: https://www.china-briefing.com/news/trump-raises-tariffs-on-china-to-145-overview-and-trade-implications/. [Accessed: Apr. 13, 2026].
 
-[2] A. Federle et al., "The effects of Trump's trade war on U.S. financial markets," *Journal of International Money and Finance*, 2023. [Online]. Available: https://www.sciencedirect.com/science/article/abs/pii/S0261560623000438. [Accessed: Apr. 13, 2026].
+[2] "The effects of Trump's trade war on U.S. financial markets," *Journal of International Money and Finance*, vol. 135, 2023. [Online]. Available: https://www.sciencedirect.com/science/article/abs/pii/S0261560623000438. [Accessed: Apr. 13, 2026].
 
 [3] Reuters, "Some trades ahead of Trump policy moves raise questions," *Reuters / Investing.com*, Apr. 2026. [Online]. Available: https://www.investing.com/news/stock-market-news/some-trades-ahead-of-trump-policy-moves-raise-questions-4606365. [Accessed: Apr. 13, 2026].
 

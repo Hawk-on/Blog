@@ -17,7 +17,7 @@ Konsekvensen? Iran stengde Hormuzstredet [3]. Og med det utløyste dei det scena
 
 I 1974, i kjølvatnet av samanbrotet til Bretton Woods-systemet, forhandla Henry Kissinger fram ein hemmeleg avtale med Saudi-Arabia [4]. Saudiarabisk olje skulle prissettast og seljast i amerikanske dollar. Til gjengjeld fekk Saudi-Arabia amerikanske tryggingsgarantiar.
 
-Resultatet var elegantert brutal: *alle land på jorda* måtte halde dollar-reservar for å kjøpe energi. Det skapte ein kunstig, global etterspurnad etter dollar — og let USA finansiere enorme underskot utan å øydelegge valutaen sin.
+Resultatet var brutalt elegant: *alle land på jorda* måtte halde dollar-reservar for å kjøpe energi. Det skapte ein kunstig, global etterspurnad etter dollar — og let USA finansiere enorme underskot utan å øydelegge valutaen sin.
 
 Dette er kvifor USA kan ha 39.000 milliardar dollar i gjeld utan at renta har kollapsa. Andre land hadde ikkje overlevd det.
 
@@ -26,7 +26,7 @@ Dette er kvifor USA kan ha 39.000 milliardar dollar i gjeld utan at renta har ko
 Iran tilbyr no Europa og Asia å handle olje i euro og yuan. Berre to veker etter Hormuz-stenginga byrja sentralbankar å justere reservane sine.
 
 > «Dette testar det tryggingsbaserte oljeprissystemet som har oppretthaldt dollarbasert global oljeprissetjing sidan 1970-åra.»
-> — Deutsche Bank Research, mars 2026
+> — Deutsche Bank Research, mars 2026 *(intern rapport, ikkje offentleg tilgjengeleg)*
 
 Ironien er total: USA angreip Iran for å forsvare regional dominans — og utløyste det einaste scenariet som verkeleg truar grunnlaget for den dominansen.
 
@@ -48,6 +48,6 @@ Men trendlinjene er klare: dollarens del av globale reservar har falt frå 72 pr
 
 [3] Encyclopaedia Britannica, "2026 Iran war," *Britannica*, 2026. [Online]. Available: https://www.britannica.com/event/2026-Iran-war. [Accessed: Apr. 13, 2026].
 
-[4] LegalClarity, "The Kissinger Petrodollar System: History and Impact," *LegalClarity*, 2024. [Online]. Available: https://legalclarity.org/the-kissinger-petrodollar-system-history-and-impact/. [Accessed: Apr. 13, 2026].
+[4] U.S. Department of the Treasury and Government of Saudi Arabia, "Joint Commission on Economic Cooperation," *Gerald R. Ford Presidential Library*, Jun. 8, 1974; declassified 2016. [Online]. Available: https://www.fordlibrarymuseum.gov/library/document/0314/1552718.pdf. [Accessed: Apr. 13, 2026].
 
 [5] International Monetary Fund, "COFER — Currency Composition of Official Foreign Exchange Reserves," *IMF Data*, Oct. 2025. [Online]. Available: https://data.imf.org/en/datasets/IMF.STA:COFER. [Accessed: Apr. 13, 2026].
