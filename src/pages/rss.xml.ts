@@ -2,12 +2,15 @@ import rss from '@astrojs/rss';
 import type { APIContext } from 'astro';
 
 export async function GET(context: APIContext) {
+  const base = import.meta.env.BASE_URL;
   const innleggModules = import.meta.glob('./*.md', { eager: true }) as Record<string, any>;
   const innlegg = Object.entries(innleggModules)
-    .map(([filsti, modul]) => ({
-      ...modul.frontmatter,
-      slug: filsti.split('/').pop()?.replace('.md', ''),
-    }))
+    .map(([filsti, modul]) => {
+      const slug = filsti.split('/').pop()?.replace('.md', '');
+      if (!slug) return null;
+      return { ...modul.frontmatter, slug };
+    })
+    .filter(Boolean)
     .sort((a, b) => new Date(b.dato).valueOf() - new Date(a.dato).valueOf());
 
   return rss({
@@ -18,7 +21,7 @@ export async function GET(context: APIContext) {
       title: post.tittel,
       pubDate: new Date(post.dato),
       description: post.ingress || '',
-      link: `/Blog/${post.slug}/`,
+      link: `${base}/${post.slug}/`,
     })),
   });
 }

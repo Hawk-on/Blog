@@ -68,7 +68,9 @@ const datoFormatert = formaterDato(dato, 'lang');
 
       window.addEventListener('scroll', function() {
         var el = document.documentElement;
-        var scrollPct = el.scrollTop / (el.scrollHeight - el.clientHeight);
+        var scrollMax = el.scrollHeight - el.clientHeight;
+        if (scrollMax <= 0) return;
+        var scrollPct = el.scrollTop / scrollMax;
         var pct = Math.round(scrollPct * 100);
 
         // Leseprogresjon

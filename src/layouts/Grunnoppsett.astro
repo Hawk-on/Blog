@@ -36,8 +36,10 @@ const fullTittel = `${tittel} — Håkon Hole Lønning`;
   <script defer src="https://cloud.umami.is/script.js" data-website-id="fd43352d-8e75-4352-8f82-92eb8a269859"></script>
   <script is:inline>
     (function() {
-      var t = localStorage.getItem('theme');
-      if (t) document.documentElement.setAttribute('data-theme', t);
+      try {
+        var t = localStorage.getItem('theme');
+        if (t) document.documentElement.setAttribute('data-theme', t);
+      } catch (e) {}
     })();
   </script>
 </head>
@@ -52,13 +54,13 @@ const fullTittel = `${tittel} — Håkon Hole Lønning`;
           <img src={`${base}/favicon.svg`} alt="" class="nettstad-header__ikon" aria-hidden="true" />
           Håkon Hole Lønning
         </a>
-        <input type="checkbox" id="meny-bryter" class="meny-bryter__input" aria-hidden="true" />
-        <label for="meny-bryter" class="meny-bryter" aria-label="Opne meny">
+        <input type="checkbox" id="meny-bryter" class="meny-bryter__input" aria-label="Opne eller lukk meny" aria-controls="hovudnav" />
+        <label for="meny-bryter" class="meny-bryter" aria-hidden="true">
           <span class="meny-bryter__linje"></span>
           <span class="meny-bryter__linje"></span>
           <span class="meny-bryter__linje"></span>
         </label>
-        <nav>
+        <nav id="hovudnav">
           <ul class="nettstad-nav">
             <li><a href={base} class={aktuellSti === base || aktuellSti === `${base}/` || (!aktuellSti.startsWith(`${base}/om`) && !aktuellSti.startsWith(`${base}/tag`)) ? 'aktiv' : ''}>Blogg</a></li>
             <li><a href={`${base}/om`} class={aktuellSti === `${base}/om` ? 'aktiv' : ''}>Om</a></li>
@@ -101,7 +103,7 @@ const fullTittel = `${tittel} — Håkon Hole Lønning`;
         next = 'dark';
       }
       html.setAttribute('data-theme', next);
-      localStorage.setItem('theme', next);
+      try { localStorage.setItem('theme', next); } catch (e) {}
     });
   </script>
 
