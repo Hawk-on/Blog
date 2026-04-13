@@ -10,6 +10,8 @@ interface Props {
 const { tittel, beskriving = 'Analysar av politikk, økonomi og teknologi.', erArtikkel = false } = Astro.props;
 const base = import.meta.env.BASE_URL;
 const aktuellSti = Astro.url.pathname;
+const kanoniskUrl = new URL(aktuellSti, Astro.site).toString();
+const fullTittel = `${tittel} — Håkon Hole Lønning`;
 ---
 
 <!DOCTYPE html>
@@ -18,35 +20,65 @@ const aktuellSti = Astro.url.pathname;
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content={beskriving} />
-  <title>{tittel} — Håkon Hole Lønning</title>
-  {erArtikkel && <meta property="og:type" content="article" />}
+  <title>{fullTittel}</title>
+  <link rel="canonical" href={kanoniskUrl} />
+  <meta property="og:title" content={fullTittel} />
+  <meta property="og:description" content={beskriving} />
+  <meta property="og:url" content={kanoniskUrl} />
+  <meta property="og:type" content={erArtikkel ? 'article' : 'website'} />
+  <meta property="og:locale" content="nn_NO" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content={fullTittel} />
+  <meta name="twitter:description" content={beskriving} />
   <link rel="icon" type="image/x-icon" href={`${base}/favicon.ico`} />
-  <link rel="icon" type="image/png" href={`${base}/favicon.png`} />
+  <link rel="icon" type="image/svg+xml" href={`${base}/favicon.svg`} />
   <link rel="alternate" type="application/rss+xml" title="RSS" href={`${base}/rss.xml`} />
   <script defer src="https://cloud.umami.is/script.js" data-website-id="fd43352d-8e75-4352-8f82-92eb8a269859"></script>
+  <script is:inline>
+    (function() {
+      try {
+        var t = localStorage.getItem('theme');
+        if (t) document.documentElement.setAttribute('data-theme', t);
+      } catch (e) {}
+    })();
+  </script>
 </head>
 <body>
+
+  <a href="#hovudinnhald" class="hopp-til-innhald">Hopp til innhald</a>
 
   <header class="nettstad-header">
     <div class="container--brei">
       <div class="nettstad-header__indre">
         <a href={base} class="nettstad-header__logo">
-          <img src={`${base}/favicon.png`} alt="" class="nettstad-header__ikon" aria-hidden="true" />
+          <img src={`${base}/favicon.svg`} alt="" class="nettstad-header__ikon" aria-hidden="true" />
           Håkon Hole Lønning
         </a>
-        <nav>
+        <input type="checkbox" id="meny-bryter" class="meny-bryter__input" aria-label="Opne eller lukk meny" aria-controls="hovudnav" />
+        <label for="meny-bryter" class="meny-bryter" aria-hidden="true">
+          <span class="meny-bryter__linje"></span>
+          <span class="meny-bryter__linje"></span>
+          <span class="meny-bryter__linje"></span>
+        </label>
+        <nav id="hovudnav">
           <ul class="nettstad-nav">
             <li><a href={base} class={aktuellSti === base || aktuellSti === `${base}/` || (!aktuellSti.startsWith(`${base}/om`) && !aktuellSti.startsWith(`${base}/tag`)) ? 'aktiv' : ''}>Blogg</a></li>
             <li><a href={`${base}/om`} class={aktuellSti === `${base}/om` ? 'aktiv' : ''}>Om</a></li>
             <li><a href="https://hawk-on.github.io">CV</a></li>
             <li><a href={`${base}/rss.xml`} data-umami-event="nav-rss">RSS</a></li>
+            <li>
+              <button type="button" class="tema-bryter" aria-label="Byt fargetema">
+                <span class="tema-bryter__sol">☀</span>
+                <span class="tema-bryter__mane">☽</span>
+              </button>
+            </li>
           </ul>
         </nav>
       </div>
     </div>
   </header>
 
-  <main>
+  <main id="hovudinnhald">
     <slot />
   </main>
 
@@ -58,6 +90,22 @@ const aktuellSti = Astro.url.pathname;
       </div>
     </div>
   </footer>
+
+  <script is:inline>
+    document.querySelector('.tema-bryter').addEventListener('click', function() {
+      var html = document.documentElement;
+      var current = html.getAttribute('data-theme');
+      var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      var next;
+      if (current === 'dark' || (!current && prefersDark)) {
+        next = 'light';
+      } else {
+        next = 'dark';
+      }
+      html.setAttribute('data-theme', next);
+      try { localStorage.setItem('theme', next); } catch (e) {}
+    });
+  </script>
 
 </body>
 </html>

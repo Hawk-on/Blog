@@ -1,14 +1,15 @@
 ---
 import Grunnoppsett from '../layouts/Grunnoppsett.astro';
+const base = import.meta.env.BASE_URL;
 ---
 
 <Grunnoppsett tittel="Om" beskriving="Om Håkon Hole Lønning">
   <div class="container">
     <div class="om-grid">
       <div>
-        <div style="padding: 4rem 0 2rem;">
+        <div class="om-header">
           <p class="seksjon-tittel">Om</p>
-          <h1 style="font-size: clamp(2rem, 4vw, 3rem); margin-top: 0.5rem; margin-bottom: 2rem;">
+          <h1 class="om-header__tittel">
             Håkon Hole Lønning
           </h1>
         </div>
@@ -34,21 +35,9 @@ import Grunnoppsett from '../layouts/Grunnoppsett.astro';
       </div>
 
       <aside>
-        <div style="
-          background: var(--lys-grå);
-          padding: 2rem;
-          margin-top: 4rem;
-          border-top: 3px solid var(--raud);
-        ">
-          <p style="
-            font-family: var(--skrift-kode);
-            font-size: 0.7rem;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-            color: var(--grå);
-            margin-bottom: 1rem;
-          ">Fagleg bakgrunn</p>
-          <ul style="list-style: none; font-size: 0.9rem; line-height: 2;">
+        <div class="om-sidebar-boks">
+          <p class="om-sidebar-boks__tittel">Fagleg bakgrunn</p>
+          <ul class="om-sidebar-boks__liste">
             <li>.NET Core / C#</li>
             <li>Angular</li>
             <li>Kubernetes / Docker</li>
@@ -58,29 +47,12 @@ import Grunnoppsett from '../layouts/Grunnoppsett.astro';
           </ul>
         </div>
 
-        <div style="
-          padding: 2rem;
-          margin-top: 1rem;
-          border: 1px solid var(--lys-grå);
-        ">
-          <p style="
-            font-family: var(--skrift-kode);
-            font-size: 0.7rem;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-            color: var(--grå);
-            margin-bottom: 1rem;
-          ">Abonner</p>
-          <p style="font-size: 0.85rem; color: var(--grå); margin-bottom: 1rem;">
+        <div class="om-abonner-boks">
+          <p class="om-sidebar-boks__tittel">Abonner</p>
+          <p class="om-abonner-boks__tekst">
             Ny innlegg via RSS
           </p>
-          <a href="/rss.xml" style="
-            font-family: var(--skrift-kode);
-            font-size: 0.75rem;
-            letter-spacing: 0.05em;
-            text-decoration: none;
-            color: var(--raud);
-          ">RSS-feed →</a>
+          <a href={`${base}/rss.xml`} class="om-abonner-boks__lenke">RSS-feed →</a>
         </div>
       </aside>
     </div>
