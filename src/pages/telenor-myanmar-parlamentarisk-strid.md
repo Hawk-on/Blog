@@ -7,13 +7,13 @@ tags: ["myanmar", "telenor", "stortinget", "menneskerettar", "næringspolitikk"]
 lesetid: 6
 ---
 
-Etter at militæret tok makta i Myanmar i februar 2021, etterkom Telenors datterselskap over 200 førespurnader om brukardata frå juntakontrollerte styresmakter [1]. Informasjonen som vart utlevert, inkluderte namn, adresser, samtaleloggar og posisjonsdata — i stor grad for personar myndigheita mistenkte for å motsetja seg regimet [2]. Ei rettssak på vegner av over 1 200 personar hevdar at datadelinga eksponerte politiske motstandarar for forfølging [3], mellom dei lovgivaren Phyo Zayar Thaw, som vart avretta i 2022.
+Etter at militæret tok makta i Myanmar i februar 2021, etterkom Telenors dotterselskap over 200 førespurnader om brukardata frå juntakontrollerte styresmakter [1]. Informasjonen som vart utlevert, inkluderte namn, adresser, samtaleloggar og posisjonsdata — i stor grad for personar myndigheita mistenkte for å motsetja seg regimet [2]. Ei rettssak på vegne av over 1 200 personar hevdar at datadelinga utsette politiske motstandarar for forfølging [3], mellom dei lovgivaren Phyo Zayar Thaw, som vart avretta i 2022.
 
 Dette er ikkje eit perifert bedriftsetisk spørsmål. Staten ved Nærings- og fiskeridepartementet er den dominerande eigaren i Telenor. Det som hende i Myanmar, skjedde med norsk statleg kapital som fundament.
 
 ## Den parlamentariske striden
 
-Stortingets kontroll- og konstitusjonskomité, leia av Per-Willy Amundsen (Frp), oppretta i desember 2025 formell kontrollsak og kravde innsyn i eiardialogen mellom Støre-regjeringa og Telenor i perioden då selskapet avvikla Myanmars-drifta [4]. Spørsmålet er kva staten som majoritetseigar visste — og kva krav som eventuelt vart stilt til selskapet undervegs.
+Stortingets kontroll- og konstitusjonskomité, leia av Per-Willy Amundsen (Frp), oppretta i desember 2025 formell kontrollsak og kravde innsyn i eiardialogen mellom Støre-regjeringa og Telenor i perioden då selskapet avvikla verksemda i Myanmar [4]. Spørsmålet er kva staten som majoritetseigar visste — og kva krav som eventuelt vart stilt til selskapet undervegs.
 
 Regjeringa, ved næringsminister Cecilie Myrseth (Ap) og statsminister Jonas Gahr Støre, nektar å utlevere dokumenta. Argumentet er at ein reell eigardialog mellom staten og statseigde selskap krev konfidensialitet — og at ei utlevering vil svekke tilliten i framtidige eigardialogar [5]. Komiteen har avvist dette og peika på at det fullt ut er mogleg å unnta opplysningar frå offentlegheita samstundes som Stortinget sjølv får tilgang [6].
 
@@ -31,9 +31,9 @@ Ei ryddigare løysing hadde vore å overføre granskinga til Riksrevisjonen, som
 
 ## Sakens eigenverdi
 
-Telenor-Myanmar-saka burde bli grundig granska. Dei faktiske spørsmåla — kva eigardialog som gjekk føre seg, kva krav staten stilte, og om desse stod i høve til risikoen for sivile i Myanmar — er legitime og viktige. Statleg eigarskap inneber eit utvida ansvar, ikkje ein frisone frå etisk rekneskapsplikt.
+Telenor-Myanmar-saka burde verta grundig granska. Dei faktiske spørsmåla — kva eigardialog som gjekk føre seg, kva krav staten stilte, og om desse stod i høve til risikoen for sivile i Myanmar — er legitime og viktige. Statleg eigarskap inneber eit utvida ansvar, ikkje ein frisone frå etisk rekneskapsplikt.
 
-Men ei truverdig gransking krev ein truverdig prosess. Slik situasjonen no står, er prosessen utforma på ein måte som gjer det for enkelt å avvise heile saka som partipolitikk — og det tener korkje dei ramma i Myanmar eller allmenta si forståing av kva statleg eigaransvar inneber.
+Men ei truverdig gransking krev ein truverdig prosess. Slik situasjonen no står, er prosessen utforma på ein måte som gjer det for enkelt å avvise heile saka som partipolitikk — og det tener korkje dei ramma i Myanmar eller ålmenta si forståing av kva statleg eigaransvar inneber.
 
 ## Kjelder
 
