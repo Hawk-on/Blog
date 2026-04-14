@@ -47,7 +47,7 @@ Den arabiske våren i 2010–2012 fekk internasjonale mediabollar, vestleg støt
 
 Gen Z-rørslene av 2024–2025 er meir desentraliserte og vanskelegare å slukke. Dei brukar Discord og Telegram til å koordinere logistikk og dele taktikk over landegrensene [4]. Dei er ikkje knytta til enkeltpersonar som kan kjøpast eller arresterast. Dei har inga einskild plattform som kan stengast ned.
 
-Men likskapane med den arabiske våren er at systemskifta uteblir. Amnesty International dokumenterte over hundre daude, 83 tvangsforsvinnande og tre tusen arrestasjonar mellom juni 2024 og juli 2025. I Bangladesh, Nepal og Madagaskar vart regjeringar oppløyste — men dei unge som kjempa for endring, er blitt sette til sides frå overgangsregjeringane [3].
+Men likskapane med den arabiske våren er at systemskifta uteblir. Amnesty International dokumenterte over hundre daude, 83 tvangsforsvinnande og tre tusen arrestasjonar mellom juni 2024 og juli 2025. I Bangladesh, Nepal og Madagaskar vart regjeringar oppløyste — men dei unge som kjempa for endring, er blitt sette til sida frå overgangsregjeringane [3].
 
 ## Alderspyramiden som politisk tikkande bombe
 
@@ -61,7 +61,7 @@ Når digitale kanalar samstundes vert tilgjengelege for denne aldersgruppa — o
 
 Ei strukturell lesing gjev ikkje grunn til enkel optimisme. Rørslene er reelle og kraftfulle, men dei opererer framleis innanfor statlege rammer dei ikkje kontrollerer. Dei kan toppa regjeringar; dei kan ikkje utan vidare overtaka statsmaskineriet.
 
-Det som er nytt, er eit globalt informasjonsnett mellom unge organisatorar på tvers av kulturelle og geopolitiske grenser — ein ressurs som ikkje eksisterte under den arabiske våren. Det gjer det mogleg å lera av kvarandre: kva som virkar, kva som ikkje virkar, og kva styresmaktene gjer for å slukka rørsler.
+Det som er nytt, er eit globalt informasjonsnett mellom unge organisatorar på tvers av kulturelle og geopolitiske grenser — ein ressurs som ikkje eksisterte under den arabiske våren. Det gjer det mogleg å lera av kvarandre: kva som verkar, kva som ikkje verkar, og kva styresmaktene gjer for å slukka rørsler.
 
 Det er tidleg. Det er uferdig. Men mønsteret er reelt — og demografien forsterkar det kvart einaste år.
 

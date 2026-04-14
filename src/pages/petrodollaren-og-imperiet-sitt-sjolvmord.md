@@ -34,7 +34,7 @@ Ironien er total: USA angreip Iran for å forsvare regional dominans — og utl�
 
 Dette er ikkje ein kollaps som kjem over natta. Det er ein langsom erosjon — ein «slow burn» som analytikaren ved Al Jazeera kallar det — som er meir farleg enn ein brå krise fordi han er vanskelegare å handtere politisk.
 
-Men trendlinjene er klare: dollarens del av globale reservar har falt frå 72 prosent i 2001 til under 57 prosent i dag [5]. Kvar krise som denne akselererer den trenden.
+Men trendlinjane er klare: dollarens del av globale reservar har falt frå 72 prosent i 2001 til under 57 prosent i dag [5]. Kvar krise som denne akselererer den trenden.
 
 ---
 
