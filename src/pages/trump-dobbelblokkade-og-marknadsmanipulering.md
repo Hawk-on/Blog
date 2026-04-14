@@ -39,7 +39,7 @@ Trump si dobbelblokkade avdekker ei strukturell felle:
 
 **Alternativ éin: Eskalering.** Om USA faktisk gjennomfører ein marineblokade av aktørar som handlar iransk olje, er det ein krigshandling mot Kina og India — land som saman representerer nesten tre milliardar menneske og ein aukande del av global BNP. Konsekvensen er ikkje berre ein handelskrig; det er ein akselerator for det Kina lenge har arbeidd mot: eit alternativt betalingssystem som gjer dollar-infrastrukturen irrelevant. SWIFT-alternativet CIPS, digitalyuan og bilaterale swapar er allereie på plass [5]. USA ville med eiga hand fullføra det Kina ikkje hadde klart på eiga hand.
 
-**Alternativ to: Retrett.** Om Trump bakkar, og han har bakka før, sender det eit signal som er vanskeleg å ta attende: at trugslane er tomme. Kina har alt i fleire rundar observert at Washington trekker seg attende når konsekvensane vert reelle. Kvar retrett gjer neste trugsel mindre truverdig. Det er eit klassisk problem i avskrekkingsteori — og det er særleg alvorleg for eit land som presenterer seg som verdas einaste supermakt.
+**Alternativ to: Retrett.** Om Trump bakkar, og han har bakka før, sender det eit signal som er vanskeleg å ta attende: at trugslane er tomme. Kina har alt i fleire rundar observert at Washington trekkjer seg attende når konsekvensane vert reelle. Kvar retrett gjer neste trugsel mindre truverdig. Det er eit klassisk problem i avskrekkingsteori — og det er særleg alvorleg for eit land som presenterer seg som verdas einaste supermakt.
 
 **Alternativ tre: Forhandling.** Forhandling frå ein posisjon der motparten veit at du ikkje vil eskalere er strukturelt svak. Kina kan simpelthen venta. Dei har eit statsstyrt økonomiapparat som toler fleire kvartal med handelstrøbbel betre enn det amerikanske næringslivet toler stigande konsumprisar og brot i forsyningskjedene. Tida er ikkje på Trumps side.
 
@@ -51,7 +51,7 @@ Midt i mørket er det verdt å nemna eit teikn frå eit anna hald: Viktor Orbán
 
 Det er eit lakonisk faktum, men eit viktig eitt. Etter femten år med systematisk nedbygging av institusjonar, pressfridom og rettsvern lukkast det den ungarske opposisjonen å mobilisera nok veljarar til å slå tilbake. Orbán, som lenge vart handsama som prototypen på det nye europeiske høgrepopulismen, og som skapte malen som fleire seinare har freista kopiera, tapte.
 
-Det viser at valdemokratiet ikkje er heilt utmattande — at institusjonane, sjølv etter år under press, kan gjenopprettast av veljarar som bestemmer seg for det. Det er eit teikn som bør lesast nøye av dei som hevdar at autoritær konsolidering er ein einvegsprosess.
+Det viser at valdemokratiet ikkje er heilt utmatta — at institusjonane, sjølv etter år under press, kan gjenopprettast av veljarar som bestemmer seg for det. Det er eit teikn som bør lesast nøye av dei som hevdar at autoritær konsolidering er ein einvegsprosess.
 
 Strukturar er ikkje skjebnar. Det gjeld på begge sider.
 
@@ -59,7 +59,7 @@ Strukturar er ikkje skjebnar. Det gjeld på begge sider.
 
 Dei neste vekene vil visa om Trump vel å eskalera eller trekka seg attende på handelsfronten. Marknadene prisar inn uro. Sentralbankane i Europa og Asia held på dollarreservar med aukande skepsis. Og Beijing ventar — som dei alltid har gjort — på at Washington skal gjera sine eigne feil.
 
-Det strukturelle biletet er ikkje eit bilete av ein supermakt som spelar sjakk på fleire brett samstundes. Det er eit bilete av eit imperium som har mista evna til å kalibrere makt mot konsekvens — og som no truar på to frontar, ikkje fordi det er ein gjennomtenkt strategi, men fordi det ikkje lenger finst ein truverdige strategi å falla attende på.
+Det strukturelle biletet er ikkje eit bilete av ein supermakt som spelar sjakk på fleire brett samstundes. Det er eit bilete av eit imperium som har mista evna til å kalibrere makt mot konsekvens — og som no truar på to frontar, ikkje fordi det er ein gjennomtenkt strategi, men fordi det ikkje lenger finst ein truverdig strategi å falla attende på.
 
 ---
 

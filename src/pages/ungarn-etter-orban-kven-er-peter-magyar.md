@@ -9,7 +9,7 @@ lesetid: 10
 
 12. april 2026 skjedde noko som mange hadde slutta å tru på: Viktor Orbán tapte. Etter seksten år med systematisk nedbygging av domstolar, presse og opposisjon, vart han slått av ei rørsle som for to år sidan nesten ikkje eksisterte. Tisza-partiet til Péter Magyar fekk 53,6 prosent av røystene og 138 av 199 seter i parlamentet — eit supermajoritet som gjev ny regjering grunnlovsendrande makt [1]. Valdeltakinga var 76,5 prosent, den høgaste sidan Ungarn innførte frie val i 1990 [2].
 
-Det er freistande å lese dette som ein enkel triumf for demokratiet over autoritarianismen. Men strukturalistisk sett er biletet meir samansett: Magyar er sjølv eit produkt av det same systemet han vann over, og sigeren hans fortel like mykje om systemet sin eigen krise som om opposisjonen sin styrke.
+Det er freistande å lese dette som ein enkel triumf for demokratiet over autoritarismen. Men strukturalistisk sett er biletet meir samansett: Magyar er sjølv eit produkt av det same systemet han vann over, og sigeren hans fortel like mykje om systemet sin eigen krise som om opposisjonen sin styrke.
 
 ## Innsidaren som snudde ryggen til
 

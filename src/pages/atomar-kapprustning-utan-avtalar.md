@@ -1,6 +1,6 @@
 ---
 layout: ../layouts/Artikkel.astro
-tittel: "Atomar kapprustning utan avtalar"
+tittel: "Atomkapprustning utan avtalar"
 dato: "2026-04-14"
 ingress: "5. februar 2026 gjekk den siste juridiske grensa for verdas to største atomarsenal ut på dato. New START er borte. Ingen ny avtale er på plass. For fyrste gong sidan Cuba-krisa i 1962 stiller USA og Russland utan eit felles rammeverk — og ingen forhandlingar pågår."
 tags: ["geopolitikk", "atomvapen", "usa", "russland", "arms-control"]
@@ -17,7 +17,7 @@ Dette er ikkje ein teknisk juridisk detalj. Det er eit strukturelt tryggleiksund
 
 New START vart underteikna i 2010 under Obama og Medvedev og representerte ein vidareføring av tretti år med bilateral kjernefysisk rammestyring — frå SALT I i 1972 via START I i 1991 [2].
 
-Det avtalen faktisk gav oss, var ikkje berre tak på tal. Det var *openheit*: obligatoriske inspeksjonar på kvarandre sine installasjonar, datautveksling om arsenalstorleik og obligatorisk varsling om rakettopp-skytingar. Alt dette falt bort då Russland i 2023 suspenderte si deltaking — og no, med avtalens formelle utlaup, er det rydda heilt bort [3].
+Det avtalen faktisk gav oss, var ikkje berre tak på tal. Det var *openheit*: obligatoriske inspeksjonar på kvarandre sine installasjonar, datautveksling om arsenalstorleik og obligatorisk varsling om rakettopp-skytingar. Alt dette fall bort då Russland i 2023 suspenderte si deltaking — og no, med avtalens formelle utlaup, er det rydda heilt bort [3].
 
 Russland hadde lagt opp til ei frivillig eittårig forlenging. Trump-administrasjonen viste liten interesse. Resultatet er at begge partar no er juridisk frie til å produsera og utplassera atomvåpen utan tak — og at inspeksjonsregimet som kompenserte for mangelen på gjensidig tillit, er borte [3].
 
@@ -33,7 +33,7 @@ Det er eit asymmetrisk bilete: dei langt fleste atomvåpna ligg i to av verdas m
 
 Det som gjekk tapt med New START, er ikkje primært eit juridisk instrument — det er eit system for openheit.
 
-Atomavskrekking er eit spel der begge sider tek avgjerder basert på kva dei trur motparten har og vil gjera. Inspeksjonar og datautveksling er ikkje teikn på tillit — dei er eit kompensasjonsinstrument for *mangel* på tillit. Dei reduserer risikoen for feiltolking: om du veit kva motparten faktisk har, overestimererer du ikkje trugsmålet og overreagerer ikkje.
+Atomavskrekking er eit spel der begge sider tek avgjerder basert på kva dei trur motparten har og vil gjera. Inspeksjonar og datautveksling er ikkje teikn på tillit — dei er eit kompensasjonsinstrument for *mangel* på tillit. Dei reduserer risikoen for feiltolking: om du veit kva motparten faktisk har, overestimerer du ikkje trugsmålet og overreagerer ikkje.
 
 Det finst no ingen slik mekanisme. Begge sider baserer sine strategiske kalkulasjonar på etterretningsestimat og spekulasjonar. Risikoen for misforståing, overreaksjon og utilsikta eskalering aukar strukturelt [5].
 
@@ -43,9 +43,9 @@ Russland har sagt at dei vil halda fram med å varsla frivilleg om rakettopp-sky
 
 Ein bilateral USA–Russland-avtale vil, sjølv om han kjem, regulera ein stadig mindre del av det globale atomlandskapet.
 
-Kina er i ferd med å tredobla arsenalet sitt og kan ha 1.000 stridshover innan 2030 [4]. Å invitara Kina inn i trepartsforhandlingar er noko Beijing hittil har avvist — dels fordi kinesiske arsenal er langt mindre, og dels fordi Kina ikkje ønskjer å binda seg til eit rammeverk USA og Russland har definert på sine eigne premissar.
+Kina er i ferd med å tredobla arsenalet sitt og kan ha 1.000 stridshover innan 2030 [4]. Å invitere Kina inn i trepartsforhandlingar er noko Beijing hittil har avvist — dels fordi kinesiske arsenal er langt mindre, og dels fordi Kina ikkje ønskjer å binda seg til eit rammeverk USA og Russland har definert på sine eigne premissar.
 
-Storbritannia og Frankrike har arsenala sine integrert i NATO-strukturen. India og Pakistan er i ein vedvarande sub-strategisk spenningssituasjon langs grensa deira. Ingen av desse dynamikkane kan regulerast av eit bilateralt avtale.
+Storbritannia og Frankrike har arsenala sine integrert i NATO-strukturen. India og Pakistan er i ein vedvarande sub-strategisk spenningssituasjon langs grensa deira. Ingen av desse dynamikkane kan regulerast av ein bilateral avtale.
 
 ## Vegen vidare: Ny avtale eller akselerert opprustning?
 
