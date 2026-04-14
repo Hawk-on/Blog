@@ -41,6 +41,14 @@ gjennom desse linser:
 - Nynorsk, aldri bokmål
 - Kjeldebasert der mogleg
 
+## Språkvask — sjekk alltid for dårlege omsetjingar
+Gå gjennom ferdig tekst og sjekk spesifikt for:
+- **Bokmålsformer som sniker seg inn:** "datter" → "dotter", "bli" → "verta", "vegner" → "vegne", "noen" → "nokon", "hvilken" → "kva slags / kva for ein"
+- **Direkte omsetjingar frå engelsk** (calques) som ikkje er idiomatisk Nynorsk: "eksponere for" → "utsette for", "adressere problemet" → "ta tak i problemet", "implementere" → "setje i verk / gjennomføre"
+- **Klunksleg genitiv:** føretrekkje "saka sin eigenverdi" framfor "sakens eigenverdi" der det passar rytmisk
+- **Unødvendig fremmedord** der eit godt nynorskord finst: "konfidensialitet" → "fortrulegheit", "transparent" → "open / gjennomsiktig"
+- **Hybridformer:** blandingar av bokmål og nynorsk morfologi i samansetjingar
+
 ## Kjeldebruk og referansar
 - Bruk IEEE-referansestil for alle kjelder i artiklane
 - Legg til inline-sitatmerke [N] i teksten og ei nummerert referanseliste under overskrifta `## Kjelder` nedst i artikkelen
