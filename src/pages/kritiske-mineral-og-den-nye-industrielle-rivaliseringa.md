@@ -41,7 +41,7 @@ Fire store aktørar, fire parallelle statleg-finansierte industriprogram. Det er
 
 Det globale mineralspelet har eit vestleg hemisferisk kapittel som vert underrapportert.
 
-Venezuela sit på verdas største kjende oljeresrvar og har uerforska litiumreservar. Bolivia, Chile og Argentina — det «litiumtriangelet» — kontrollerer over 50 prosent av verdas kjende litiumreservar [2]. Det er råstoffa som driv elbilrevolusjonen og batterilagring av fornybar energi.
+Venezuela sit på verdas største kjende oljereservar og har uerforska litiumreservar. Bolivia, Chile og Argentina — det «litiumtriangelet» — kontrollerer over 50 prosent av verdas kjende litiumreservar [2]. Det er råstoffa som driv elbilrevolusjonen og batterilagring av fornybar energi.
 
 Trump-administrasjonen si aukande interesse for Venezuela og Panama-kanalen er ikkje berre nostalgisk imperialisme. Det er industriell råvarepolitikk: å sikra tilgang til litium og andre kritiske mineral i det vestlege halvkule som del av ein konkurrentstrategi mot kinesisk dominans.
 
@@ -57,7 +57,7 @@ Den modellen er no i rask endring — ikkje av ideologisk overtyding, men av str
 
 Dette er det nye paradigmet: staten som aktiv aktør i strategiske industrikjedar, med direkte finansiering, proteksjonistisk handelspolitikk og eksportkontrollar som instrument. Det er ein modell Kina alltid har hatt — og som resten av verda no lærer seg under tvang.
 
-Spørsmålet er ikkje lenger om statar skal driva aktivt industripolitikk, men om dei er gode nok til det — og om den kompetansen vestlege statar trengte for å gjera det, framleis eksisterer etter tiår med deregulering og privatisering.
+Spørsmålet er ikkje lenger om statar skal driva aktivt industripolitikk, men om dei er gode nok til det — og om den kompetansen vestlege statar trong for å gjera det, framleis eksisterer etter tiår med deregulering og privatisering.
 
 ---
 

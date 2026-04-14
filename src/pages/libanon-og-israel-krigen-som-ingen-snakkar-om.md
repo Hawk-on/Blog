@@ -9,7 +9,7 @@ lesetid: 12
 
 Onsdag 8. april 2026 kunngjorde USA og Iran ein to-vekers pause i krigstilstandane. Same dag gjennomførte Israel det som libanesiske styresmakter kallar «Svart onsdag» — hundre israelske luftangrep og artilleribombing som drap 357 menneske, dei fleste i tettbygde område i Sør-Libanon og Beirut [1][2].
 
-Dei to hendingane var ikkje tilfeldige samtidige. Dei avslørte ei av dei djupaste strukturelle motsetningane i den regionale krisa: USA og Iran forhandlar om ein pause, medan Israel bombar — og Washington skiftar posisjon etter ein telefonsamtale mellom Trump og Netanyahu.
+Dei to hendingane var ikkje eit tilfeldig samanfall. Dei avslørte ei av dei djupaste strukturelle motsetningane i den regionale krisa: USA og Iran forhandlar om ein pause, medan Israel bombar — og Washington skiftar posisjon etter ein telefonsamtale mellom Trump og Netanyahu.
 
 Denne krigen i Libanon vert knapt dekka som ein eigen krig. Det bør han vera.
 
@@ -53,7 +53,7 @@ Netanyahu har offentleg nekta for at det finst ei eigentleg våpenkvile med Hizb
 
 Israels uttala mål for Libanon er: permanent avvæpning av Hizballah, oppretting av ei buffersone og ei garantert, robust overvakingsmekanisme. Desse måla krev at Libanon i praksis overgjev suverenitet over delar av territoriet sitt.
 
-Libanon — og Iran — krev full israelsk tilbaketrekking utan atterhald, i samsvar med folkerettslege rammer og FN-resolusjonar. Dei krev òg at ei eventuell avtale om Libanon vert forankra i ein breiare regional stabiliseringsplan, ikkje einsidig diktert av israelske sikkerhetsinteresser.
+Libanon — og Iran — krev full israelsk tilbaketrekking utan atterhald, i samsvar med folkerettslege rammer og FN-resolusjonar. Dei krev òg at ei eventuell avtale om Libanon vert forankra i ein breiare regional stabiliseringsplan, ikkje einsidig diktert av israelske tryggleiksinteresser.
 
 Desse posisjonane har ikkje møttest. Og med Trump som skiftar posisjon avhengig av kven han snakka med sist, er det vanskeleg å sjå kva som kan tette gapet.
 

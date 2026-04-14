@@ -7,7 +7,7 @@ tags: ["geopolitikk", "demokrati", "ungdom", "globalt-sor", "bangladesh"]
 lesetid: 10
 ---
 
-I 2024 toppa ein 30-årig statsminister i Bangladesh. I 2025 fall ein sittande regjering i Nepal etter fem dagars protestar. I Marokko, Indonesia, Madagaskar, Kenya og fleire andre land trengjer unge menneske med smarttelefonar og desentraliserte nettverkar å omforme politiske system som lenge har ignorert dei.
+I 2024 toppa ein 30-årig statsminister i Bangladesh. I 2025 fall ein sittande regjering i Nepal etter fem dagars protestar. I Marokko, Indonesia, Madagaskar, Kenya og fleire andre land freister unge menneske med smarttelefonar og desentraliserte nettverkar å omforme politiske system som lenge har ignorert dei.
 
 Dette er ikkje eit einskildfenomen. Det er ei strukturell rørsle — og ho kjem ikkje til å stoppe.
 
@@ -25,15 +25,15 @@ Tre overlappande krisar driv rørslene:
 
 ## Frå Bangladesh til Bulgaria: Rørslene land for land
 
-Bangladesh var det fyrste og mest dramatiske: i 2024 dreiv Gen Z-protestar mot eit kvoteringsystem i statstenesta vekk statsminister Sheikh Hasina etter 15 år ved makta [3]. Det vart det globale referansepunktet — ei demonstrasjon av at leaarlause digitale mobiliseringar kan gjera det som opposisjonsparti ikkje hadde klart.
+Bangladesh var det fyrste og mest dramatiske: i 2024 dreiv Gen Z-protestar mot eit kvoteringsystem i statstenesta vekk statsminister Sheikh Hasina etter 15 år ved makta [3]. Det vart det globale referansepunktet — ei demonstrasjon av at leiarlause digitale mobiliseringar kan gjera det som opposisjonsparti ikkje hadde klart.
 
 I Kenya same år utløyste varsla skatteauke og budsjettkutt store demonstrasjonar mot den Ruto-leia regjeringa. Parlamentsbygningen vart storma. Regjeringa trekte tilbake budsjettpakken [4].
 
-Nepal 2025: fem dagars protestar mot sosialmedium-forbod og systematisk korrupsjon toppa statsminister K.P. Sharma Oli. Det var det raskaste politiske skaldet som følgje av Gen Z-rørsler nokon stad [2].
+Nepal 2025: fem dagars protestar mot sosialmedium-forbod og systematisk korrupsjon toppa statsminister K.P. Sharma Oli. Det var det raskaste regjeringsfallet som følgje av Gen Z-rørsler nokon stad [2].
 
 Indonesia 2025: levekostnadsstigning, skrikande ulikskap og ei kontroversiell parlamentarisk bustad-godtgjersle for folkevalde utløyste store demonstrasjonar. Dei vart valdelege etter at politiet drap ein 21-årig leveringssjåfør, Affan Kurniawan [3].
 
-Madagaskar og Marokko: organiserte av leaarlause kollektiv via Discord og Instagram, i Marokko under namnet Gen Z 212 — kalla etter landets telefonnummer — med krav om betre offentlege tenester og utdanningsinvesteringar [4].
+Madagaskar og Marokko: organiserte av leiarlause kollektiv via Discord og Instagram, i Marokko under namnet Gen Z 212 — kalla etter landets telefonnummer — med krav om betre offentlege tenester og utdanningsinvesteringar [4].
 
 Bulgaria er eit interessant europeisk unntak: unge bulgararar, inspirerte av dei same digitale organiseringsmetodane, utfordra den oligarkisk-korrumperte politiske klassen i ei rekkje rundar.
 
@@ -43,7 +43,7 @@ Felles symbol på tvers av kontinent: Jolly Roger-flagget frå anime-serien One 
 
 Samanlikninga med den arabiske våren er nærliggjande, men misvisande på eit avgjerande punkt.
 
-Den arabiske våren i 2010–2012 fekk internasjonale mediabollar, vestleg støtte og eit umiddelbart narrativ om demokratisering. I dei fleste tilfelle enda han i kaos, kontrarevolusjoner eller varig ustabilitet — og nøkkelaktørane vart raskt identifiserte og nøytraliserte.
+Den arabiske våren i 2010–2012 fekk internasjonale mediabollar, vestleg støtte og eit umiddelbart narrativ om demokratisering. I dei fleste tilfelle enda han i kaos, kontrarevolusjonar eller varig ustabilitet — og nøkkelaktørane vart raskt identifiserte og nøytraliserte.
 
 Gen Z-rørslene av 2024–2025 er meir desentraliserte og vanskelegare å slukke. Dei brukar Discord og Telegram til å koordinere logistikk og dele taktikk over landegrensene [4]. Dei er ikkje knytta til enkeltpersonar som kan kjøpast eller arresterast. Dei har inga einskild plattform som kan stengast ned.
 

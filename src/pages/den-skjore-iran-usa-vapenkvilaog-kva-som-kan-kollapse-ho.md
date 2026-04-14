@@ -47,7 +47,7 @@ Det mest umiddelbare trugsmålet mot heile avtalen er ikkje Iran si haldning. De
 
 8. april gjennomførte Israel «Svart onsdag» — 357 drepne i hundre luftangrep — same dag som kvila vart kunngjord [6]. Iran og Pakistan hevda at Libanon var inkludert i kvila. USA og Israel avviste dette etter ein telefonsamtale mellom Trump og Netanyahu.
 
-Frå Teherans perspektiv er dette ein direkte provokasjon: du forhandlar med oss, du kunngjør ei pause, og så bombar Israel ein av våre allierte med Washington si stilltiande velsigning. Kvar hending som denne svekkjer det iranske regime sin evne til å selja ein eventuell avtale innetter i Teheran — og gjev hardlinarar som er mot ein kvar deal med USA meir politisk tyngd.
+Frå Teherans perspektiv er dette ein direkte provokasjon: du forhandlar med oss, du kunngjer ei pause, og så bombar Israel ein av våre allierte med Washington si stilltiande velsigning. Kvar hending som denne svekkjer det iranske regime sin evne til å selja ein eventuell avtale innetter i Teheran — og gjev hardlinarar som er mot ein kvar deal med USA meir politisk tyngd.
 
 ## Kva skjer om Iran bryt ut av forhandlingane?
 

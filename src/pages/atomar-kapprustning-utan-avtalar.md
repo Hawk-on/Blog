@@ -33,7 +33,7 @@ Det er eit asymmetrisk bilete: dei langt fleste atomvåpna ligg i to av verdas m
 
 Det som gjekk tapt med New START, er ikkje primært eit juridisk instrument — det er eit system for openheit.
 
-Atomavskrekking er eit spel der begge sider tek avgjerder basert på kva dei trur motparten har og vil gjera. Inspeksjonar og datautveksling er ikkje teikn på tillit — dei er eit kompensasjonsinstrument for *mangel* på tillit. Dei reduserer risikoen for feiltolking: om du veit kva motparten faktisk har, overestimererer du ikkje trugsmålet og overreagerer ikkje.
+Atomavskrekking er eit spel der begge sider tek avgjerder basert på kva dei trur motparten har og vil gjera. Inspeksjonar og datautveksling er ikkje teikn på tillit — dei er eit kompensasjonsinstrument for *mangel* på tillit. Dei reduserer risikoen for feiltolking: om du veit kva motparten faktisk har, overestimerer du ikkje trugsmålet og overreagerer ikkje.
 
 Det finst no ingen slik mekanisme. Begge sider baserer sine strategiske kalkulasjonar på etterretningsestimat og spekulasjonar. Risikoen for misforståing, overreaksjon og utilsikta eskalering aukar strukturelt [5].
 
@@ -45,7 +45,7 @@ Ein bilateral USA–Russland-avtale vil, sjølv om han kjem, regulera ein stadig
 
 Kina er i ferd med å tredobla arsenalet sitt og kan ha 1.000 stridshover innan 2030 [4]. Å invitara Kina inn i trepartsforhandlingar er noko Beijing hittil har avvist — dels fordi kinesiske arsenal er langt mindre, og dels fordi Kina ikkje ønskjer å binda seg til eit rammeverk USA og Russland har definert på sine eigne premissar.
 
-Storbritannia og Frankrike har arsenala sine integrert i NATO-strukturen. India og Pakistan er i ein vedvarande sub-strategisk spenningssituasjon langs grensa deira. Ingen av desse dynamikkane kan regulerast av eit bilateralt avtale.
+Storbritannia og Frankrike har arsenala sine integrert i NATO-strukturen. India og Pakistan er i ein vedvarande sub-strategisk spenningssituasjon langs grensa deira. Ingen av desse dynamikkane kan regulerast av ein bilateral avtale.
 
 ## Vegen vidare: Ny avtale eller akselerert opprustning?
 
