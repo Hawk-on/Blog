@@ -1,6 +1,6 @@
 ---
 layout: ../layouts/Artikkel.astro
-tittel: "Atomar kapprustning utan avtalar"
+tittel: "Atomkapprustning utan avtalar"
 dato: "2026-04-14"
 ingress: "5. februar 2026 gjekk den siste juridiske grensa for verdas to største atomarsenal ut på dato. New START er borte. Ingen ny avtale er på plass. For fyrste gong sidan Cuba-krisa i 1962 stiller USA og Russland utan eit felles rammeverk — og ingen forhandlingar pågår."
 tags: ["geopolitikk", "atomvapen", "usa", "russland", "arms-control"]
