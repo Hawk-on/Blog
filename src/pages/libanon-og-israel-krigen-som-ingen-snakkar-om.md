@@ -19,7 +19,7 @@ I november 2024 inngikk Israel og Libanon ein formell våpenkvile [3]. Avtalen k
 
 Kvifor heldt han ikkje? Svaret ligg i det som ikkje vart løyst: Israel hadde som uttalt mål å avvæpne Hizballah permanent og oppretta ei buffersone. Hizballah og Libanon kravde full israelsk tilbaketrekking utan atterhald. Desse to posisjonane er ikkje kompatible.
 
-Då USA og Israel angreip Iran i februar 2026 og øvste leiar Khamenei vart drepen, reagerte Hizballah med å senda rakettar mot israelske mål — ei støtteerklæring til Iran og eit samanbrot av 2024-kvila i eitt. Israel svara med å intensivera bombetoninga av Libanon. Krigen som offisielt slutta i november 2024, hadde i praksis aldri enda.
+Då USA og Israel angreip Iran i februar 2026 og øvste leiar Khamenei vart drepen, reagerte Hizballah med å senda rakettar mot israelske mål — ei støtteerklæring til Iran og eit samanbrot av 2024-kvila i eitt. Israel svara med å intensivera bombinga av Libanon. Krigen som offisielt slutta i november 2024, hadde i praksis aldri enda.
 
 ## 8. april: Den svarte onsdagen
 

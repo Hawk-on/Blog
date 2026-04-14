@@ -43,10 +43,13 @@ gjennom desse linser:
 
 ## Språkvask — sjekk alltid for dårlege omsetjingar
 Gå gjennom ferdig tekst og sjekk spesifikt for:
-- **Bokmålsformer som sniker seg inn:** "datter" → "dotter", "bli" → "verta", "vegner" → "vegne", "noen" → "nokon", "hvilken" → "kva slags / kva for ein"
-- **Direkte omsetjingar frå engelsk** (calques) som ikkje er idiomatisk Nynorsk: "eksponere for" → "utsette for", "adressere problemet" → "ta tak i problemet", "implementere" → "setje i verk / gjennomføre"
+- **Oppdikta ord:** Språkmodellen kan laga ord som høyrast nynorske ut ved å setja saman kjende morfem, men som ikkje eksisterer. Døme: «bombetoninga» → «bombinga». Sjekk særleg substantiv med uvanleg suffiks.
+- **Bokmålsformer som sniker seg inn:** `-ene`-fleirtal (→ `-ane`), `trekker` (→ `trekkjer`), `falt` (→ `fall`), `virkar` (→ `verkar`), `trengte` (→ `trong`), "datter" (→ "dotter"), "bli" (→ "verta"), "noen" (→ "nokon")
+- **Adjektivbøying:** `ein truverdige` (→ `ein truverdig`), `bilateralt avtale` (→ `bilateral avtale`)
+- **Feil infinitivsklasse:** lange verb (polysyllabiske) tek `-e`, ikkje `-a` — t.d. `invitara` → `invitere`
+- **Direkte omsetjingar frå engelsk** (calques) som ikkje er idiomatisk nynorsk: "eksponere for" → "utsette for", "adressere problemet" → "ta tak i problemet", "implementere" → "setje i verk"
+- **Anglisismar som bør forenklast:** `autoritarianisme` → `autoritarisme`, "konfidensialitet" → "fortrulegheit", "transparent" → "open/gjennomsiktig"
 - **Klunksleg genitiv:** føretrekkje "saka sin eigenverdi" framfor "sakens eigenverdi" der det passar rytmisk
-- **Unødvendig fremmedord** der eit godt nynorskord finst: "konfidensialitet" → "fortrulegheit", "transparent" → "open / gjennomsiktig"
 - **Hybridformer:** blandingar av bokmål og nynorsk morfologi i samansetjingar
 
 ## Kjeldebruk og referansar
