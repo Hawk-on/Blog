@@ -1,0 +1,50 @@
+<section class="giscus-seksjon" aria-label="Kommentarar">
+  <script src="https://giscus.app/client.js"
+    data-repo="Hawk-on/Blog"
+    data-repo-id="R_kgDOR94FZA"
+    data-category="General"
+    data-category-id="DIC_kwDOR94FZM4C6-7h"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="light"
+    data-lang="no"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+  </script>
+</section>
+
+<script>
+  (function () {
+    function giscusTema() {
+      const attr = document.documentElement.getAttribute('data-theme');
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      return (attr === 'dark' || (!attr && prefersDark)) ? 'dark_dimmed' : 'light';
+    }
+
+    function sendTema(tema) {
+      const iframe = document.querySelector('iframe.giscus-frame');
+      if (!iframe) return;
+      iframe.contentWindow.postMessage(
+        { giscus: { setConfig: { theme: tema } } },
+        'https://giscus.app'
+      );
+    }
+
+    // Set initial theme after Giscus iframe is ready
+    window.addEventListener('message', function handler(e) {
+      if (e.origin !== 'https://giscus.app') return;
+      if (e.data?.giscus?.discussion !== undefined) {
+        sendTema(giscusTema());
+        window.removeEventListener('message', handler);
+      }
+    });
+
+    // Sync on theme toggle
+    new MutationObserver(() => sendTema(giscusTema()))
+      .observe(document.documentElement, { attributeFilter: ['data-theme'] });
+  })();
+</script>
