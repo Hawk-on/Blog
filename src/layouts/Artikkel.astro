@@ -10,7 +10,8 @@ interface Props {
   lesetid?: number;
 }
 
-const { tittel, dato, ingress, tags = [], lesetid } = Astro.props;
+const { frontmatter } = Astro.props;
+const { tittel, dato, ingress, tags = [], lesetid } = frontmatter;
 const base = import.meta.env.BASE_URL;
 
 const datoFormatert = formaterDato(dato, 'lang');
