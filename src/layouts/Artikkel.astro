@@ -1,6 +1,7 @@
 ---
 import Grunnoppsett from './Grunnoppsett.astro';
 import { formaterDato } from '../utils/dato';
+import GiscusKommentarar from '../components/GiscusKommentarar.astro';
 
 interface Props {
   tittel: string;
@@ -37,6 +38,8 @@ const datoFormatert = formaterDato(dato, 'lang');
     <article class="artikkel-kropp">
       <slot />
     </article>
+
+    <GiscusKommentarar />
 
     <div class="les-framgang" id="les-framgang" aria-hidden="true"></div>
 
