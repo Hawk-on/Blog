@@ -11,7 +11,7 @@ const { tittel, beskriving = 'Analysar av politikk, økonomi og teknologi.', erA
 const base = import.meta.env.BASE_URL;
 const aktuellSti = Astro.url.pathname;
 const kanoniskUrl = new URL(aktuellSti, Astro.site).toString();
-const fullTittel = `${tittel} — Håkon Hole Lønning`;
+const fullTittel = `${tittel} — hawk-on`;
 ---
 
 <!DOCTYPE html>
@@ -70,7 +70,7 @@ const fullTittel = `${tittel} — Håkon Hole Lønning`;
       <div class="nettstad-header__indre">
         <a href={base} class="nettstad-header__logo">
           <img src={`${base}/favicon-header.png`} alt="" class="nettstad-header__ikon" id="header-ikon" aria-hidden="true" />
-          Håkon Hole Lønning
+          hawk-on
         </a>
         <input type="checkbox" id="meny-bryter" class="meny-bryter__input" aria-label="Opne eller lukk meny" aria-controls="hovudnav" />
         <label for="meny-bryter" class="meny-bryter" aria-hidden="true">
@@ -103,7 +103,7 @@ const fullTittel = `${tittel} — Håkon Hole Lønning`;
   <footer class="nettstad-footer">
     <div class="container--brei">
       <div class="nettstad-footer__indre">
-        <span>© {new Date().getFullYear()} Håkon Hole Lønning</span>
+        <span>© {new Date().getFullYear()} hawk-on</span>
         <span>Skrive på nynorsk · Bygd med <a href="https://astro.build">Astro</a></span>
       </div>
     </div>

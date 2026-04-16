@@ -14,7 +14,7 @@ export async function GET(context: APIContext) {
     .sort((a, b) => new Date(b.dato).valueOf() - new Date(a.dato).valueOf());
 
   return rss({
-    title: 'Håkon Hole Lønning',
+    title: 'hawk-on',
     description: 'Analysar av politikk, økonomi og teknologi.',
     site: context.site!.toString(),
     items: innlegg.map((post) => ({
