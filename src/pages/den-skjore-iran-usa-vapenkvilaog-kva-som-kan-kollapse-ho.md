@@ -9,7 +9,7 @@ lesetid: 11
 
 To-vekers-pausen mellom USA og Iran var knapt to dagar gamal då han byrja rakna.
 
-Bakgrunnen kjenner vi: USA og Israel gjennomførte eit koordinert luftangrep mot Iran 28. februar 2026 [1]. Øvste leiar Khamenei vart drepen. Iranske installasjonar vart bomba. Og Iran svara slik dei alltid hadde varsla: dei stengde Hormuzstredet og sende rakettar og dronar mot israelske og amerikanske mål i regionen.
+Bakgrunnen kjenner vi: USA og Israel gjennomførte eit koordinert luftangrep mot Iran 28. februar 2026 [\[1\]](#ref-1). Øvste leiar Khamenei vart drepen. Iranske installasjonar vart bomba. Og Iran svara slik dei alltid hadde varsla: dei stengde Hormuzstredet og sende rakettar og dronar mot israelske og amerikanske mål i regionen.
 
 Det Iran ikkje gjorde, var å gje opp. Det er det viktigaste faktum i ein analyse av kor skjør denne pausen er.
 
@@ -19,23 +19,23 @@ Drapet på Khamenei var ikkje berre eit tap av ein person. Det var eit angrep p�
 
 Hizballah opna ny front frå Libanon. Houthi-bevegelsen intensiverte åtaka mot skipstrafikk i Rødehavet. Irak-baserte pro-iranske militsgrupper angreip amerikanske basar. Det var ikkje éin respons — det var ein koordinert aktivering av det iranske regionale alliansenetverket.
 
-Hormuzstredet vart stengd — ikkje som eit impulsivt steg, men som ein gjennomtenkt strategisk kalkulasjon [2]. Gjennom stredet går om lag 20 prosent av all global oljehandel. Kvar dag det er stengd, stig oljeprisen og legg press på sentralbankar og forbrukarprisar over heile verda.
+Hormuzstredet vart stengd — ikkje som eit impulsivt steg, men som ein gjennomtenkt strategisk kalkulasjon [\[2\]](#ref-2). Gjennom stredet går om lag 20 prosent av all global oljehandel. Kvar dag det er stengd, stig oljeprisen og legg press på sentralbankar og forbrukarprisar over heile verda.
 
 ## Islamabad-forhandlingane
 
-Det var Pakistan som brøt den diplomatiske isen. Islamabad har ei unik stilling: landet grensar til Iran, har nære band til Saudi-Arabia og Golfstatane, huser ingen amerikanske militærbasar, og er eit leiande muslimsk land utan å vera part i konflikten [3].
+Det var Pakistan som brøt den diplomatiske isen. Islamabad har ei unik stilling: landet grensar til Iran, har nære band til Saudi-Arabia og Golfstatane, huser ingen amerikanske militærbasar, og er eit leiande muslimsk land utan å vera part i konflikten [\[3\]](#ref-3).
 
-11. april ankom USAs visepresident JD Vance, saman med Trumps spesialutsending Steve Witkoff og presidentens svigerson Jared Kushner, til Islamabad for direkte forhandlingar [4]. Den iranske delegasjonen, leia av utanriksminister Abbas Araghchi og parlamentspresident Mohammad Bagher Ghalibaf, hadde kome tidlegare.
+11. april ankom USAs visepresident JD Vance, saman med Trumps spesialutsending Steve Witkoff og presidentens svigerson Jared Kushner, til Islamabad for direkte forhandlingar [\[4\]](#ref-4). Den iranske delegasjonen, leia av utanriksminister Abbas Araghchi og parlamentspresident Mohammad Bagher Ghalibaf, hadde kome tidlegare.
 
-Talane vara i 21 timar. Dei enda utan ein avtale [5].
+Talane vara i 21 timar. Dei enda utan ein avtale [\[5\]](#ref-5).
 
-At Pakistan fekk dei to partane til bordet i det heile teke, er eit diplomatisk bragd i seg sjølv — og eit teikn på det «globale sør» sin aukande evne til å spela ei meklarrolle som verken USA eller Iran ville akseptert frå vestlege land. Geografi, religion og regionale relasjonar gjev Pakistan ein truverdigheit som Frankrike, Tyskland eller EU ikkje har i denne konflikten [3].
+At Pakistan fekk dei to partane til bordet i det heile teke, er eit diplomatisk bragd i seg sjølv — og eit teikn på det «globale sør» sin aukande evne til å spela ei meklarrolle som verken USA eller Iran ville akseptert frå vestlege land. Geografi, religion og regionale relasjonar gjev Pakistan ein truverdigheit som Frankrike, Tyskland eller EU ikkje har i denne konflikten [\[3\]](#ref-3).
 
 ## Hormuz: Frå militær til diplomatisk brikke
 
 Hormuzstredet er ikkje lenger berre eit strategisk farvann — det er eit finansielt instrument i iransk hand.
 
-Iranske krav i Islamabad var tydelege: betaling av krigsskadegjerdsle, iransk kontroll over ei ny regional tryggingsmekanisme for stredet, full våpenkvile i Libanon og opphevinga av sanksjonar [5]. Det USA var villig til å gje, var vesentleg mindre — primært atomavgrensingar og normalisering av handelsvilkår.
+Iranske krav i Islamabad var tydelege: betaling av krigsskadegjerdsle, iransk kontroll over ei ny regional tryggingsmekanisme for stredet, full våpenkvile i Libanon og opphevinga av sanksjonar [\[5\]](#ref-5). Det USA var villig til å gje, var vesentleg mindre — primært atomavgrensingar og normalisering av handelsvilkår.
 
 Gapet mellom posisjonane var stort. Men det strukturelt interessante er kva Iran *ikkje* kravde: dei kravde ikkje umiddelbar tilbaketrekking av alle amerikanske styrkar frå regionen. Dei kravde kontroll og kompensasjon. Det er ein forhandlingsposisjon, ikkje eit ultimatum.
 
@@ -45,7 +45,7 @@ Iran veit at dei kan halda Hormuz som kort. Kvar veke stredet er stengd eller tr
 
 Det mest umiddelbare trugsmålet mot heile avtalen er ikkje Iran si haldning. Det er kva Israel gjer i Libanon.
 
-8. april gjennomførte Israel «Svart onsdag» — 357 drepne i hundre luftangrep — same dag som kvila vart kunngjord [6]. Iran og Pakistan hevda at Libanon var inkludert i kvila. USA og Israel avviste dette etter ein telefonsamtale mellom Trump og Netanyahu.
+8. april gjennomførte Israel «Svart onsdag» — 357 drepne i hundre luftangrep — same dag som kvila vart kunngjord [\[6\]](#ref-6). Iran og Pakistan hevda at Libanon var inkludert i kvila. USA og Israel avviste dette etter ein telefonsamtale mellom Trump og Netanyahu.
 
 Frå Teherans perspektiv er dette ein direkte provokasjon: du forhandlar med oss, du kunngjer ei pause, og så bombar Israel ein av våre allierte med Washington si stilltiande velsigning. Kvar hending som denne svekkjer det iranske regime sin evne til å selja ein eventuell avtale innetter i Teheran — og gjev hardlinarar som er mot ein kvar deal med USA meir politisk tyngd.
 
@@ -65,14 +65,14 @@ Det er lite som tyder på at Trump-administrasjonen fullt ut forstår kor asymme
 
 ## Kjelder
 
-[1] Encyclopaedia Britannica, "2026 Iran war," *Britannica*, 2026. [Online]. Available: https://www.britannica.com/event/2026-Iran-war. [Accessed: Apr. 14, 2026].
+<span id="ref-1"></span>\[1\] Encyclopaedia Britannica, "2026 Iran war," *Britannica*, 2026. [Online]. Available: https://www.britannica.com/event/2026-Iran-war. [Accessed: Apr. 14, 2026].
 
-[2] Wikipedia, "2026 Iran war ceasefire," *Wikipedia*, Apr. 2026. [Online]. Available: https://en.wikipedia.org/wiki/2026_Iran_war_ceasefire. [Accessed: Apr. 14, 2026].
+<span id="ref-2"></span>\[2\] Wikipedia, "2026 Iran war ceasefire," *Wikipedia*, Apr. 2026. [Online]. Available: https://en.wikipedia.org/wiki/2026_Iran_war_ceasefire. [Accessed: Apr. 14, 2026].
 
-[3] Al Jazeera, "How Pakistan managed to get the US and Iran to a ceasefire," *Al Jazeera*, Apr. 8, 2026. [Online]. Available: https://www.aljazeera.com/features/2026/4/8/how-pakistan-managed-to-get-the-us-and-iran-to-a-ceasefire. [Accessed: Apr. 14, 2026].
+<span id="ref-3"></span>\[3\] Al Jazeera, "How Pakistan managed to get the US and Iran to a ceasefire," *Al Jazeera*, Apr. 8, 2026. [Online]. Available: https://www.aljazeera.com/features/2026/4/8/how-pakistan-managed-to-get-the-us-and-iran-to-a-ceasefire. [Accessed: Apr. 14, 2026].
 
-[4] Al Jazeera, "How the US-Iran talks in Islamabad unfolded," *Al Jazeera*, Apr. 13, 2026. [Online]. Available: https://www.aljazeera.com/news/2026/4/13/how-the-us-iran-talks-in-islamabad-unfolded. [Accessed: Apr. 14, 2026].
+<span id="ref-4"></span>\[4\] Al Jazeera, "How the US-Iran talks in Islamabad unfolded," *Al Jazeera*, Apr. 13, 2026. [Online]. Available: https://www.aljazeera.com/news/2026/4/13/how-the-us-iran-talks-in-islamabad-unfolded. [Accessed: Apr. 14, 2026].
 
-[5] Time, "Why the Iran-U.S. Peace Talks Failed," *Time*, Apr. 13, 2026. [Online]. Available: https://time.com/article/2026/04/13/iran-US-peace-talks-islamabad-war-nuclear/. [Accessed: Apr. 14, 2026].
+<span id="ref-5"></span>\[5\] Time, "Why the Iran-U.S. Peace Talks Failed," *Time*, Apr. 13, 2026. [Online]. Available: https://time.com/article/2026/04/13/iran-US-peace-talks-islamabad-war-nuclear/. [Accessed: Apr. 14, 2026].
 
-[6] Wikipedia, "8 April 2026 Lebanon attacks," *Wikipedia*, Apr. 2026. [Online]. Available: https://en.wikipedia.org/wiki/8_April_2026_Lebanon_attacks. [Accessed: Apr. 14, 2026].
+<span id="ref-6"></span>\[6\] Wikipedia, "8 April 2026 Lebanon attacks," *Wikipedia*, Apr. 2026. [Online]. Available: https://en.wikipedia.org/wiki/8_April_2026_Lebanon_attacks. [Accessed: Apr. 14, 2026].

@@ -563,8 +563,12 @@ hr {
 /* Innhaldstabell */
 .innhaldstabell {
   border: 1px solid var(--lys-grå);
-  padding: 1.5rem 2rem;
+  padding: 1rem 1.5rem;
   margin-bottom: 3rem;
+}
+
+.innhaldstabell[open] {
+  padding: 1rem 1.5rem 1.25rem;
 }
 
 .innhaldstabell__tittel {
@@ -573,7 +577,33 @@ hr {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--grå);
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  user-select: none;
+}
+
+.innhaldstabell__tittel::-webkit-details-marker {
+  display: none;
+}
+
+.innhaldstabell[open] .innhaldstabell__tittel {
   margin-bottom: 0.75rem;
+}
+
+.innhaldstabell__pil {
+  transition: transform 0.2s;
+  font-size: 0.85rem;
+}
+
+.innhaldstabell[open] .innhaldstabell__pil {
+  transform: rotate(180deg);
+}
+
+.innhaldstabell__tittel:hover {
+  color: var(--raud);
 }
 
 .innhaldstabell__liste {
@@ -601,12 +631,52 @@ hr {
   transition: color 0.2s;
 }
 
-.innhaldstabell__liste a:hover {
+.innhaldstabell__liste a:hover,
+.innhaldstabell__liste a.is-aktiv {
   color: var(--raud);
+}
+
+.innhaldstabell__liste a.is-aktiv {
+  font-weight: 600;
 }
 
 .innhaldstabell__element--h3 {
   padding-left: 1.5rem;
+}
+
+/* Scroll-offset for ankerlenkjer */
+.artikkel-kropp h2,
+.artikkel-kropp h3 {
+  scroll-margin-top: 2rem;
+}
+
+/* Referanse-ankre i Kjelder-seksjonen */
+.artikkel-kropp [id^="ref-"] {
+  scroll-margin-top: 2rem;
+}
+
+/* Tid igjen-indikator */
+.les-tid-igjen {
+  position: fixed;
+  top: 0.75rem;
+  right: 1rem;
+  font-family: var(--skrift-kode);
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  color: var(--grå);
+  background: var(--header-bakgrunn);
+  padding: 0.15rem 0.5rem;
+  border-radius: 2px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s;
+  z-index: 102;
+  pointer-events: none;
+}
+
+.les-tid-igjen.synleg {
+  opacity: 1;
+  visibility: visible;
 }
 
 /* Leseprogresjon-indikator */

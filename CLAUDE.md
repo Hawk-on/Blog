@@ -43,14 +43,47 @@ gjennom desse linser:
 
 ## Språkvask — sjekk alltid for dårlege omsetjingar
 Gå gjennom ferdig tekst og sjekk spesifikt for:
-- **Oppdikta ord:** Språkmodellen kan laga ord som høyrast nynorske ut ved å setja saman kjende morfem, men som ikkje eksisterer. Døme: «bombetoninga» → «bombinga». Sjekk særleg substantiv med uvanleg suffiks.
-- **Bokmålsformer som sniker seg inn:** `-ene`-fleirtal (→ `-ane`), `trekker` (→ `trekkjer`), `falt` (→ `fall`), `virkar` (→ `verkar`), `trengte` (→ `trong`), "datter" (→ "dotter"), "bli" (→ "verta"), "noen" (→ "nokon")
+- **Oppdikta ord:** Språkmodellen kan laga ord som høyrast nynorske ut ved å setja saman kjende morfem, men som ikkje eksisterer. Døme: «bombetoninga» → «bombinga», «nullsårbarheit» → `zero-day-sårbarheit`, «tverrplatform» → `cross-platform` eller `plattformuavhengig`. Sjekk særleg substantiv med uvanleg suffiks.
+- **Bokmålsformer som sniker seg inn:**
+  - Fleirtal: `-ene` på hankjønn (→ `-ane`), `plattformer` (→ `plattformar`), `marknadene` (→ `marknadene`/`marknadane` — avhengig av kjønn)
+  - Verb i presens: `trekker`/`trekk` (→ `trekkjer`), `bygger` (→ `byggjer`), `følger` (→ `følgjer`), `føretrekk` (→ `føretrekkjer`), `virkar` (→ `verkar`), `trengte` (→ `trong`)
+  - Preteritum/perfektum: `falt` (→ `fall`), `stjålet` (→ `stole`)
+  - Adjektiv: `bredare` (→ `breiare`), `beryktede` (→ `berykta`), `første` (→ `fyrste` for stilkonsistens på denne bloggen)
+  - Konjunksjonar: `verken...eller` (→ `korkje...eller`)
+  - Pronomen/substantiv: "datter" (→ "dotter"), "bli" (→ "verta"), "noen" (→ "nokon")
 - **Adjektivbøying:** `ein truverdige` (→ `ein truverdig`), `bilateralt avtale` (→ `bilateral avtale`)
 - **Feil infinitivsklasse:** lange verb (polysyllabiske) tek `-e`, ikkje `-a` — t.d. `invitara` → `invitere`
-- **Direkte omsetjingar frå engelsk** (calques) som ikkje er idiomatisk nynorsk: "eksponere for" → "utsette for", "adressere problemet" → "ta tak i problemet", "implementere" → "setje i verk"
-- **Anglisismar som bør forenklast:** `autoritarianisme` → `autoritarisme`, "konfidensialitet" → "fortrulegheit", "transparent" → "open/gjennomsiktig"
+- **Direkte omsetjingar frå engelsk** (calques) som ikkje er idiomatisk nynorsk:
+  - "eksponere for" → "utsette for"
+  - "adressere problemet" → "ta tak i problemet"
+  - "implementere" → "setje i verk"
+  - "drog ned" (pulled down) → "lasta ned"
+  - "handar over" (hand over) → "overleverer"/"gjev vidare"
+  - "rulle tilbake" (roll back) → "reversere"/"vende tilbake"
+  - "arbeidande exploit" (working) → "fungerande exploit"
+  - "startstad" (starting place) → "utgangspunkt"
+- **Anglisismar som bør forenklast:** `autoritarianisme` → `autoritarisme`, "konfidensialitet" → "fortrulegheit", "transparent" → "open/gjennomsiktig", "malisiøs" → "vondsinna" (intensjon) eller "skadeleg" (verknad), "ekstrahere" → "hente ut"/"tappe ut", "defendere" → "forsvararar"
+- **Nyanse-omsetjingar:**
+  - `malicious` → `vondsinna` (intensjon — om aktøren planta noko med vilje), ikkje `skadeleg` (verknad — kva koden gjer). Aldri `malisiøs`.
 - **Klunksleg genitiv:** føretrekkje "saka sin eigenverdi" framfor "sakens eigenverdi" der det passar rytmisk
-- **Hybridformer:** blandingar av bokmål og nynorsk morfologi i samansetjingar
+- **Hybridformer (bokmål/nynorsk):** blandingar av bokmål og nynorsk morfologi i samansetjingar
+
+### Engelske fagtermer — rein engelsk eller rein nynorsk, aldri hybrid
+Engelske fagord kan stå på engelsk, men **må ikkje fornorskast med nynorske endingar**. Anten:
+1. **Behald den engelske termen intakt:** `breach`, `dependencies`, `exploit`, `cross-platform`, `zero-day`
+2. **Omset heilt til nynorsk:** `innbrot`, `avhengnader`, `konstruksjonsteikningar`, `versjonsintervall`, `plattformuavhengig`
+
+**Aldri hybridformer:** `breachane`, `dependenciane`, `blueprintar`, `versjonsrangar`, `tverrplatform`.
+
+Samansetjing av engelsk rot + nynorsk beskrivande ledd er OK så lenge den engelske delen står intakt utan påklistra nynorsk-ending: `zero-day-sårbarheit`, `Mercor-innbrotet`, `SLSA-attestasjon`.
+
+### Verifisering
+Bruk [ordbokene.no](https://ordbokene.no/) (Nynorskordboka, vedlikehalde av lingvistar ved UiB og Språkrådet) for å verifisere tvilstilfelle — særleg:
+- Om samansette ord eksisterer (unngå oppdikta ord)
+- Rett infinitivsklasse og bøying
+- Korrekt nynorsk-form av bokmålsord
+
+Føretrekk ordboka framfor eiga språkkjensle ved tvil — særleg for låneord og tekniske termar.
 
 ## Kjeldebruk og referansar
 - Bruk IEEE-referansestil for alle kjelder i artiklane

@@ -13,7 +13,7 @@ Trump truar no med det som best kan kallast ei dobbelblokkade: ein samstundes es
 
 ## Kva er dobbelblokkaden?
 
-Trugslane kjem i to lag. For det første: USA varslar at dei vil innføre 145 prosent straffetoll på kinesiske varer om ikkje Beijing «normaliserer» handelsvilkåra etter amerikanske premissar [1]. For det andre, og meir dramatisk: Washington truar med å nytta den amerikanske marinen til å handheva ein energiblokade rundt aktørar som handlar olje utanfor det dollarbaserte systemet — eit direkte svar på at Kina, India og fleire afrikanske statar har byrja kjøpa iransk olje i yuan og rupiar etter Hormuz-krisa.
+Trugslane kjem i to lag. For det første: USA varslar at dei vil innføre 145 prosent straffetoll på kinesiske varer om ikkje Beijing «normaliserer» handelsvilkåra etter amerikanske premissar [\[1\]](#ref-1). For det andre, og meir dramatisk: Washington truar med å nytta den amerikanske marinen til å handheva ein energiblokade rundt aktørar som handlar olje utanfor det dollarbaserte systemet — eit direkte svar på at Kina, India og fleire afrikanske statar har byrja kjøpa iransk olje i yuan og rupiar etter Hormuz-krisa.
 
 Dobbelblokkaden er altså ein koordinert trugsel mot to frontar: handelsstraumen over Stillehavet og energistraumen gjennom Indiahavet. Strategisk er logikken tilsynelatande klar — presse Kina til å velja mellom Washington og Teheran. I praksis er det eit klassisk overrekk.
 
@@ -25,9 +25,9 @@ I løpet av dei siste tre månadene har Trump-administrasjonen gjenteke ein sykl
 
 Kven som tener på dette, bør ikkje vera vanskeleg å forstå.
 
-Dette er ikkje ein ny observasjon. Allereie under den fyrste handelskrigen mot Kina i 2018–2019 dokumenterte finansanalytikarar at presidentens Twitter-meldingar om toll konsekvent føregjekk store rørslur i opsjonsmarknaden [2]. Det som er nytt i 2026, er *skalaen* og *systematikken*. Trugslane er større, svingane er brattare, og tidspunktet for «avspenning» er meir presist kalibrert mot handelsvindu på Wall Street. Kongressmedlemmer frå begge parti har no opna etterforsking av suspekt opsjonshandel i timane før Trumps tollkunngjersler [3].
+Dette er ikkje ein ny observasjon. Allereie under den fyrste handelskrigen mot Kina i 2018–2019 dokumenterte finansanalytikarar at presidentens Twitter-meldingar om toll konsekvent føregjekk store rørslur i opsjonsmarknaden [\[2\]](#ref-2). Det som er nytt i 2026, er *skalaen* og *systematikken*. Trugslane er større, svingane er brattare, og tidspunktet for «avspenning» er meir presist kalibrert mot handelsvindu på Wall Street. Kongressmedlemmer frå begge parti har no opna etterforsking av suspekt opsjonshandel i timane før Trumps tollkunngjersler [\[3\]](#ref-3).
 
-Ein Citigroup-rapport frå mars 2026 formulerte det diplomatisk — etter det som vart referert i finanspressa: «Volatile policy signaling creates asymmetric information advantages for market participants with proximity to decision-makers.» *(sitat ikkje verifisert i offentleg rapport)* [4]
+Ein Citigroup-rapport frå mars 2026 formulerte det diplomatisk — etter det som vart referert i finanspressa: «Volatile policy signaling creates asymmetric information advantages for market participants with proximity to decision-makers.» *(sitat ikkje verifisert i offentleg rapport)* [\[4\]](#ref-4)
 
 Omsetjinga er enklare: Dersom du veit at tollen vert kunngjord klokka ni og tilbaketrekt klokka tolv, kan du gjera deg svært rik på tolv timar.
 
@@ -37,7 +37,7 @@ Det finst ei forteljing om at dette er genialt maktspel — «madman theory» re
 
 Trump si dobbelblokkade avdekker ei strukturell felle:
 
-**Alternativ éin: Eskalering.** Om USA faktisk gjennomfører ein marineblokade av aktørar som handlar iransk olje, er det ein krigshandling mot Kina og India — land som saman representerer nesten tre milliardar menneske og ein aukande del av global BNP. Konsekvensen er ikkje berre ein handelskrig; det er ein akselerator for det Kina lenge har arbeidd mot: eit alternativt betalingssystem som gjer dollar-infrastrukturen irrelevant. SWIFT-alternativet CIPS, digitalyuan og bilaterale swapar er allereie på plass [5]. USA ville med eiga hand fullføra det Kina ikkje hadde klart på eiga hand.
+**Alternativ éin: Eskalering.** Om USA faktisk gjennomfører ein marineblokade av aktørar som handlar iransk olje, er det ein krigshandling mot Kina og India — land som saman representerer nesten tre milliardar menneske og ein aukande del av global BNP. Konsekvensen er ikkje berre ein handelskrig; det er ein akselerator for det Kina lenge har arbeidd mot: eit alternativt betalingssystem som gjer dollar-infrastrukturen irrelevant. SWIFT-alternativet CIPS, digitalyuan og bilaterale swapar er allereie på plass [\[5\]](#ref-5). USA ville med eiga hand fullføra det Kina ikkje hadde klart på eiga hand.
 
 **Alternativ to: Retrett.** Om Trump bakkar, og han har bakka før, sender det eit signal som er vanskeleg å ta attende: at trugslane er tomme. Kina har alt i fleire rundar observert at Washington trekkjer seg attende når konsekvensane vert reelle. Kvar retrett gjer neste trugsel mindre truverdig. Det er eit klassisk problem i avskrekkingsteori — og det er særleg alvorleg for eit land som presenterer seg som verdas einaste supermakt.
 
@@ -67,12 +67,12 @@ Det strukturelle biletet er ikkje eit bilete av ein supermakt som spelar sjakk p
 
 ## Kjelder
 
-[1] China Briefing, "Trump's China Tariffs Raised to 145% — Overview and Trade Implications," *China Briefing*, Apr. 2025. [Online]. Available: https://www.china-briefing.com/news/trump-raises-tariffs-on-china-to-145-overview-and-trade-implications/. [Accessed: Apr. 13, 2026].
+<span id="ref-1"></span>\[1\] China Briefing, "Trump's China Tariffs Raised to 145% — Overview and Trade Implications," *China Briefing*, Apr. 2025. [Online]. Available: https://www.china-briefing.com/news/trump-raises-tariffs-on-china-to-145-overview-and-trade-implications/. [Accessed: Apr. 13, 2026].
 
-[2] "The effects of Trump's trade war on U.S. financial markets," *Journal of International Money and Finance*, vol. 135, 2023. [Online]. Available: https://www.sciencedirect.com/science/article/abs/pii/S0261560623000438. [Accessed: Apr. 13, 2026].
+<span id="ref-2"></span>\[2\] "The effects of Trump's trade war on U.S. financial markets," *Journal of International Money and Finance*, vol. 135, 2023. [Online]. Available: https://www.sciencedirect.com/science/article/abs/pii/S0261560623000438. [Accessed: Apr. 13, 2026].
 
-[3] Reuters, "Some trades ahead of Trump policy moves raise questions," *Reuters / Investing.com*, Apr. 2026. [Online]. Available: https://www.investing.com/news/stock-market-news/some-trades-ahead-of-trump-policy-moves-raise-questions-4606365. [Accessed: Apr. 13, 2026].
+<span id="ref-3"></span>\[3\] Reuters, "Some trades ahead of Trump policy moves raise questions," *Reuters / Investing.com*, Apr. 2026. [Online]. Available: https://www.investing.com/news/stock-market-news/some-trades-ahead-of-trump-policy-moves-raise-questions-4606365. [Accessed: Apr. 13, 2026].
 
-[4] Citi Wealth, "Resilience and Potential Opportunity in a Higher-Volatility World: The Short and Long Q2 2026," *Citigroup*, Apr. 2026. [Online]. Available: https://marketinsights.citi.com/Market-Commentary/Short-and-Long/Q2-2026.html. [Accessed: Apr. 13, 2026].
+<span id="ref-4"></span>\[4\] Citi Wealth, "Resilience and Potential Opportunity in a Higher-Volatility World: The Short and Long Q2 2026," *Citigroup*, Apr. 2026. [Online]. Available: https://marketinsights.citi.com/Market-Commentary/Short-and-Long/Q2-2026.html. [Accessed: Apr. 13, 2026].
 
-[5] Center for Strategic and International Studies, "Sanctions, SWIFT, and China's Cross-Border Interbank Payments System," *CSIS*, 2023. [Online]. Available: https://www.csis.org/analysis/sanctions-swift-and-chinas-cross-border-interbank-payments-system. [Accessed: Apr. 13, 2026].
+<span id="ref-5"></span>\[5\] Center for Strategic and International Studies, "Sanctions, SWIFT, and China's Cross-Border Interbank Payments System," *CSIS*, 2023. [Online]. Available: https://www.csis.org/analysis/sanctions-swift-and-chinas-cross-border-interbank-payments-system. [Accessed: Apr. 13, 2026].
