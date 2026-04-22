@@ -7,7 +7,7 @@ tags: ["palantir", "teknologi", "krig", "ai", "kolonialisme", "geopolitikk", "ga
 lesetid: 18
 ---
 
-Den 19. april 2026 publiserte Palantir eit 22-punkts manifest på X. Teksten hylla «hard power», avviste kulturell pluralisme og beklaga etterkrigstidas «kastrering» av Nazi-Tyskland [1]. Reaksjonen var avgrensa — nokre akademikarar og aktivistar, lite anna.
+Den 19. april 2026 publiserte Palantir eit 22-punkts manifest på X. Teksten hylla «hard power», avviste kulturell pluralisme og beklaga etterkrigstidas «kastrering» av Nazi-Tyskland [\[1\]](#ref-1). Reaksjonen var avgrensa — nokre akademikarar og aktivistar, lite anna.
 
 Det er freistande å avfeie dette som ein isolert provokasjon frå eksentriske milliardærar. Men teksten er samanhengande. Han har ein indre logikk. Og han vert omsett til praksis — i Gaza, i Iran, i Libanon, langs USAs sørlege grense. For å forstå kvifor dette skjer, og kvifor det ikkje er historisk nytt sjølv om det er teknologisk nytt, treng me eit teoriapparat som strekk seg lenger enn nyheitskommentaren.
 
@@ -15,7 +15,7 @@ Tre tenkjarar gjev oss det: Zygmunt Bauman, Hannah Arendt og Frantz Fanon. Dei s
 
 ## Bauman: Moderniteten som folkemord sin føresetnad
 
-Den polsk-britiske sosiologen Zygmunt Bauman skreiv i 1989 boka *Modernity and the Holocaust*, og tesen var provokatorisk: Holocaust var ikkje eit tilbakefall til barbariet, ikkje eit brot med moderniteten — det var eit produkt av han [2].
+Den polsk-britiske sosiologen Zygmunt Bauman skreiv i 1989 boka *Modernity and the Holocaust*, og tesen var provokatorisk: Holocaust var ikkje eit tilbakefall til barbariet, ikkje eit brot med moderniteten — det var eit produkt av han [\[2\]](#ref-2).
 
 Standardforklaringa er at Holocaust var noko som skjedde *med* jødane. Ein anomali. Eit utbrot av gamal antisemittisme som tilfeldigvis fekk statsmakt til rådvelde. Denne forklaringa er komfortabel fordi ho plasserer massedrapet utanfor det me reknar som normalhistoria til den siviliserte verda.
 
@@ -27,15 +27,15 @@ Byråkratiets grunnleggande eigenskapar — avstand mellom handling og konsekven
 
 Bauman bruker omgrepet *adiaphorisering* for å skildre dette — å gjere ein handling moralsk nøytral, å fjerne han frå det moralske universet. Det er ikkje at utøvarane vert vonde. Det er at handlingane deira vert reklassifiserte som moralsk irrelevante: tekniske operasjonar, administrative avgjerder, prosedyrar.
 
-Maven Smart System, Palantirs AI-målrettingssystem som er operativt i Gaza, genererer automatiserte juridiske grunngivingar for kvar einaste bombeaksjon i sanntid [5]. Dette er adiaphorisering som teknisk funksjon. Drapshandlinga er ikkje lenger ein moralsk handling som krev ein moralsk aktør — ho er ein prosedyre som krev godkjenning. Og godkjenninga tek 45 sekund.
+Maven Smart System, Palantirs AI-målrettingssystem som er operativt i Gaza, genererer automatiserte juridiske grunngivingar for kvar einaste bombeaksjon i sanntid [\[5\]](#ref-5). Dette er adiaphorisering som teknisk funksjon. Drapshandlinga er ikkje lenger ein moralsk handling som krev ein moralsk aktør — ho er ein prosedyre som krev godkjenning. Og godkjenninga tek 45 sekund.
 
 Bauman bruker òg hagebruksmetaforen gjentekne gonger: moderne folkemord er gartnaren som ryddar ugras for å byggje den perfekte hagen. Det handlar ikkje om hat. Det handlar om sosial ingeniørkunst — ein visjon om kva slags samfunn ein vil ha, og den logiske konsekvensen av å realisere han. Ugras er ikkje noko ein hatar. Det er noko ein fjernar.
 
-Alex Karp skriv i *The Technological Republic* om vestlege verdiar som overlegne og om kulturar som er «dysfunctional and regressive» [4]. Dette er ikkje eit nytt argument. Det er det same argumentet som batt det europeiske koloniseringsprosjektet saman: me er hageeigarane. Dei er ugraset. Og me har no betre verktøy enn nokon gong til å gjennomføre arbeidet.
+Alex Karp skriv i *The Technological Republic* om vestlege verdiar som overlegne og om kulturar som er «dysfunctional and regressive» [\[4\]](#ref-4). Dette er ikkje eit nytt argument. Det er det same argumentet som batt det europeiske koloniseringsprosjektet saman: me er hageeigarane. Dei er ugraset. Og me har no betre verktøy enn nokon gong til å gjennomføre arbeidet.
 
 ## Arendt: Det banale ondets algoritme
 
-Hannah Arendt var til stades i Jerusalem i 1961 då Adolf Eichmann stod til doms [3]. Eichmann hadde administrert transporten av millionar av jødar til utryddingsleirane. Arendt venta å møte eit monster. Ho fann ein kontormann.
+Hannah Arendt var til stades i Jerusalem i 1961 då Adolf Eichmann stod til doms [\[3\]](#ref-3). Eichmann hadde administrert transporten av millionar av jødar til utryddingsleirane. Arendt venta å møte eit monster. Ho fann ein kontormann.
 
 Det som slo Arendt var ikkje at Eichmann var vondsinna. Det var at han *ikkje tenkte*. Han snakka i klisjear. Han var karriereorientert, presis i sitt byråkratiske arbeid, og fullstendig ute av stand til å sjå verda frå nokon annan ståstad enn sin eigen plassering i systemet. Han drap ikkje av hat. Han drap fordi det var arbeidsoppgåva hans, og han ville gjere jobben sin godt.
 
@@ -47,25 +47,25 @@ Operatøren «godkjenner» ikkje eit drap. Han godkjenner ein prosess. Han klikk
 
 **Habermas og avvisinga av demokratisk legitimering**
 
-Karp bruker ein del av manifestet på å angripe sin tidlegare rettleiar Jürgen Habermas — den tyske filosofen som er mest kjend for teorien om kommunikativ rasjonalitet: at legitimt styre krev open, likeverdig, argumentasjonsbasert diskurs [1]. Habermas er eit direkte motstykke til alt Palantir byggjer. Å avvise han er ikkje tilfeldig. Det er å avvise ideen om at politiske avgjerder krev demokratisk legitimering overhovudet — å erklære at makta si eiga rasjonalitet er sjølvlegitimerande.
+Karp bruker ein del av manifestet på å angripe sin tidlegare rettleiar Jürgen Habermas — den tyske filosofen som er mest kjend for teorien om kommunikativ rasjonalitet: at legitimt styre krev open, likeverdig, argumentasjonsbasert diskurs [\[1\]](#ref-1). Habermas er eit direkte motstykke til alt Palantir byggjer. Å avvise han er ikkje tilfeldig. Det er å avvise ideen om at politiske avgjerder krev demokratisk legitimering overhovudet — å erklære at makta si eiga rasjonalitet er sjølvlegitimerande.
 
 Arendt åtvara om at det totalitære tenkjesettet ikkje forsvann med Hitler og Stalin. Det er, skreiv ho, «som sopp som spreier seg» i kulturen. Det ho truleg ikkje føresåg var at det ville ta algoritmisk form.
 
-Arendt skreiv òg kontroversielt om korleis jødiske råd (*Judenräte*) i okkuperte Aust-Europa samarbeidde med nazistane — ikkje av vondsinn, men fordi dei kontinuerleg vart sette i posisjonar der dei måtte velje mellom to vonde alternativ og valde det dei trudde var det minst vonde. Tarmous-saka frå Libanon er éin variant av den same strukturen: mannen fekk ei opplysning om at han burde forlate jorda han var på [8]. Han valde å verte verande. Han døydde. Systemet registrerte at han fekk eit val. Handlinga er juridisk dokumentert som ein varsla militær aksjon, ikkje eit vilkårleg drap. Det automatiserte juridiske systemet har gjort sitt arbeid.
+Arendt skreiv òg kontroversielt om korleis jødiske råd (*Judenräte*) i okkuperte Aust-Europa samarbeidde med nazistane — ikkje av vondsinn, men fordi dei kontinuerleg vart sette i posisjonar der dei måtte velje mellom to vonde alternativ og valde det dei trudde var det minst vonde. Tarmous-saka frå Libanon er éin variant av den same strukturen: mannen fekk ei opplysning om at han burde forlate jorda han var på [\[8\]](#ref-8). Han valde å verte verande. Han døydde. Systemet registrerte at han fekk eit val. Handlinga er juridisk dokumentert som ein varsla militær aksjon, ikkje eit vilkårleg drap. Det automatiserte juridiske systemet har gjort sitt arbeid.
 
 ## Fanon: Kolonialismen si eiga moralske logikk
 
-Frantz Fanon, den martinikanske psykiateren og FLN-aktivisten som skreiv *Les Damnés de la Terre* i 1961, var oppteken av noko anna enn Bauman og Arendt [6]. Han skreiv frå dei koloniserte sin ståstad, ikkje frå vitnet sin.
+Frantz Fanon, den martinikanske psykiateren og FLN-aktivisten som skreiv *Les Damnés de la Terre* i 1961, var oppteken av noko anna enn Bauman og Arendt [\[6\]](#ref-6). Han skreiv frå dei koloniserte sin ståstad, ikkje frå vitnet sin.
 
 For Fanon er den koloniale verda fundamentalt manikéisk: kolonistane og dei innfødde er ikkje berre i ein maktkonflikt — dei er plasserte i to ontologisk åtskilde kategoriar. Kolonisten ser ikkje den innfødde som eit fullt menneske. Det er ikkje nødvendigvis hat som driv dette. Det er ein strukturell logikk der den innføddes liv har ein annan verdi — eller inga verdi — innanfor systemets eiga rasjonalitet.
 
-FN-spesialrapportør Francesca Albanese dokumenterte i sin rapport frå 2024 korleis den israelske militærøkonomien systematisk set lågare verdi på palestinsk liv på ein måte som ikkje kan forklarast berre ved operasjonelle feil [9]. Det er ikkje berre likegyldigheit. Det er eit system som er designa for, og opererer ut frå, den systematiske nedvurderinga av visse liv.
+FN-spesialrapportør Francesca Albanese dokumenterte i sin rapport frå 2024 korleis den israelske militærøkonomien systematisk set lågare verdi på palestinsk liv på ein måte som ikkje kan forklarast berre ved operasjonelle feil [\[9\]](#ref-9). Det er ikkje berre likegyldigheit. Det er eit system som er designa for, og opererer ut frå, den systematiske nedvurderinga av visse liv.
 
 **Gaza som laboratorium — men ikkje eit nytt eitt**
 
 Fanon skreiv om korleis kolonimakta bruker si mest avanserte teknologi til å gjennomføre erobringa, og om korleis dei territoriane som er mest underlagde kolonialt herredøme vert testfelt for teknologiar som seinare vert eksporterte globalt. Det er ikkje ei ny innsikt at Gaza fungerer som teknologilaboratorium. Israels forsvarseksport er verdas fjerde største, og mykje av han vert marknadsført som «battle-tested» — noko som berre er mogleg fordi teknologien er prøvd ut på ein levande sivilbefolkning utan politisk representasjon og utan evne til å nekte å vere med i eksperimentet.
 
-+972 Magazine og Local Call sin Lavender-gjennomgang syner korleis AI-målrettingssystemet opererer i Gaza: algoritmisk klassifisering av «mål» ligg til grunn for aksjonar mot bustadbygg med heile familiar, med ein dokumentert godkjenningsprosess som er utforma for å minimere den tida ein menneskjeleg aktør bruker på kvar avgjerd [5]. Palantir er del av denne logikken. Dei testar. Dei skalerer. Dei eksporterer. Kontrakten med Pentagon, med ICE, med andre vestlege rettsstatsorgan — det er den same teknologien, kalibrert i Gaza, seld vidare som løysing på andre staters behov for klassifisering og kontroll.
++972 Magazine og Local Call sin Lavender-gjennomgang syner korleis AI-målrettingssystemet opererer i Gaza: algoritmisk klassifisering av «mål» ligg til grunn for aksjonar mot bustadbygg med heile familiar, med ein dokumentert godkjenningsprosess som er utforma for å minimere den tida ein menneskjeleg aktør bruker på kvar avgjerd [\[5\]](#ref-5). Palantir er del av denne logikken. Dei testar. Dei skalerer. Dei eksporterer. Kontrakten med Pentagon, med ICE, med andre vestlege rettsstatsorgan — det er den same teknologien, kalibrert i Gaza, seld vidare som løysing på andre staters behov for klassifisering og kontroll.
 
 **Kolonial humanisme som funksjonell fasade**
 
@@ -83,7 +83,7 @@ USA sine napalmbombar i Vietnam og Kambodsja, som drap hundretusental sivile, va
 
 Obama-administrasjonens droneprogram opna ein ny epoke der USA gjennomførte drapsaksjonar mot personar som aldri var identifiserte ved namn — berre ved åtferdsmønster. «Signature strikes»: du er på feil stad til feil tid med feil folk rundt deg. Du liknar på ein trussel. Det er nok. Det krev ikkje eit namn. Det krev ikkje ein dom. Det krev ein prosedyre og ein klassifisering.
 
-Maven Smart System er den neste iterasjonen. Dei tekniske stega er endra. Den politiske og moralske logikken er den same. *Military Times* dokumenterte korleis eit AI-målrettingssystem bidrog til eit åtak mot ein skule i Iran der born vart drepne [7]. Pentagon-talsfolk hevda systemet hadde operert innanfor gjeldande prosedyrar. Prosedyrane var følgde. Ingen var ansvarlege.
+Maven Smart System er den neste iterasjonen. Dei tekniske stega er endra. Den politiske og moralske logikken er den same. *Military Times* dokumenterte korleis eit AI-målrettingssystem bidrog til eit åtak mot ein skule i Iran der born vart drepne [\[7\]](#ref-7). Pentagon-talsfolk hevda systemet hadde operert innanfor gjeldande prosedyrar. Prosedyrane var følgde. Ingen var ansvarlege.
 
 Det som er nytt er ikkje at ei stormakt nyttar si mest avanserte teknologi til maktutøving. Det er at teknologien no er så kompleks at ingen einskildperson kan forstå heilskapen i kva som skjer — og at det produserer eit ansvarsvakuum som er institusjonelt, ikkje individuelt. Eit ansvarsvakuum som er bygd inn i sjølve arkitekturen. Det er det Palantir sel: ikkje berre teknologi, men ein struktur der ansvaret er fordelt så tynt at det forsvinn.
 
@@ -93,11 +93,11 @@ Klassisk fascisme — slik Mussolini og Hitler praktiserte det — var kjennetei
 
 Det som skjer no er det motsette. Selskapa — Palantir, Anduril, SpaceX, OpenAI — leverer sjølve avgjerdsarkitekturen for statleg valdsmonopol. Dei er ikkje instrument for statsmakta. Dei *er* statsmakta, i den grad statsmakt tyder evne til å identifisere, klassifisere og eliminere fiendar.
 
-Yanis Varoufakis sitt «technofeudalism»-omgrep fangar noko viktig her [10]: det er ikkje lenger kapitalisme i klassisk forstand, der eigaren av produksjonsmidla sel varer på ein marknad. Det er eit system der tilgang til fundamentale infrastrukturar — informasjon, kommunikasjon, mobilitet, tryggleik — er kontrollert av private aktørar som kan trekkje tilbake tilgangen og forme røyndomen for statar og einskildpersonar.
+Yanis Varoufakis sitt «technofeudalism»-omgrep fangar noko viktig her [\[10\]](#ref-10): det er ikkje lenger kapitalisme i klassisk forstand, der eigaren av produksjonsmidla sel varer på ein marknad. Det er eit system der tilgang til fundamentale infrastrukturar — informasjon, kommunikasjon, mobilitet, tryggleik — er kontrollert av private aktørar som kan trekkje tilbake tilgangen og forme røyndomen for statar og einskildpersonar.
 
 I dette bildet er Karp ikkje primært ein ideolog. Han er ein strukturell posisjon. Nokon ville fylt den posisjonen uansett. Det som er historisk er at posisjonen finst — at eit privat selskap kan levere kjernen i ein stats krigføring, og samstundes publisere sin eigen politiske doktrine utan at dette vert behandla som eit konstitusjonelt problem.
 
-Manifestet bør dessutan lesast som salsmateriell forkledd som ideologi. Kvart einaste punkt korresponderer med eit eksisterande Palantir-produkt eller ein eksisterande kontrakt [1]. Kritikken av kulturell pluralisme sel overvakingsteknologi til autoritære regjeringar. Argumentet for remilitarisering av Japan og Tyskland opnar nye marknader for våpenteknologi. Argumentet for universell verneplikt styrkjer legitimeringa av eit militærindustrielt kompleks som er avhengig av statleg etterspurnad. Ideologien *er* forretningsmodellen.
+Manifestet bør dessutan lesast som salsmateriell forkledd som ideologi. Kvart einaste punkt korresponderer med eit eksisterande Palantir-produkt eller ein eksisterande kontrakt [\[1\]](#ref-1). Kritikken av kulturell pluralisme sel overvakingsteknologi til autoritære regjeringar. Argumentet for remilitarisering av Japan og Tyskland opnar nye marknader for våpenteknologi. Argumentet for universell verneplikt styrkjer legitimeringa av eit militærindustrielt kompleks som er avhengig av statleg etterspurnad. Ideologien *er* forretningsmodellen.
 
 ## Anthropic og det strukturelle moralproblemets løysing
 
@@ -127,22 +127,22 @@ Det Bauman, Arendt og Fanon saman syner oss er at dette ikkje er historisk unikt
 
 ## Kjelder
 
-[1] Palantir Technologies, «22-punkts manifest,» *X (Twitter)*, 19. apr. 2026. [Primærkjelde — lenkje ikkje stadfesta.]
+<span id="ref-1"></span>\[1\] Palantir Technologies, «22-punkts manifest,» *X (Twitter)*, 19. apr. 2026. [Primærkjelde — lenkje ikkje stadfesta.]
 
-[2] Z. Bauman, *Modernity and the Holocaust*. Cambridge: Polity Press, 1989.
+<span id="ref-2"></span>\[2\] Z. Bauman, *Modernity and the Holocaust*. Cambridge: Polity Press, 1989.
 
-[3] H. Arendt, *Eichmann in Jerusalem: A Report on the Banality of Evil*. New York: Viking Press, 1963.
+<span id="ref-3"></span>\[3\] H. Arendt, *Eichmann in Jerusalem: A Report on the Banality of Evil*. New York: Viking Press, 1963.
 
-[4] A. Karp og N. Zamiska, *The Technological Republic: Hard Power, Soft Belief, and the Future of the West*. New York: Simon & Schuster, 2025.
+<span id="ref-4"></span>\[4\] A. Karp og N. Zamiska, *The Technological Republic: Hard Power, Soft Belief, and the Future of the West*. New York: Simon & Schuster, 2025.
 
-[5] Y. Kubovich og A. Hager, «A mass assassination factory: How Israel is using AI to generate targets in Gaza,» *+972 Magazine / Local Call*, 30. nov. 2023. [Online]. Available: https://www.972mag.com/mass-assassination-factory-israel-calculated-bombing-gaza/. [Accessed: 21. apr. 2026].
+<span id="ref-5"></span>\[5\] Y. Kubovich og A. Hager, «A mass assassination factory: How Israel is using AI to generate targets in Gaza,» *+972 Magazine / Local Call*, 30. nov. 2023. [Online]. Available: https://www.972mag.com/mass-assassination-factory-israel-calculated-bombing-gaza/. [Accessed: 21. apr. 2026].
 
-[6] F. Fanon, *Les Damnés de la Terre*. Paris: Maspero, 1961. Engelsk omsetjing: *The Wretched of the Earth*, omsett av C. Farrington. New York: Grove Press, 1963.
+<span id="ref-6"></span>\[6\] F. Fanon, *Les Damnés de la Terre*. Paris: Maspero, 1961. Engelsk omsetjing: *The Wretched of the Earth*, omsett av C. Farrington. New York: Grove Press, 1963.
 
-[7] C. Dickstein, «Deadly Iran school strike casts shadow over Pentagon's AI targeting push,» *Military Times*. [Lenkje ikkje stadfesta.]
+<span id="ref-7"></span>\[7\] C. Dickstein, «Deadly Iran school strike casts shadow over Pentagon's AI targeting push,» *Military Times*. [Lenkje ikkje stadfesta.]
 
-[8] «Lebanon man took Israeli call minutes before fatal drone strike,» *The New Arab*. [Lenkje ikkje stadfesta.]
+<span id="ref-8"></span>\[8\] «Lebanon man took Israeli call minutes before fatal drone strike,» *The New Arab*. [Lenkje ikkje stadfesta.]
 
-[9] F. Albanese, «Anatomy of a Genocide: Report of the Special Rapporteur on the situation of human rights in the Palestinian Territory occupied since 1967,» FN Generalforsamlinga, A/HRC/55/73, mars 2024. [Online]. Available: https://www.ohchr.org/en/documents/country-reports/ahrc5573-anatomy-genocide-report-special-rapporteur-situation-human. [Accessed: 21. apr. 2026].
+<span id="ref-9"></span>\[9\] F. Albanese, «Anatomy of a Genocide: Report of the Special Rapporteur on the situation of human rights in the Palestinian Territory occupied since 1967,» FN Generalforsamlinga, A/HRC/55/73, mars 2024. [Online]. Available: https://www.ohchr.org/en/documents/country-reports/ahrc5573-anatomy-genocide-report-special-rapporteur-situation-human. [Accessed: 21. apr. 2026].
 
-[10] Y. Varoufakis, *Technofeudalism: What Killed Capitalism*. London: Bodley Head, 2023.
+<span id="ref-10"></span>\[10\] Y. Varoufakis, *Technofeudalism: What Killed Capitalism*. London: Bodley Head, 2023.
