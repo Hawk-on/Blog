@@ -5,6 +5,7 @@ import GiscusKommentarar from '../components/GiscusKommentarar/GiscusKommentarar
 import ArtikkelMeta from '../components/ArtikkelMeta/ArtikkelMeta';
 import Innhaldstabell from '../components/Innhaldstabell/Innhaldstabell';
 import LeseProgresjon from '../components/LeseProgresjon/LeseProgresjon';
+import KjeldeInfo from '../components/ArtikkelMeta/KjeldeInfo';
 import { getCollection } from 'astro:content';
 
 interface Props {
@@ -80,9 +81,11 @@ const relaterteInnlegg = alleInnlegg
       </section>
     )}
 
-    <GiscusKommentarar client:only="react" />
+    <GiscusKommentarar client:only="react" key={aktuellSlug} />
 
-    <LeseProgresjon client:idle manueltLesetid={lesetid} />
+    <LeseProgresjon client:idle manueltLesetid={lesetid} key={aktuellSlug} />
+
+    <KjeldeInfo client:load />
 
     <nav class="artikkel-tilbake-nav">
       <a href={base} class="artikkel-tilbake-lenke" data-umami-event="artikkel-tilbake">
@@ -93,32 +96,55 @@ const relaterteInnlegg = alleInnlegg
 </Grunnoppsett>
 
 <script>
-  // Fotnote Preview Logikk
-  function initFotnotePreview() {
+  // Fotnote Preview og Kvalitets-logikk
+  function initKjeldeSystem() {
     const referansar = document.querySelectorAll('a[href^="#ref-"]');
+    const fargar = { 'A': '#10b981', 'B': '#3b82f6', 'C': '#f59e0b', 'D': '#ef4444' };
     
     referansar.forEach(ref => {
+      const targetId = ref.getAttribute('href')?.substring(1);
+      if (!targetId) return;
+      const targetSpan = document.getElementById(targetId);
+      if (!targetSpan) return;
+
+      // Hent kvalitet viss ho er definert i Markdown (t.d. data-kvalitet="A")
+      const kvalitet = targetSpan.getAttribute('data-kvalitet');
+      if (kvalitet && fargar[kvalitet as keyof typeof fargar]) {
+        // Legg til badge i sjølve teksten ved sidan av [N]
+        if (!ref.querySelector('.kjelde-badge')) {
+          const badge = document.createElement('span');
+          badge.className = 'kjelde-badge';
+          badge.style.backgroundColor = fargar[kvalitet as keyof typeof fargar];
+          badge.textContent = kvalitet;
+          badge.onclick = (e) => {
+            e.preventDefault();
+            window.dispatchEvent(new CustomEvent('opne-kjeldeinfo'));
+          };
+          ref.appendChild(badge);
+        }
+      }
+
+      // Hover preview logikk
       ref.addEventListener('mouseenter', (e) => {
-        const targetId = (e.currentTarget as HTMLAnchorElement).getAttribute('href')?.substring(1);
-        if (!targetId) return;
-
-        const targetSpan = document.getElementById(targetId);
-        if (!targetSpan) return;
-
-        // Referanseteksten ligg etter span-elementet i din Markdown-struktur
         const kjeldeTekst = targetSpan.nextSibling?.textContent || targetSpan.parentElement?.textContent?.split(']')[1] || '';
         if (!kjeldeTekst.trim()) return;
 
-        // Lag preview-boks
         const preview = document.createElement('div');
         preview.className = 'fotnote-preview';
-        preview.textContent = kjeldeTekst.trim();
         
-        // Posisjonering
+        // Legg til kvalitets-indikator i preview òg
+        if (kvalitet) {
+          const tittel = kvalitet === 'A' ? 'Høg etterrettelegheit' : kvalitet === 'B' ? 'God kvalitet' : kvalitet === 'C' ? 'Fagleg kjelde' : 'Ustadfesta';
+          preview.innerHTML = `<div style="display:flex; align-items:center; gap:0.5rem; margin-bottom:0.5rem; font-weight:bold; color:${fargar[kvalitet as keyof typeof fargar]}">
+            <span class="kjelde-badge" style="margin:0; background:${fargar[kvalitet as keyof typeof fargar]}">${kvalitet}</span> ${tittel}
+          </div>` + kjeldeTekst.trim();
+        } else {
+          preview.textContent = kjeldeTekst.trim();
+        }
+        
         const rect = (e.currentTarget as HTMLElement).getBoundingClientRect();
         preview.style.top = `${rect.top + window.scrollY - 10}px`;
         preview.style.left = `${rect.left + window.scrollX}px`;
-        
         document.body.appendChild(preview);
 
         const removePreview = () => {
@@ -147,10 +173,10 @@ const relaterteInnlegg = alleInnlegg
   }
 
   // Køyr ved oppstart og etter Astro-navigering
-  initFotnotePreview();
+  initKjeldeSystem();
   initScrollSpy();
-  document.addEventListener('astro:after-swap', () => {
-    initFotnotePreview();
+  document.addEventListener('astro:page-load', () => {
+    initKjeldeSystem();
     initScrollSpy();
   });
 </script>
@@ -188,7 +214,3 @@ const relaterteInnlegg = alleInnlegg
     margin-left: -0.6rem;
   }
 </style>
-;
-  }
-</style>
-/style>
