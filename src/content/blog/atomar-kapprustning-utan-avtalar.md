@@ -1,15 +1,14 @@
 ---
-layout: ../layouts/Artikkel.astro
 tittel: "Atomkapprustning utan avtalar"
 dato: "2026-04-14"
 ingress: "5. februar 2026 gjekk den siste juridiske grensa for verdas to største atomarsenal ut på dato. New START er borte. Ingen ny avtale er på plass. For fyrste gong sidan Cuba-krisa i 1962 stiller USA og Russland utan eit felles rammeverk — og ingen forhandlingar pågår."
-tags: ["geopolitikk", "atomvapen", "usa", "russland", "arms-control"]
+tags: ["geopolitikk", "kjernefysiske-vapen", "usa", "russland", "arms-control"]
 lesetid: 10
 ---
 
 5. februar 2026 gjekk den siste juridiske grensa for verdas to største atomarsenal ut på dato.
 
-New START-avtalen, som hadde avgrensa talet på utplasserte strategiske atomstridshover for USA og Russland til 1.550 kvar, er ikkje lenger gyldig [\[1\]](#ref-1). Ingen ny avtale er på plass. Ingen forhandlingar pågår. Og for fyrste gong sidan Cuba-krisa stiller dei to stormaktene med over 87 prosent av verdas atomvåpen utan eit formelt rammeverk for gjensidig kontroll.
+New START-avtalen, som hadde avgrensa talet på utplasserte kjernefysiske stridshovud kvar, er ikkje lenger gyldig [\[1\]](#ref-1). Ingen ny avtale er på plass. Ingen forhandlingar pågår. Og for fyrste gong sidan Cuba-krisa stiller dei to stormaktene med over 87 prosent av verdas kjernefysiske våpen utan eit formelt rammeverk for gjensidig kontroll.
 
 Dette er ikkje ein teknisk juridisk detalj. Det er eit strukturelt tryggleiksunderskot som vil prege global sikkerheitspolitikk i tiåra som kjem.
 
@@ -19,21 +18,21 @@ New START vart underteikna i 2010 under Obama og Medvedev og representerte ein v
 
 Det avtalen faktisk gav oss, var ikkje berre tak på tal. Det var *openheit*: obligatoriske inspeksjonar på kvarandre sine installasjonar, datautveksling om arsenalstorleik og obligatorisk varsling om rakettopp-skytingar. Alt dette fall bort då Russland i 2023 suspenderte si deltaking — og no, med avtalens formelle utlaup, er det rydda heilt bort [\[3\]](#ref-3).
 
-Russland hadde lagt opp til ei frivillig eittårig forlenging. Trump-administrasjonen viste liten interesse. Resultatet er at begge partar no er juridisk frie til å produsera og utplassera atomvåpen utan tak — og at inspeksjonsregimet som kompenserte for mangelen på gjensidig tillit, er borte [\[3\]](#ref-3).
+Russland hadde lagt opp til ei frivillig eittårig forlenging. Trump-administrasjonen viste liten interesse. Resultatet er at begge partar no er juridisk frie til å produsera og utplassera kjernefysiske våpen utan tak — og at inspeksjonsregimet som kompenserte for mangelen på gjensidig tillit, er borte [\[3\]](#ref-3).
 
-## 87 prosent av verdas atomvåpen: USA og Russland utan rammer
+## 87 prosent av verdas kjernefysiske våpen: USA og Russland utan rammer
 
 Sjølv under New START-regimet vart berre *utplasserte strategiske* vapen regulert. Dei totale arsenala var langt større: Russland reknar å ha om lag 5.459 atomstridshover totalt, USA om lag 5.177 [\[4\]](#ref-4). Til saman kontrollerer desse to statane nærare 87 prosent av alle kjernefysiske stridsmiddel på jorda.
 
 Dei resterande 13 prosentane er fordelte på Kina (om lag 500, og veksande), Frankrike og Storbritannia (om lag 290 og 225 kvar), og Pakistan, India, Israel og Nord-Korea.
 
-Det er eit asymmetrisk bilete: dei langt fleste atomvåpna ligg i to av verdas mest spente bilaterale tilhøve — og no utan juridiske grenser for kva dei kan produsera.
+Det er eit asymmetrisk bilete: dei langt fleste kjernefysiske våpna ligg i to av verdas mest spente bilaterale tilhøve — og no utan juridiske grenser for kva dei kan produsera.
 
 ## Openheit og tillit som strukturell ressurs
 
 Det som gjekk tapt med New START, er ikkje primært eit juridisk instrument — det er eit system for openheit.
 
-Atomavskrekking er eit spel der begge sider tek avgjerder basert på kva dei trur motparten har og vil gjera. Inspeksjonar og datautveksling er ikkje teikn på tillit — dei er eit kompensasjonsinstrument for *mangel* på tillit. Dei reduserer risikoen for feiltolking: om du veit kva motparten faktisk har, overestimerer du ikkje trugsmålet og overreagerer ikkje.
+Kjernefysisk avskrekking er eit spel der begge sider tek avgjerder basert på kva dei trur motparten har og vil gjera. Inspeksjonar og datautveksling er ikkje teikn på tillit — dei er eit kompensasjonsinstrument for *mangel* på tillit. Dei reduserer risikoen for feiltolking: om du veit kva motparten faktisk har, overestimerer du ikkje trugsmålet og overreagerer ikkje.
 
 Det finst no ingen slik mekanisme. Begge sider baserer sine strategiske kalkulasjonar på etterretningsestimat og spekulasjonar. Risikoen for misforståing, overreaksjon og utilsikta eskalering aukar strukturelt [\[5\]](#ref-5).
 
@@ -74,3 +73,4 @@ Kva veg vi er på, er det no ingen avtale som avgrensar — og ingen forhandling
 <span id="ref-5"></span>\[5\] Modern Diplomacy, "The Expiry of New START and the Signs of a Renewed Arms Race," *Modern Diplomacy*, Apr. 11, 2026. [Online]. Available: https://moderndiplomacy.eu/2026/04/11/the-expiry-of-new-start-and-the-signs-of-a-renewed-arms-race/. [Accessed: Apr. 14, 2026].
 
 <span id="ref-6"></span>\[6\] Washington Post, "U.S. and Russia's nuclear arms treaty has expired. What is New START?," *Washington Post*, Feb. 2026. [Online]. Available: https://www.washingtonpost.com/national-security/2026/02/04/us-russia-nuclear-arms-treaty-new-start/. [Accessed: Apr. 14, 2026].
+y-new-start/. [Accessed: Apr. 14, 2026].

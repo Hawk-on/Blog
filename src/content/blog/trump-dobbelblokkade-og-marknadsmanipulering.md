@@ -1,5 +1,4 @@
 ---
-layout: ../layouts/Artikkel.astro
 tittel: "Ingen gode val: Trump sin dobbelblokkade og marknadsmanipuleringas logikk"
 dato: "2026-04-12"
 ingress: "Sidan siste analyse har handelskonflikten teke ei farleg ny vending. Trump truar no med ei dobbelblokkade — samstundes mot Kina og globale oljeruter. Mønsteret liknar meir og meir på koordinert marknadsmanipulering. Og kva veg Trump snur, er vala hans dårlege."
@@ -13,7 +12,7 @@ Trump truar no med det som best kan kallast ei dobbelblokkade: ein samstundes es
 
 ## Kva er dobbelblokkaden?
 
-Trugslane kjem i to lag. For det første: USA varslar at dei vil innføre 145 prosent straffetoll på kinesiske varer om ikkje Beijing «normaliserer» handelsvilkåra etter amerikanske premissar [\[1\]](#ref-1). For det andre, og meir dramatisk: Washington truar med å nytta den amerikanske marinen til å handheva ein energiblokade rundt aktørar som handlar olje utanfor det dollarbaserte systemet — eit direkte svar på at Kina, India og fleire afrikanske statar har byrja kjøpa iransk olje i yuan og rupiar etter Hormuz-krisa.
+Trugslane kjem i to lag. For det fyrste: USA varslar at dei vil innføre 145 prosent straffetoll på kinesiske varer om ikkje Beijing «normaliserer» handelsvilkåra etter amerikanske premissar [\[1\]](#ref-1). For det andre, og meir dramatisk: Washington truar med å nytta den amerikanske marinen til å handheva ein energiblokade rundt aktørar som handlar olje utanfor det dollarbaserte systemet — eit direkte svar på at Kina, India og fleire afrikanske statar har byrja kjøpa iransk olje i yuan og rupiar etter Hormuz-krisa.
 
 Dobbelblokkaden er altså ein koordinert trugsel mot to frontar: handelsstraumen over Stillehavet og energistraumen gjennom Indiahavet. Strategisk er logikken tilsynelatande klar — presse Kina til å velja mellom Washington og Teheran. I praksis er det eit klassisk overrekk.
 

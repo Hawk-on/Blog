@@ -1,5 +1,4 @@
 ---
-layout: ../layouts/Artikkel.astro
 tittel: "Det digitale grunnfjellet sprekk: AI, kvantedata og slutten på kryptografisk tryggleik"
 dato: "2026-04-15"
 ingress: "Project Glasswing og Google sitt kvantestudie er ikkje berre to nyhendesaker frå april 2026. Dei er symptom på to parallelle strukturelle skifte som saman utfordrar heile infrastrukturen digital tryggleik er bygd på."
@@ -107,7 +106,7 @@ Post-kvantum-migrasjonen og AI-assistert sårbarheitsfunn er begge globale utfor
 
 ---
 
-*Glasswing er eit av dei første klare teikna på at AI-modellar har passert ein terskel i sårbarheitsfunn. Det er ei god nyheit for alle som ynskjer betre programvare — og ei urovekkjande nyheit for alle som har vore avhengige av at feila var for vanskelege å finne.*
+*Glasswing er eit av dei fyrste klare teikna på at AI-modellar har passert ein terskel i sårbarheitsfunn. Det er ei god nyheit for alle som ynskjer betre programvare — og ei urovekkjande nyheit for alle som har vore avhengige av at feila var for vanskelege å finne.*
 
 ## Ordliste
 

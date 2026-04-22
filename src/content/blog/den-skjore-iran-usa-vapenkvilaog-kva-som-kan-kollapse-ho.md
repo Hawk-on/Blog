@@ -1,6 +1,5 @@
 ---
-layout: ../layouts/Artikkel.astro
-tittel: "Den skjøre Iran-USA-våpenkvila og kva som kan kollapse ho"
+tittel: "Den skjøre Iran-USA-våpenkvila: Og kva som kan kollapse ho"
 dato: "2026-04-14"
 ingress: "To-vekers-pausen mellom USA og Iran er allereie broten av begge sider. Pakistan fekk dei to partane til bordet i Islamabad — men 21 timar med forhandlingar gav ingen avtale. Kva krevst for at kvila held, og kva er det som mest truleg vil riva ho sund?"
 tags: ["geopolitikk", "iran", "usa", "diplomati", "midtausten"]
@@ -9,7 +8,7 @@ lesetid: 11
 
 To-vekers-pausen mellom USA og Iran var knapt to dagar gamal då han byrja rakna.
 
-Bakgrunnen kjenner vi: USA og Israel gjennomførte eit koordinert luftangrep mot Iran 28. februar 2026 [\[1\]](#ref-1). Øvste leiar Khamenei vart drepen. Iranske installasjonar vart bomba. Og Iran svara slik dei alltid hadde varsla: dei stengde Hormuzstredet og sende rakettar og dronar mot israelske og amerikanske mål i regionen.
+Bakgrunnen kjenner me: USA og Israel gjennomførte eit koordinert luftangrep mot Iran 28. februar 2026 [\[1\]](#ref-1). Øvste leiar Khamenei vart drepen. Iranske installasjonar vart bomba. Og Iran svara slik dei alltid hadde varsla: dei stengde Hormuzstredet og sende rakettar og dronar mot israelske og amerikanske mål i regionen.
 
 Det Iran ikkje gjorde, var å gje opp. Det er det viktigaste faktum i ein analyse av kor skjør denne pausen er.
 
@@ -23,9 +22,9 @@ Hormuzstredet vart stengd — ikkje som eit impulsivt steg, men som ein gjennomt
 
 ## Islamabad-forhandlingane
 
-Det var Pakistan som brøt den diplomatiske isen. Islamabad har ei unik stilling: landet grensar til Iran, har nære band til Saudi-Arabia og Golfstatane, huser ingen amerikanske militærbasar, og er eit leiande muslimsk land utan å vera part i konflikten [\[3\]](#ref-3).
+Det var Pakistan som braut den diplomatiske isen. Islamabad har ei unik stilling: landet grensar til Iran, har nære band til Saudi-Arabia og Golfstatane, huser ingen amerikanske militærbasar, og er eit leiande muslimsk land utan å vera part i konflikten [\[3\]](#ref-3).
 
-11. april ankom USAs visepresident JD Vance, saman med Trumps spesialutsending Steve Witkoff og presidentens svigerson Jared Kushner, til Islamabad for direkte forhandlingar [\[4\]](#ref-4). Den iranske delegasjonen, leia av utanriksminister Abbas Araghchi og parlamentspresident Mohammad Bagher Ghalibaf, hadde kome tidlegare.
+11. april kom USAs visepresident JD Vance, saman med Trumps spesialutsending Steve Witkoff og presidentens svigerson Jared Kushner, til Islamabad for direkte forhandlingar [\[4\]](#ref-4). Den iranske delegasjonen, leia av utanriksminister Abbas Araghchi og parlamentspresident Mohammad Bagher Ghalibaf, hadde kome tidlegare.
 
 Talane vara i 21 timar. Dei enda utan ein avtale [\[5\]](#ref-5).
 
@@ -76,3 +75,4 @@ Det er lite som tyder på at Trump-administrasjonen fullt ut forstår kor asymme
 <span id="ref-5"></span>\[5\] Time, "Why the Iran-U.S. Peace Talks Failed," *Time*, Apr. 13, 2026. [Online]. Available: https://time.com/article/2026/04/13/iran-US-peace-talks-islamabad-war-nuclear/. [Accessed: Apr. 14, 2026].
 
 <span id="ref-6"></span>\[6\] Wikipedia, "8 April 2026 Lebanon attacks," *Wikipedia*, Apr. 2026. [Online]. Available: https://en.wikipedia.org/wiki/8_April_2026_Lebanon_attacks. [Accessed: Apr. 14, 2026].
+

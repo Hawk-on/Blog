@@ -1,9 +1,8 @@
 ---
-layout: ../layouts/Artikkel.astro
 tittel: "Når vaktaren sovnar i honningfella: Andrew Hugg og den kjernefysiske stormakta sitt indre forfall"
 dato: "2026-04-22"
 ingress: "Då Andrew Hugg, sjefen for US Army si avdeling for kjernefysisk og kjemisk tryggleik, lét seg forføra av ein «undercover»-journalist, avslørte han meir enn berre statsløyndomar. Han blottla den strukturelle erosjonen i det amerikanske tryggingsapparatet."
-tags: ["geopolitikk", "usa", "atomvapen", "iran", "kjemiske-vapen", "pentagon"]
+tags: ["geopolitikk", "usa", "kjernefysiske-vapen", "iran", "kjemiske-vapen", "pentagon"]
 lesetid: 10
 ---
 
@@ -12,10 +11,12 @@ lesetid: 10
 >
 > Innhaldet i sjølve lekkasjane (om kjemiske våpen og Iran) stammar frå skjulte opptak publiserte av O'Keefe Media Group (OMG). Dette reknast som **ustadfesta påstandar** frå ei kontroversiell kjelde med ein politisk agenda. Særleg merkbart er det at fleire medium som rapporterer om saka, som *Global Village Space*, i stor grad støttar seg på det russiske statskontrollerte mediehuset **RT** som kjelde [\[3\]](#ref-3). Pentagon har ikkje stadfesta sanninga i påstandane om operative planar eller hemmelege lager. Analysen under fokuserer på dei strukturelle konsekvensane av at ein slik lekkasje kan skje, uavhengig av om påstandane er faktiske eller ein del av ein koordinert informasjonsoperasjon.
 
-Då Andrew Hugg, sjefen for US Army si avdeling for atom- og kjemisk tryggleik, lét seg forføra av ein «undercover»-journalist frå O’Keefe Media Group, avslørte han meir enn berre statsløyndomar. Han blottla den strukturelle erosjonen i det amerikanske tryggingsapparatet, der personleg hybris og institusjonell overtyding kolliderer med ein ny geopolitisk røyndom. Saka er ikkje berre ei forteljing om eit einskildvis feilsteg; det er ein obduksjonsrapport over det moralske og disiplinære forfallet i eit imperium som ikkje lenger klarer å vakta sine eigne vaktarar.
+Då Andrew Hugg, sjefen for US Army si avdeling for kjernefysisk og kjemisk tryggleik, lét seg forføra av ein «undercover»-journalist frå O’Keefe Media Group, avslørte han meir enn berre statsløyndomar. Han blottla den strukturelle erosjonen i det amerikanske tryggingsapparatet, der personleg hybris og institusjonell overtyding kolliderer med ein ny geopolitisk røyndom. Saka er ikkje berre ei forteljing om eit einskildvis feilsteg; det er ein obduksjonsrapport over det moralske og disiplinære forfallet i eit imperium som ikkje lenger klarer å vakta sine eigne vaktarar.
 
 ### Det administrative hjartet av apokalypsen
-For å skjøna tyngda av Andrew Hugg si uvitande vedgåing, må ein skjøna kva kontoret hans faktisk gjer. Som *Branch Chief of Nuclear and Chemical Surety* [\[1\]](#ref-1) sat Hugg midt i det såkalla *Personnel Reliability Program* (PRP). Dette er det mest strenge tryggingsregimet i det amerikanske forsvaret, laga for å sikra at ingen med tilgang til atomvåpen eller kjemiske stridsmidlar er utsette for utpressing, kjenslemessig ubalanse eller ideologisk avvik.
+
+For å skjøna tyngda av Andrew Hugg si uvitande vedgåing, må ein skjøna kva kontoret hans faktisk gjer. Som *Branch Chief of Nuclear and Chemical Surety* [\[1\]](#ref-1) sat Hugg midt i det såkalla *Personnel Reliability Program* (PRP). Dette er det mest strenge tryggingsregimet i det amerikanske forsvaret, laga for å sikra at ingen med tilgang til kjernefysiske våpen eller kjemiske stridsmidlar er utsette for utpressing, kjenslemessig ubalanse eller ideologisk avvik.
+
 
 Sjølvmotseiinga er total: Mannen som hadde i oppgåve å vurdera om andre var mentalt og tryggingsmessig skikka til å handtera dommedagsvåpen, fall sjølv for den eldste spionasjetaktikken i historia — «honningfella». Gjennom ei rekkje dater på restaurantar i Washington D.C., der han trudde han var i ferd med å innleia ein romanse, tømde han seg for informasjon til ein journalist han skildra som «fjetrande» [\[2\]](#ref-2). 
 

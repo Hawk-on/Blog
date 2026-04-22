@@ -1,5 +1,4 @@
 ---
-layout: ../layouts/Artikkel.astro
 tittel: "Moderniteten sitt skjulte andlet: Palantir, AI-krig og den lange linja frå kolonialisme til techno-fascisme"
 dato: "2026-04-21"
 ingress: "Då Palantir den 19. april 2026 publiserte eit 22-punkts manifest som hylla «hard power», avviste kulturell pluralisme og beklaga etterkrigstidas «kastrering» av Nazi-Tyskland, møtte det avgrensa offentleg reaksjon. Det er ikkje nok å avfeie dette som ein provokasjon. Teksten er samanhengande, har ein indre logikk — og vert omsett til praksis i Gaza, Iran, Libanon og langs USAs sørlege grense."
@@ -7,9 +6,10 @@ tags: ["palantir", "teknologi", "krig", "ai", "kolonialisme", "geopolitikk", "ga
 lesetid: 18
 ---
 
-Den 19. april 2026 publiserte Palantir eit 22-punkts manifest på X. Teksten hylla «hard power», avviste kulturell pluralisme og beklaga etterkrigstidas «kastrering» av Nazi-Tyskland [\[1\]](#ref-1). Reaksjonen var avgrensa — nokre akademikarar og aktivistar, lite anna.
+Den 19. april 2026 publiserte Palantir eit 22-punkts manifest på X. Teksten hylla «hard power», avviste kulturell pluralisme og beklaga etterkrigstidas «kastrering» av Nazi-Tyskland [\[1\]](#ref-1). Reaksjonen var avgrensa — nokon akademikarar og aktivistar, lite anna.
 
 Det er freistande å avfeie dette som ein isolert provokasjon frå eksentriske milliardærar. Men teksten er samanhengande. Han har ein indre logikk. Og han vert omsett til praksis — i Gaza, i Iran, i Libanon, langs USAs sørlege grense. For å forstå kvifor dette skjer, og kvifor det ikkje er historisk nytt sjølv om det er teknologisk nytt, treng me eit teoriapparat som strekk seg lenger enn nyheitskommentaren.
+
 
 Tre tenkjarar gjev oss det: Zygmunt Bauman, Hannah Arendt og Frantz Fanon. Dei skreiv i ulike tiår, frå ulike ståstader, om ulike historiske fenomen. Men saman teiknar dei eit rammeverk som forklarar kvifor Palantirs prosjekt ikkje er eit avvik frå den liberale moderniteten — det er ein av moderniteten sine moglege konklusjonar.
 

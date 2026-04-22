@@ -2,18 +2,49 @@
 import '../styles/global.css';
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
+import { ViewTransitions } from 'astro:transitions';
 
 interface Props {
   tittel: string;
   beskriving?: string;
   erArtikkel?: boolean;
+  bilete?: string;
 }
 
-const { tittel, beskriving = 'Analysar av politikk, økonomi og teknologi.', erArtikkel = false } = Astro.props;
+const { 
+  tittel, 
+  beskriving = 'Analysar av politikk, økonomi og teknologi.', 
+  erArtikkel = false,
+  bilete = '/favicon-header.png'
+} = Astro.props;
+
 const base = import.meta.env.BASE_URL;
 const aktuellSti = Astro.url.pathname;
-const kanoniskUrl = new URL(aktuellSti, Astro.site).toString();
+const siteUrl = Astro.site ? Astro.site.toString() : 'https://hawk-on.github.io/Blog';
+const kanoniskUrl = new URL(aktuellSti, siteUrl).toString();
 const fullTittel = `${tittel} — hawk-on`;
+const bileteUrl = new URL(bilete.startsWith('http') ? bilete : `${base}${bilete}`, siteUrl).toString();
+
+const jsonLd = erArtikkel ? {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": tittel,
+  "description": beskriving,
+  "image": bileteUrl,
+  "author": {
+    "@type": "Person",
+    "name": "Håkon Hole Lønning",
+    "url": "https://github.com/hawk-on"
+  },
+  "url": kanoniskUrl,
+  "inLanguage": "nn-NO"
+} : {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "hawk-on",
+  "alternateName": "Håkon Hole Lønning Blogg",
+  "url": siteUrl
+};
 ---
 
 <!DOCTYPE html>
@@ -24,25 +55,31 @@ const fullTittel = `${tittel} — hawk-on`;
   <meta name="description" content={beskriving} />
   <title>{fullTittel}</title>
   <link rel="canonical" href={kanoniskUrl} />
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
   <meta property="og:title" content={fullTittel} />
   <meta property="og:description" content={beskriving} />
   <meta property="og:url" content={kanoniskUrl} />
   <meta property="og:type" content={erArtikkel ? 'article' : 'website'} />
+  <meta property="og:image" content={bileteUrl} />
   <meta property="og:locale" content="nn_NO" />
-  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content={fullTittel} />
   <meta name="twitter:description" content={beskriving} />
+  <meta name="twitter:image" content={bileteUrl} />
   <link rel="icon" type="image/x-icon" href={`${base}/favicon.ico`} />
   <link rel="icon" type="image/svg+xml" href={`${base}/favicon.svg`} />
   <link rel="alternate" type="application/rss+xml" title="RSS" href={`${base}/rss.xml`} />
   <script defer src="https://cloud.umami.is/script.js" data-website-id="fd43352d-8e75-4352-8f82-92eb8a269859"></script>
+  <ViewTransitions />
   <script is:inline>
-    (function() {
+    function setTema() {
       try {
         var t = localStorage.getItem('theme');
         if (t) document.documentElement.setAttribute('data-theme', t);
       } catch (e) {}
-    })();
+    }
+    setTema();
+    document.addEventListener('astro:after-swap', setTema);
   </script>
 </head>
 <body>

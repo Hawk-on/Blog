@@ -1,5 +1,4 @@
 ---
-layout: ../layouts/Artikkel.astro
 tittel: "Telenor og Myanmar: Reell sak, svekt parlamentarisk prosess"
 dato: "2026-04-14"
 ingress: "Stortinget granskar kva staten visste om Telenors datadeling med myanmarske styresmakter. Saka er reelt alvorleg — men granskingsprosessen ber preg av partipolitiske motiv som svekkjer det parlamentariske truverdet."

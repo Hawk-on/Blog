@@ -8,7 +8,7 @@ export function formaterDato(dato: string | Date | undefined, format: 'lang' | '
   const d = new Date(datoStr + 'T12:00:00');
   if (isNaN(d.getTime())) return datoStr;
 
-  return d.toLocaleDateString('nb-NO', format === 'lang'
+  return d.toLocaleDateString('nn-NO', format === 'lang'
     ? { year: 'numeric', month: 'long', day: 'numeric' }
     : { year: 'numeric', month: 'short', day: 'numeric' }
   );

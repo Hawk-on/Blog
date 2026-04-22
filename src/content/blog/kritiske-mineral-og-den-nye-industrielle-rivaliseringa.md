@@ -1,5 +1,4 @@
 ---
-layout: ../layouts/Artikkel.astro
 tittel: "Kritiske mineral og den nye industrielle rivaliseringa"
 dato: "2026-04-14"
 ingress: "Kina kontrollerer over 90 prosent av verdas prosesseringskapasitet for sjeldne jordmetall. Eksportkontrollar er vorte eit geopolitisk våpen. Og staten er tilbake som aktiv industriell aktør — ikkje av ideologisk overtyding, men av strategisk tvang."
@@ -25,7 +24,7 @@ I desember 2023 forbaud Kina eksport av teknologi for utvinning og separasjon av
 
 Det som er nytt i 2025-kontrollane, er at Kina for fyrste gong tok i bruk eit instrument USA lenge har brukt mot Kina: den såkalla *foreign direct product rule* (FDPR) — eit krav om kinesisk godkjenning òg for produkt produserte *utanfor* Kina, dersom dei inneheld kontrollerte sjeldne jordmetall [\[3\]](#ref-3).
 
-Det er ei juridisk atomvåpen i handelspolitikken. Det forpliktar handelspartnarar og alliansepartnarar til anten å søkja kinesisk godkjenning eller å frigjera seg frå kinesisk innsatsfaktor — og fortel at «geopolitisk nøytralitet» over tid vil koste deg meir enn å ta stilling.
+Det er eit juridisk kjernefysisk våpen i handelspolitikken. Det forpliktar handelspartnarar og alliansepartnarar til anten å søkja kinesisk godkjenning eller å frigjera seg frå kinesisk innsatsfaktor — og fortel at «geopolitisk nøytralitet» over tid vil koste deg meir enn å ta stilling.
 
 Samstundes: Kina har i fleire rundar strategisk «pause»-kunngjort kontrollane — slappa dei av midlertidig — for å demonstrere at dei er eit forhandlingsinstrument, ikkje ei permanent utestenging [\[4\]](#ref-4). Det gjer dei endå meir effektive som pressmiddel. Uvissa er eit instrument i seg sjølv.
 

@@ -1,5 +1,4 @@
 ---
-layout: ../layouts/Artikkel.astro
 tittel: "Petrodollarens solnedgang: BRICS+ og framveksten av den multipolare finansarkitekturen"
 dato: "2026-04-24"
 ingress: "Det økonomiske fundamentet for det amerikanske hegemoniet står i 2026 overfor sin største strukturelle krise. Gjennom digitale betalingssystem og rekordhøge gullkjøp er BRICS+ i ferd med å demontera dollaren sitt monopol."

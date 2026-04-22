@@ -7,12 +7,14 @@
 
 ## Prosjektspesifikke instruksar
 - **Språk:** Nynorsk med kløyvd infinitiv (følg retningslinjene i `CLAUDE.md`).
+- **Terminologi:** Konsekvent bruk av `kjernefysiske våpen` (ikkje atomvåpen), `merksemd` (ikkje oppmerksomhet), `moglegheit` (ikkje mulighet).
 - **Kjeldekritikk:** Ver særleg merksam på geopolitisk kjelde-integritet (t.d. RT, OMG). Merka ustadfesta påstandar tydeleg.
-- **Arkitektur:** Astro 4.x, ingen JS-framework, editorial estetikk.
+- **Arkitektur:** Astro 4.x, Content Collections (src/content/blog/), ingen JS-framework, editorial estetikk.
 
 ## Verifisering og språkvask
 - Sjekk alltid mot `CLAUDE.md` sine språkvask-reglar før lagring/commit.
-- Unngå bokmålsformer (`første` → `fyrste`, `bli` → `verta`, `trekker` → `trekkjer`).
+- **Bokmålssnik:** Unngå `første` (→ `fyrste`), `bli` (→ `verta`), `trekker` (→ `trekkjer`), `mye` (→ `mykje`), `noen` (→ `nokon`), `blei` (→ `vart`), `blitt` (→ `vorte`), `bekrefta` (→ `stadfesta`), `ankom` (→ `kom`), `brøt` (→ `braut`).
+- **Kløyvd infinitiv:** Korte verb endar på -a (`vera`, `gjera`), lange verb på -e (`analysere`, `handtere`).
 - Bruk IEEE-stil for kjelder med fungerande, dagsaktuelle URL-ar.
 
 ## Arbeidsflyt

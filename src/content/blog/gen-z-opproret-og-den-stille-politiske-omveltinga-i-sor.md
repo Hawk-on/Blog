@@ -1,6 +1,5 @@
 ---
-layout: ../layouts/Artikkel.astro
-tittel: "Gen Z-opprøret og den stille politiske omveltinga i sør"
+tittel: "Gen Z-opprøret og den stille politiske omveltinga i Sør"
 dato: "2026-04-14"
 ingress: "Frå Bangladesh til Bulgaria har unge menneske med mobiltelefon og Discord-kanalar toppa regjeringar og rystt institusjonar. Det er ikkje tilfeldig, og det er ikkje over. Det er ein strukturell bølgje — og han er berre i starten."
 tags: ["geopolitikk", "demokrati", "ungdom", "globalt-sor", "bangladesh"]
@@ -47,7 +46,7 @@ Den arabiske våren i 2010–2012 fekk internasjonale mediabollar, vestleg støt
 
 Gen Z-rørslene av 2024–2025 er meir desentraliserte og vanskelegare å slukke. Dei brukar Discord og Telegram til å koordinere logistikk og dele taktikk over landegrensene [\[4\]](#ref-4). Dei er ikkje knytta til enkeltpersonar som kan kjøpast eller arresterast. Dei har inga einskild plattform som kan stengast ned.
 
-Men likskapane med den arabiske våren er at systemskifta uteblir. Amnesty International dokumenterte over hundre daude, 83 tvangsforsvinnande og tre tusen arrestasjonar mellom juni 2024 og juli 2025. I Bangladesh, Nepal og Madagaskar vart regjeringar oppløyste — men dei unge som kjempa for endring, er blitt sette til sida frå overgangsregjeringane [\[3\]](#ref-3).
+Men likskapane med den arabiske våren er at systemskifta uteblir. Amnesty International dokumenterte over hundre daude, 83 tvangsforsvinnande og tre tusen arrestasjonar mellom juni 2024 og juli 2025. I Bangladesh, Nepal og Madagaskar vart regjeringar oppløyste — men dei unge som kjempa for endring, er vorte sette til sida frå overgangsregjeringane [\[3\]](#ref-3).
 
 ## Alderspyramiden som politisk tikkande bombe
 
@@ -57,7 +56,7 @@ I Irak og Egypt har over halvparten av befolkninga ikkje fyllt 30 år. I store d
 
 Når digitale kanalar samstundes vert tilgjengelege for denne aldersgruppa — og når dei kan sjå at jamaldrane deira i Bangladesh og Kenya faktisk vann — vert den strategiske kalkylen for unge menneske endra.
 
-## Kva kan dette bli?
+## Kva kan dette verta?
 
 Ei strukturell lesing gjev ikkje grunn til enkel optimisme. Rørslene er reelle og kraftfulle, men dei opererer framleis innanfor statlege rammer dei ikkje kontrollerer. Dei kan toppa regjeringar; dei kan ikkje utan vidare overtaka statsmaskineriet.
 

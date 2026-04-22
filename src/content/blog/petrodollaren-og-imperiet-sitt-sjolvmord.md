@@ -1,5 +1,4 @@
 ---
-layout: ../layouts/Artikkel.astro
 tittel: "Petrodollaren og imperiet sitt sjølvmord"
 dato: "2026-04-08"
 ingress: "Korleis USA sin krig mot Iran kan kome til å øydelegge det finansielle grunnlaget for amerikansk hegemoni — og kvifor det var fullstendig føreseieleg."
@@ -9,7 +8,7 @@ lesetid: 12
 
 Det er noko djupt ironisk over det som utspeler seg i Persiabukta akkurat no.
 
-USA angreip Iran den 28. februar 2026 — under pågåande fredsforhandlingar, to dagar etter at Iran hadde einst om å ikkje lagre anrika uran, og trass i at USAs eigne etterretningstenester same år slo fast at Iran ikkje hadde eit aktivt atomvåpenprogram [\[1\]](#ref-1)[\[2\]](#ref-2).
+USA angreip Iran den 28. februar 2026 — under pågåande fredsforhandlingar, to dagar etter at Iran hadde einst om å ikkje lagre anrika uran, og trass i at USAs eigne etterretningstenester same år slo fast at Iran ikkje hadde eit aktivt kjernefysisk våpenprogram [\[1\]](#ref-1)[\[2\]](#ref-2).
 
 Konsekvensen? Iran stengde Hormuzstredet [\[3\]](#ref-3). Og med det utløyste dei det scenariet som kan kome til å avslutte den amerikanske dollarens globale dominans.
 

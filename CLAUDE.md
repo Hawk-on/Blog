@@ -9,6 +9,7 @@ Språk: Nynorsk med kløyvd infinitiv.
 - Astro 4.x
 - Statisk HTML/CSS, ingen JS-framework
 - GitHub Pages via GitHub Actions
+- Content Collections for blogginnlegg (src/content/blog/)
 - Markdown for innlegg
 
 ## Stilpreferansar
@@ -17,13 +18,19 @@ Språk: Nynorsk med kløyvd infinitiv.
 - Komponentnamn på norsk (Grunnoppsett, Artikkel osv.)
 
 ## Domene
-[ditt domene her]
+https://hawk-on.github.io/Blog
 
 ## Prioriterte oppgåver
-- [ ] RSS-feed (`/rss.xml`)
-- [ ] Sitemap
-- [ ] Dynamisk ruting med `[slug].astro`
-- [ ] Mørk modus
+- [x] RSS-feed med fulltekst og sanitisering (`/rss.xml`)
+- [x] Mørk modus (dark/light switch)
+- [x] Sitemap (`@astrojs/sitemap`)
+- [x] Innhaldssamlingar (Content Collections)
+- [x] Automatisk lesetid (200 ord/min)
+- [x] Automatisk utdrag (Excerpts) viss ingress manglar
+- [x] SEO-bilete og OpenGraph/JSON-LD (Schema.org)
+- [x] Dynamisk ruting (`[slug].astro`)
+- [x] Relaterte artiklar (basert på felles tags)
+- [ ] Biletoptimalisering med `astro:assets` (for artiklar)
 
 # Redaksjonell kontekst — CLAUDE.md tillegg
 
@@ -43,16 +50,18 @@ gjennom desse linser:
 
 ## Språkvask — sjekk alltid for dårlege omsetjingar
 Gå gjennom ferdig tekst og sjekk spesifikt for:
+- **Terminologi:** 'atomvåpen' -> 'kjernefysiske våpen', 'atomvåpenprogram' -> 'kjernefysisk våpenprogram', 'atom-' -> 'kjernefysisk'.
 - **Oppdikta ord:** Språkmodellen kan laga ord som høyrast nynorske ut ved å setja saman kjende morfem, men som ikkje eksisterer. Døme: «bombetoninga» → «bombinga», «nullsårbarheit» → `zero-day-sårbarheit`, «tverrplatform» → `cross-platform` eller `plattformuavhengig`. Sjekk særleg substantiv med uvanleg suffiks.
 - **Bokmålsformer som sniker seg inn:**
   - Fleirtal: `-ene` på hankjønn (→ `-ane`), `plattformer` (→ `plattformar`), `marknadene` (→ `marknadene`/`marknadane` — avhengig av kjønn)
   - Verb i presens: `trekker`/`trekk` (→ `trekkjer`), `bygger` (→ `byggjer`), `følger` (→ `følgjer`), `føretrekk` (→ `føretrekkjer`), `virkar` (→ `verkar`), `trengte` (→ `trong`)
-  - Preteritum/perfektum: `falt` (→ `fall`), `stjålet` (→ `stole`)
+  - Preteritum/perfektum: `falt` (→ `fall`), `stjålet` (→ `stole`), `blei` (→ `vart`), `blitt` (→ `vorte`), `bekrefta` (→ `stadfesta`), `ankom` (→ `kom`), `brøt` (→ `braut`)
   - Adjektiv: `bredare` (→ `breiare`), `beryktede` (→ `berykta`), `første` (→ `fyrste` for stilkonsistens på denne bloggen)
-  - Konjunksjonar: `verken...eller` (→ `korkje...eller`)
-  - Pronomen/substantiv: "datter" (→ "dotter"), "bli" (→ "verta"), "noen" (→ "nokon")
+  - Konjunksjonar: `verken...eller` (→ `korkje...eller`), `noen` (→ `nokon`)
+  - Pronomen/substantiv: "datter" (→ "dotter"), "bli" (→ "verta"), "mer" (→ "meir"), "mye" (→ "mykje"), "siden" (→ "sidan")
 - **Adjektivbøying:** `ein truverdige` (→ `ein truverdig`), `bilateralt avtale` (→ `bilateral avtale`)
-- **Feil infinitivsklasse:** lange verb (polysyllabiske) tek `-e`, ikkje `-a` — t.d. `invitara` → `invitere`
+- **Feil infinitivsklasse:** lange verb (polysyllabiske) tek `-e`, ikkje `-a` — t.d. `invitara` → `invitere`, `handtera`, `vurdera`.
+- **Kløyvd infinitiv:** Korte verb skal ha -a ending: `vera`, `gjera`, `koma`, `sova`, `gjennomføra`.
 - **Direkte omsetjingar frå engelsk** (calques) som ikkje er idiomatisk nynorsk:
   - "eksponere for" → "utsette for"
   - "adressere problemet" → "ta tak i problemet"
