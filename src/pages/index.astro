@@ -1,12 +1,11 @@
 ---
 import Grunnoppsett from '../layouts/Grunnoppsett.astro';
 import { formaterDato } from '../utils/dato';
-import ArtikkelListe from '../components/ArtikkelListe';
+import ArtikkelListe from '../components/ArtikkelListe/ArtikkelListe';
 
 const base = import.meta.env.BASE_URL;
 const innlegg = await Astro.glob('./*.md');
 
-// Førebu data for React-komponenten
 const sortertInnleggData = innlegg
   .sort((a, b) => new Date(b.frontmatter.dato).valueOf() - new Date(a.frontmatter.dato).valueOf())
   .map(i => ({

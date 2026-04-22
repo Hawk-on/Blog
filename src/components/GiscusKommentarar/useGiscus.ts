@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import { useState, useEffect } from 'react';
 
-const GiscusKommentarar: React.FC = () => {
+export const useGiscus = () => {
   const [theme, setTheme] = useState('preferred_color_scheme');
 
   useEffect(() => {
@@ -13,10 +13,8 @@ const GiscusKommentarar: React.FC = () => {
       setTheme(isDark ? 'dark' : 'light');
     };
 
-    // Initial sjekk
     oppdaterTema();
 
-    // Lytt på endringar i DOM-attributtar (for tema-brytaren)
     const observer = new MutationObserver((mutations) => {
       mutations.forEach((mutation) => {
         if (mutation.attributeName === 'data-theme') {
@@ -30,26 +28,5 @@ const GiscusKommentarar: React.FC = () => {
     return () => observer.disconnect();
   }, []);
 
-  return (
-    <section className="giscus-container">
-      <script
-        src="https://giscus.app/client.js"
-        data-repo="Hawk-on/Blog"
-        data-repo-id="R_kgDOMmE1eA"
-        data-category="Announcements"
-        data-category-id="DIC_kwDOMmE1eM4CiAsm"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme={theme}
-        data-lang="no"
-        crossOrigin="anonymous"
-        async
-      ></script>
-    </section>
-  );
+  return { theme };
 };
-
-export default GiscusKommentarar;

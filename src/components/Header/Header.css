@@ -1,0 +1,114 @@
+/* Header spesifikke stilar */
+.nettstad-header {
+  border-bottom: 1px solid var(--farge-border);
+  padding: 1.5rem 0;
+  background-color: var(--farge-bakgrunn);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nettstad-header__indre {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nettstad-header__logo {
+  font-family: var(--font-seriff);
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--farge-tekst);
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.nettstad-header__ikon {
+  width: 32px;
+  height: 32px;
+}
+
+.nettstad-nav {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.nettstad-nav a {
+  text-decoration: none;
+  color: var(--farge-tekst-lys);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: color 0.2s;
+}
+
+.nettstad-nav a:hover,
+.nettstad-nav a.aktiv {
+  color: var(--farge-tekst);
+}
+
+.tema-bryter {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--farge-tekst);
+  font-size: 1.2rem;
+  border-radius: 50%;
+  transition: background-color 0.2s;
+}
+
+.tema-bryter:hover {
+  background-color: var(--farge-bakgrunn-lys);
+}
+
+/* Mobil-meny logikk */
+.meny-bryter {
+  display: none;
+}
+
+.meny-bryter__input {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .meny-bryter {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+  }
+  
+  .meny-bryter__linje {
+    width: 25px;
+    height: 2px;
+    background-color: var(--farge-tekst);
+    transition: 0.3s;
+  }
+
+  .nettstad-nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    background-color: var(--farge-bakgrunn);
+    padding: 2rem;
+    border-bottom: 1px solid var(--farge-border);
+    gap: 1.5rem;
+  }
+
+  .meny-bryter__input:checked ~ nav .nettstad-nav {
+    display: flex;
+  }
+}

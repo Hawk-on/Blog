@@ -1,4 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { useArtikkelListe } from './useArtikkelListe';
+import './ArtikkelListe.css';
 
 interface Innlegg {
   tittel: string;
@@ -16,14 +18,7 @@ interface ArtikkelListeProps {
 }
 
 const ArtikkelListe: React.FC<ArtikkelListeProps> = ({ alleInnlegg, sorterteTags, base }) => {
-  const [aktivTag, setAktivTag] = useState('alle');
-
-  const filtrerteInnlegg = aktivTag === 'alle' 
-    ? alleInnlegg 
-    : alleInnlegg.filter(i => i.tags.includes(aktivTag));
-
-  const totalt = alleInnlegg.length;
-  const synlege = filtrerteInnlegg.length;
+  const { aktivTag, setAktivTag, filtrerteInnlegg, totalt, synlege } = useArtikkelListe(alleInnlegg);
 
   return (
     <>

@@ -1,10 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
-interface LeseProgresjonProps {
-  manueltLesetid?: number;
-}
-
-const LeseProgresjon: React.FC<LeseProgresjonProps> = ({ manueltLesetid }) => {
+export const useLeseProgresjon = (manueltLesetid?: number) => {
   const [prosent, setProsent] = useState(0);
   const [minIgjen, setMinIgjen] = useState(0);
   const [visTidIgjen, setVisTidIgjen] = useState(false);
@@ -34,7 +30,6 @@ const LeseProgresjon: React.FC<LeseProgresjonProps> = ({ manueltLesetid }) => {
       setVisTidIgjen(scrollPct > 0.02 && scrollPct < 0.98);
       setVisTilToppen(el.scrollTop > el.clientHeight * 0.5);
 
-      // Umami tracking
       milestones.forEach(m => {
         if (currentPct >= m && !reached.has(m)) {
           reached.add(m);
@@ -55,28 +50,11 @@ const LeseProgresjon: React.FC<LeseProgresjonProps> = ({ manueltLesetid }) => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  return (
-    <>
-      <div 
-        className="les-framgang" 
-        style={{ width: `${prosent}%` }} 
-        aria-hidden="true"
-      ></div>
-
-      <div className={`les-tid-igjen ${visTidIgjen ? 'synleg' : ''}`} aria-hidden="true">
-        {minIgjen} min igjen
-      </div>
-
-      <button 
-        type="button" 
-        className={`til-toppen ${visTilToppen ? 'synleg' : ''}`} 
-        onClick={scrollToTop}
-        aria-label="Til toppen"
-      >
-        ↑
-      </button>
-    </>
-  );
+  return {
+    prosent,
+    minIgjen,
+    visTidIgjen,
+    visTilToppen,
+    scrollToTop
+  };
 };
-
-export default LeseProgresjon;

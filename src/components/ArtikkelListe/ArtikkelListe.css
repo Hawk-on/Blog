@@ -1,0 +1,79 @@
+/* ArtikkelListe spesifikke stilar */
+.tag-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.tag--filter {
+  background: var(--farge-bakgrunn-lys);
+  border: 1px solid var(--farge-border);
+  cursor: pointer;
+}
+
+.tag--filter.aktiv {
+  background: var(--farge-hovud);
+  color: white;
+  border-color: var(--farge-hovud);
+}
+
+.tag-teljing {
+  font-size: 0.85rem;
+  color: var(--farge-tekst-lys);
+  margin-bottom: 2rem;
+  min-height: 1.2em;
+}
+
+.artikkel-liste {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.artikkel-kort {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 2rem;
+}
+
+.artikkel-kort__dato {
+  font-family: var(--font-seriff);
+  font-style: italic;
+  color: var(--farge-tekst-lys);
+  padding-top: 0.4rem;
+}
+
+.artikkel-kort__tittel {
+  margin: 0 0 0.75rem 0;
+  font-size: 1.75rem;
+}
+
+.artikkel-kort__tittel a {
+  text-decoration: none;
+  color: var(--farge-tekst);
+}
+
+.artikkel-kort__tittel a:hover {
+  color: var(--farge-hovud);
+}
+
+.artikkel-kort__ingress {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.artikkel-kort__tags {
+  display: flex;
+  gap: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .artikkel-kort {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+}

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import { useState, useEffect } from 'react';
 
 interface Heading {
   id: string;
@@ -6,13 +6,12 @@ interface Heading {
   tagName: string;
 }
 
-const Innhaldstabell: React.FC = () => {
+export const useInnhaldstabell = () => {
   const [headings, setHeadings] = useState<Heading[]>([]);
   const [activeId, setActiveId] = useState<string>('');
   const [isOpen, setIsOpen] = useState(true);
 
   useEffect(() => {
-    // Finn alle h2 og h3 i artikkelkroppen
     const kropp = document.getElementById('artikkel-kropp');
     if (!kropp) return;
 
@@ -29,12 +28,10 @@ const Innhaldstabell: React.FC = () => {
 
     setHeadings(mappedHeadings);
 
-    // Lukk som default på mobil
     if (window.matchMedia('(max-width: 768px)').matches) {
       setIsOpen(false);
     }
 
-    // IntersectionObserver for å markere aktiv seksjon
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -54,33 +51,16 @@ const Innhaldstabell: React.FC = () => {
     };
   }, []);
 
-  if (headings.length < 2) return null;
+  const scrollToSection = (id: string) => {
+    document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+    setActiveId(id);
+  };
 
-  return (
-    <details className="innhaldstabell" open={isOpen} onToggle={(e) => setIsOpen((e.target as HTMLDetailsElement).open)}>
-      <summary className="innhaldstabell__tittel">
-        <span>Innhald</span>
-        <span className="innhaldstabell__pil" aria-hidden="true">▾</span>
-      </summary>
-      <ol className="innhaldstabell__liste">
-        {headings.map((h) => (
-          <li key={h.id} className={h.tagName === 'H3' ? 'innhaldstabell__element--h3' : ''}>
-            <a 
-              href={`#${h.id}`} 
-              className={activeId === h.id ? 'is-aktiv' : ''}
-              onClick={(e) => {
-                e.preventDefault();
-                document.getElementById(h.id)?.scrollIntoView({ behavior: 'smooth' });
-                setActiveId(h.id);
-              }}
-            >
-              {h.text}
-            </a>
-          </li>
-        ))}
-      </ol>
-    </details>
-  );
+  return {
+    headings,
+    activeId,
+    isOpen,
+    setIsOpen,
+    scrollToSection
+  };
 };
-
-export default Innhaldstabell;
