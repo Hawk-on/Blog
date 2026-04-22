@@ -36,16 +36,16 @@ Men ei truverdig gransking krev ein truverdig prosess. Slik situasjonen no står
 
 ## Kjelder
 
-<span id="ref-1"></span>\[1\] Myanmar Now, "Telenor has shared sensitive customer data with military since the coup: industry sources," *Myanmar Now*, 2021. [Online]. Available: https://myanmar-now.org/en/news/telenor-has-shared-sensitive-customer-data-with-military-since-the-coup-industry-sources/. [Accessed: Apr. 14, 2026].
+<span id="ref-1" data-kvalitet="C" data-habilitet="3">C3</span>\[1\] Myanmar Now, "Telenor has shared sensitive customer data with military since the coup: industry sources," *Myanmar Now*, 2021. [Online]. Available: https://myanmar-now.org/en/news/telenor-has-shared-sensitive-customer-data-with-military-since-the-coup-industry-sources/. [Accessed: Apr. 14, 2026].
 
-<span id="ref-2"></span>\[2\] Business & Human Rights Resource Centre, "Norwegian Telecom Telenor allegedly shared personal data with Myanmar military junta," *BHRRC*, 2021. [Online]. Available: https://www.business-humanrights.org/en/latest-news/norwegian-telecom-telenor-allegedly-shared-personal-data-with-myanmar-military-junta/. [Accessed: Apr. 14, 2026].
+<span id="ref-2" data-kvalitet="B" data-habilitet="2">B2</span>\[2\] Business & Human Rights Resource Centre, "Norwegian Telecom Telenor allegedly shared personal data with Myanmar military junta," *BHRRC*, 2021. [Online]. Available: https://www.business-humanrights.org/en/latest-news/norwegian-telecom-telenor-allegedly-shared-personal-data-with-myanmar-military-junta/. [Accessed: Apr. 14, 2026].
 
-<span id="ref-3"></span>\[3\] SOMO, "Myanmar customers sue Telenor for sharing private data with military," *SOMO*, 2024. [Online]. Available: https://www.somo.nl/myanmar-customers-sue-telenor-for-sharing-private-data-with-military/. [Accessed: Apr. 14, 2026].
+<span id="ref-3" data-kvalitet="B" data-habilitet="2">B2</span>\[3\] SOMO, "Myanmar customers sue Telenor for sharing private data with military," *SOMO*, 2024. [Online]. Available: https://www.somo.nl/myanmar-customers-sue-telenor-for-sharing-private-data-with-military/. [Accessed: Apr. 14, 2026].
 
-<span id="ref-4"></span>\[4\] Altinget, "Enstemmig komité vil åpne kontrollsak om Telenors Myanmar-skandale," *Altinget*, des. 2025. [Online]. Available: https://www.altinget.no/artikkel/aapner-kontrollsak-om-telenors-myanmar-skandale. [Accessed: Apr. 14, 2026].
+<span id="ref-4" data-kvalitet="B" data-habilitet="2">B2</span>\[4\] Altinget, "Enstemmig komité vil åpne kontrollsak om Telenors Myanmar-skandale," *Altinget*, des. 2025. [Online]. Available: https://www.altinget.no/artikkel/aapner-kontrollsak-om-telenors-myanmar-skandale. [Accessed: Apr. 14, 2026].
 
-<span id="ref-5"></span>\[5\] VG, "Regjeringen sier nei til kontrollkomiteen: Vil ikke utlevere Telenor-dokumenter," *VG*, 2025. [Online]. Available: https://www.vg.no/nyheter/i/5p6jW1/regjeringen-sier-nei-til-kontrollkomiteen-vil-ikke-utlevere-telenor-dokumenter. [Accessed: Apr. 14, 2026].
+<span id="ref-5" data-kvalitet="B" data-habilitet="2">B2</span>\[5\] VG, "Regjeringen sier nei til kontrollkomiteen: Vil ikke utlevere Telenor-dokumenter," *VG*, 2025. [Online]. Available: https://www.vg.no/nyheter/i/5p6jW1/regjeringen-sier-nei-til-kontrollkomiteen-vil-ikke-utlevere-telenor-dokumenter. [Accessed: Apr. 14, 2026].
 
-<span id="ref-6"></span>\[6\] VG, "Stortingets kontrollkomite krever at regjeringen snur om Telenor-hemmelighold," *VG*, 2025. [Online]. Available: https://www.vg.no/nyheter/i/L4pebP/krever-at-regjeringen-snur-om-telenor-hemmelighold. [Accessed: Apr. 14, 2026].
+<span id="ref-6" data-kvalitet="B" data-habilitet="2">B2</span>\[6\] VG, "Stortingets kontrollkomite krever at regjeringen snur om Telenor-hemmelighold," *VG*, 2025. [Online]. Available: https://www.vg.no/nyheter/i/L4pebP/krever-at-regjeringen-snur-om-telenor-hemmelighold. [Accessed: Apr. 14, 2026].
 
-<span id="ref-7"></span>\[7\] VG, "Telenor-saken: Vil ikke instruere regjeringen om å levere dokumenter," *VG*, 2026. [Online]. Available: https://www.vg.no/nyheter/i/ArbrPz/telenor-saken-vil-ikke-instruere-regjeringen-om-aa-levere-dokumenter. [Accessed: Apr. 14, 2026].
+<span id="ref-7" data-kvalitet="B" data-habilitet="2">B2</span>\[7\] VG, "Telenor-saken: Vil ikke instruere regjeringen om å levere dokumenter," *VG*, 2026. [Online]. Available: https://www.vg.no/nyheter/i/ArbrPz/telenor-saken-vil-ikke-instruere-regjeringen-om-aa-levere-dokumenter. [Accessed: Apr. 14, 2026].

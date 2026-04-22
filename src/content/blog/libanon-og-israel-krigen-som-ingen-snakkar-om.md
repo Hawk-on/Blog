@@ -64,14 +64,14 @@ Det som vert klart frå 8. april er dette: krigen i Libanon er ikkje eit biprodu
 
 ## Kjelder
 
-<span id="ref-1"></span>\[1\] Wikipedia, "8 April 2026 Lebanon attacks," *Wikipedia*, Apr. 2026. [Online]. Available: https://en.wikipedia.org/wiki/8_April_2026_Lebanon_attacks. [Accessed: Apr. 14, 2026].
+<span id="ref-1" data-kvalitet="B" data-habilitet="1">B1</span>\[1\] Wikipedia, "8 April 2026 Lebanon attacks," *Wikipedia*, Apr. 2026. [Online]. Available: https://en.wikipedia.org/wiki/8_April_2026_Lebanon_attacks. [Accessed: Apr. 14, 2026].
 
-<span id="ref-2"></span>\[2\] Al Jazeera, "World reacts to 'brutal' Israeli attacks on Lebanon amid US-Iran ceasefire," *Al Jazeera*, Apr. 8, 2026. [Online]. Available: https://www.aljazeera.com/news/2026/4/8/world-reacts-to-brutal-israeli-attacks-on-lebanon-amid-us-iran-ceasefire. [Accessed: Apr. 14, 2026].
+<span id="ref-2" data-kvalitet="B" data-habilitet="3">B3</span>\[2\] Al Jazeera, "World reacts to 'brutal' Israeli attacks on Lebanon amid US-Iran ceasefire," *Al Jazeera*, Apr. 8, 2026. [Online]. Available: https://www.aljazeera.com/news/2026/4/8/world-reacts-to-brutal-israeli-attacks-on-lebanon-amid-us-iran-ceasefire. [Accessed: Apr. 14, 2026].
 
-<span id="ref-3"></span>\[3\] Wikipedia, "2024 Israel–Lebanon ceasefire agreement," *Wikipedia*, Nov. 2024. [Online]. Available: https://en.wikipedia.org/wiki/2024_Israel%E2%80%93Lebanon_ceasefire_agreement. [Accessed: Apr. 14, 2026].
+<span id="ref-3" data-kvalitet="B" data-habilitet="1">B1</span>\[3\] Wikipedia, "2024 Israel–Lebanon ceasefire agreement," *Wikipedia*, Nov. 2024. [Online]. Available: https://en.wikipedia.org/wiki/2024_Israel%E2%80%93Lebanon_ceasefire_agreement. [Accessed: Apr. 14, 2026].
 
-<span id="ref-4"></span>\[4\] PBS NewsHour, "Israel says Iran ceasefire doesn't apply to Lebanon, and strikes central Beirut without warning," *PBS News*, Apr. 2026. [Online]. Available: https://www.pbs.org/newshour/world/israel-says-iran-ceasefire-doesnt-apply-to-lebanon-and-strikes-central-beirut-without-warning. [Accessed: Apr. 14, 2026].
+<span id="ref-4" data-kvalitet="B" data-habilitet="2">B2</span>\[4\] PBS NewsHour, "Israel says Iran ceasefire doesn't apply to Lebanon, and strikes central Beirut without warning," *PBS News*, Apr. 2026. [Online]. Available: https://www.pbs.org/newshour/world/israel-says-iran-ceasefire-doesnt-apply-to-lebanon-and-strikes-central-beirut-without-warning. [Accessed: Apr. 14, 2026].
 
-<span id="ref-5"></span>\[5\] NPR, "Fragile U.S.-Iran ceasefire shows cracks as Israel pounds Lebanon," *NPR*, Apr. 8, 2026. [Online]. Available: https://www.npr.org/2026/04/08/nx-s1-5777291/iran-war-updates. [Accessed: Apr. 14, 2026].
+<span id="ref-5" data-kvalitet="B" data-habilitet="2">B2</span>\[5\] NPR, "Fragile U.S.-Iran ceasefire shows cracks as Israel pounds Lebanon," *NPR*, Apr. 8, 2026. [Online]. Available: https://www.npr.org/2026/04/08/nx-s1-5777291/iran-war-updates. [Accessed: Apr. 14, 2026].
 
-<span id="ref-6"></span>\[6\] Al Jazeera, "Israel rejects ceasefire with Hezbollah before Lebanon talks next week," *Al Jazeera*, Apr. 11, 2026. [Online]. Available: https://www.aljazeera.com/amp/news/2026/4/11/israel-rejects-ceasefire-with-hezbollah-ahead-of-lebanon-talks-next-week. [Accessed: Apr. 14, 2026].
+<span id="ref-6" data-kvalitet="B" data-habilitet="3">B3</span>\[6\] Al Jazeera, "Israel rejects ceasefire with Hezbollah before Lebanon talks next week," *Al Jazeera*, Apr. 11, 2026. [Online]. Available: https://www.aljazeera.com/amp/news/2026/4/11/israel-rejects-ceasefire-with-hezbollah-ahead-of-lebanon-talks-next-week. [Accessed: Apr. 14, 2026].

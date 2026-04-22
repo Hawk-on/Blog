@@ -15,10 +15,10 @@ Språk: Nynorsk med kløyvd infinitiv.
 **Hugs å oppdatere denne fila (CLAUDE.md), README.md og gemini.md kvar gong det vert gjort endringar i arkitektur, teknisk stack eller viktige funksjonar.**
 
 ## Kjeldekritikk-system (Obligatorisk)
-Alle artiklar skal bruka den to-dimensjonale kjelde-matrisa.
+Alle artiklar skal bruka den to-dimensjonale kjelde-matrisa. Systemet er no fullt implementert i alle nyare innlegg (april 2026).
 - **Kvalitet (A-D):** A: Institusjonell/Forskning, B: Kvalitetsmedia, C: OSINT/Teknisk, D: Ustadfesta/Lekkasje.
 - **Habilitet (1-3):** 1: Uavhengig, 2: Interessepart/Bias, 3: Partisisk/Statskontrollert.
-- **Markering:** Bruk `<span id="ref-N" data-kvalitet="X" data-habilitet="Y"></span>[N] Kjeldetekst...` nedst i artikkelen.
+- **Markering:** Bruk `<span id="ref-N" data-kvalitet="X" data-habilitet="Y">XY</span>[N] Kjeldetekst...` nedst i artikkelen.
 
 ## Kjeldebruk og referansar
 - **Verifisering:** Ved kvar endring eller nytt innlegg, skal alle nye kjelder verifiserast via `google_web_search`. Peik alltid til spesifikke ressursar, aldri berre landingssider.

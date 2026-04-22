@@ -41,12 +41,12 @@ Men trendlinjane er klare: dollarens del av globale reservar har falt frå 72 pr
 
 ## Kjelder
 
-<span id="ref-1"></span>\[1\] Arms Control Association, "Did Iran's Nuclear and Missile Programs Pose an Imminent Threat? No.," *Arms Control Association*, Mar. 2026. [Online]. Available: https://www.armscontrol.org/issue-briefs/2026-03/did-irans-nuclear-and-missile-programs-pose-imminent-threat-no. [Accessed: Apr. 13, 2026].
+<span id="ref-1" data-kvalitet="B" data-habilitet="2">B2</span>\[1\] Arms Control Association, "Did Iran's Nuclear and Missile Programs Pose an Imminent Threat? No.," *Arms Control Association*, Mar. 2026. [Online]. Available: https://www.armscontrol.org/issue-briefs/2026-03/did-irans-nuclear-and-missile-programs-pose-imminent-threat-no. [Accessed: Apr. 13, 2026].
 
-<span id="ref-2"></span>\[2\] PBS NewsHour, "America's spies say Iran wasn't building a nuclear weapon. Trump dismisses that assessment," *PBS News*, 2026. [Online]. Available: https://www.pbs.org/newshour/politics/americas-spies-say-iran-wasnt-building-a-nuclear-weapon-trump-dismisses-that-assessment. [Accessed: Apr. 13, 2026].
+<span id="ref-2" data-kvalitet="B" data-habilitet="2">B2</span>\[2\] PBS NewsHour, "America's spies say Iran wasn't building a nuclear weapon. Trump dismisses that assessment," *PBS News*, 2026. [Online]. Available: https://www.pbs.org/newshour/politics/americas-spies-say-iran-wasnt-building-a-nuclear-weapon-trump-dismisses-that-assessment. [Accessed: Apr. 13, 2026].
 
-<span id="ref-3"></span>\[3\] Encyclopaedia Britannica, "2026 Iran war," *Britannica*, 2026. [Online]. Available: https://www.britannica.com/event/2026-Iran-war. [Accessed: Apr. 13, 2026].
+<span id="ref-3" data-kvalitet="B" data-habilitet="1">B1</span>\[3\] Encyclopaedia Britannica, "2026 Iran war," *Britannica*, 2026. [Online]. Available: https://www.britannica.com/event/2026-Iran-war. [Accessed: Apr. 13, 2026].
 
-<span id="ref-4"></span>\[4\] U.S. Department of the Treasury and Government of Saudi Arabia, "Joint Commission on Economic Cooperation," *Gerald R. Ford Presidential Library*, Jun. 8, 1974; declassified 2016. [Online]. Available: https://www.fordlibrarymuseum.gov/library/document/0314/1552718.pdf. [Accessed: Apr. 13, 2026].
+<span id="ref-4" data-kvalitet="A" data-habilitet="3">A3</span>\[4\] U.S. Department of the Treasury and Government of Saudi Arabia, "Joint Commission on Economic Cooperation," *Gerald R. Ford Presidential Library*, Jun. 8, 1974; declassified 2016. [Online]. Available: https://www.fordlibrarymuseum.gov/library/document/0314/1552718.pdf. [Accessed: Apr. 13, 2026].
 
-<span id="ref-5"></span>\[5\] International Monetary Fund, "COFER — Currency Composition of Official Foreign Exchange Reserves," *IMF Data*, Oct. 2025. [Online]. Available: https://data.imf.org/en/datasets/IMF.STA:COFER. [Accessed: Apr. 13, 2026].
+<span id="ref-5" data-kvalitet="A" data-habilitet="1">A1</span>\[5\] International Monetary Fund, "COFER — Currency Composition of Official Foreign Exchange Reserves," *IMF Data*, Oct. 2025. [Online]. Available: https://data.imf.org/en/datasets/IMF.STA:COFER. [Accessed: Apr. 13, 2026].

@@ -77,18 +77,18 @@ Det er ein lekse det er verdt å ta med seg.
 
 ## Kjelder
 
-<span id="ref-1"></span>\[1\] CNN, "Hungary election 2026 results: Péter Magyar wins, Trump ally Viktor Orbán concedes landmark defeat," *CNN*, Apr. 12, 2026. [Online]. Available: https://www.cnn.com/2026/04/12/world/live-news/hungary-election-orban-magyar. [Accessed: Apr. 13, 2026].
+<span id="ref-1" data-kvalitet="B" data-habilitet="1">B1</span>\[1\] CNN, "Hungary election 2026 results: Péter Magyar wins, Trump ally Viktor Orbán concedes landmark defeat," *CNN*, Apr. 12, 2026. [Online]. Available: https://www.cnn.com/2026/04/12/world/live-news/hungary-election-orban-magyar. [Accessed: Apr. 13, 2026].
 
-<span id="ref-2"></span>\[2\] Wikipedia, "2026 Hungarian parliamentary election," *Wikipedia*, Apr. 2026. [Online]. Available: https://en.wikipedia.org/wiki/2026_Hungarian_parliamentary_election. [Accessed: Apr. 13, 2026].
+<span id="ref-2" data-kvalitet="B" data-habilitet="1">B1</span>\[2\] Wikipedia, "2026 Hungarian parliamentary election," *Wikipedia*, Apr. 2026. [Online]. Available: https://en.wikipedia.org/wiki/2026_Hungarian_parliamentary_election. [Accessed: Apr. 13, 2026].
 
-<span id="ref-3"></span>\[3\] EUobserver, "Who is Péter Magyar — the ex-regime insider who crushed Orbán?," *EUobserver*, Apr. 13, 2026. [Online]. Available: https://euobserver.com/210846/who-is-peter-magyar-the-ex-regime-insider-who-crushed-orban/. [Accessed: Apr. 13, 2026].
+<span id="ref-3" data-kvalitet="B" data-habilitet="2">B2</span>\[3\] EUobserver, "Who is Péter Magyar — the ex-regime insider who crushed Orbán?," *EUobserver*, Apr. 13, 2026. [Online]. Available: https://euobserver.com/210846/who-is-peter-magyar-the-ex-regime-insider-who-crushed-orban/. [Accessed: Apr. 13, 2026].
 
-<span id="ref-4"></span>\[4\] Al Jazeera, "Who is Peter Magyar, Hungary's new leader who trounced Viktor Orban?," *Al Jazeera*, Apr. 13, 2026. [Online]. Available: https://www.aljazeera.com/news/2026/4/13/who-is-peter-magyar-hungarys-new-leader-who-trounced-viktor-orban. [Accessed: Apr. 13, 2026].
+<span id="ref-4" data-kvalitet="B" data-habilitet="3">B3</span>\[4\] Al Jazeera, "Who is Peter Magyar, Hungary's new leader who trounced Viktor Orban?," *Al Jazeera*, Apr. 13, 2026. [Online]. Available: https://www.aljazeera.com/news/2026/4/13/who-is-peter-magyar-hungarys-new-leader-who-trounced-viktor-orban. [Accessed: Apr. 13, 2026].
 
-<span id="ref-5"></span>\[5\] European Policy Centre, "Hungary after Orbán: What Péter Magyar's victory means for the EU," *EPC*, Apr. 2026. [Online]. Available: https://www.epc.eu/publication/hungary-after-orban-what-peter-magyars-victory-means-for-the-eu/. [Accessed: Apr. 13, 2026].
+<span id="ref-5" data-kvalitet="B" data-habilitet="2">B2</span>\[5\] European Policy Centre, "Hungary after Orbán: What Péter Magyar's victory means for the EU," *EPC*, Apr. 2026. [Online]. Available: https://www.epc.eu/publication/hungary-after-orban-what-peter-magyars-victory-means-for-the-eu/. [Accessed: Apr. 13, 2026].
 
-<span id="ref-6"></span>\[6\] European Business Magazine, "Orbán Falls: What Magyar's Win Means for EU and Ukraine," *European Business Magazine*, Apr. 2026. [Online]. Available: https://europeanbusinessmagazine.com/business/business-hungary-election-magyar-orban-eu-funds-2026/. [Accessed: Apr. 13, 2026].
+<span id="ref-6" data-kvalitet="B" data-habilitet="2">B2</span>\[6\] European Business Magazine, "Orbán Falls: What Magyar's Win Means for EU and Ukraine," *European Business Magazine*, Apr. 2026. [Online]. Available: https://europeanbusinessmagazine.com/business/business-hungary-election-magyar-orban-eu-funds-2026/. [Accessed: Apr. 13, 2026].
 
-<span id="ref-7"></span>\[7\] Euronews, "Von der Leyen aims at 'swift' progress with Magyar. Here's what's still blocked," *Euronews*, Apr. 13, 2026. [Online]. Available: https://www.euronews.com/my-europe/2026/04/13/von-der-leyen-aims-at-swift-progress-with-magyar-heres-whats-still-blocked. [Accessed: Apr. 13, 2026].
+<span id="ref-7" data-kvalitet="B" data-habilitet="1">B1</span>\[7\] Euronews, "Von der Leyen aims at 'swift' progress with Magyar. Here's what's still blocked," *Euronews*, Apr. 13, 2026. [Online]. Available: https://www.euronews.com/my-europe/2026/04/13/von-der-leyen-aims-at-swift-progress-with-magyar-heres-whats-still-blocked. [Accessed: Apr. 13, 2026].
 
-<span id="ref-8"></span>\[8\] Atlantic Council, "Hungarian election could have implications for EU, US, Russia, and Ukraine," *Atlantic Council*, 2026. [Online]. Available: https://www.atlanticcouncil.org/blogs/ukrainealert/hungarian-election-could-have-implications-for-eu-us-russia-and-ukraine/. [Accessed: Apr. 13, 2026].
+<span id="ref-8" data-kvalitet="B" data-habilitet="2">B2</span>\[8\] Atlantic Council, "Hungarian election could have implications for EU, US, Russia, and Ukraine," *Atlantic Council*, 2026. [Online]. Available: https://www.atlanticcouncil.org/blogs/ukrainealert/hungarian-election-could-have-implications-for-eu-us-russia-and-ukraine/. [Accessed: Apr. 13, 2026].

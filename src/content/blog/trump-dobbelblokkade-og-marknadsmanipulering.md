@@ -66,12 +66,12 @@ Det strukturelle biletet er ikkje eit bilete av ein supermakt som spelar sjakk p
 
 ## Kjelder
 
-<span id="ref-1"></span>\[1\] China Briefing, "Trump's China Tariffs Raised to 145% — Overview and Trade Implications," *China Briefing*, Apr. 2025. [Online]. Available: https://www.china-briefing.com/news/trump-raises-tariffs-on-china-to-145-overview-and-trade-implications/. [Accessed: Apr. 13, 2026].
+<span id="ref-1" data-kvalitet="B" data-habilitet="2">B2</span>\[1\] China Briefing, "Trump's China Tariffs Raised to 145% — Overview and Trade Implications," *China Briefing*, Apr. 2025. [Online]. Available: https://www.china-briefing.com/news/trump-raises-tariffs-on-china-to-145-overview-and-trade-implications/. [Accessed: Apr. 13, 2026].
 
-<span id="ref-2"></span>\[2\] "The effects of Trump's trade war on U.S. financial markets," *Journal of International Money and Finance*, vol. 135, 2023. [Online]. Available: https://www.sciencedirect.com/science/article/abs/pii/S0261560623000438. [Accessed: Apr. 13, 2026].
+<span id="ref-2" data-kvalitet="A" data-habilitet="1">A1</span>\[2\] "The effects of Trump's trade war on U.S. financial markets," *Journal of International Money and Finance*, vol. 135, 2023. [Online]. Available: https://www.sciencedirect.com/science/article/abs/pii/S0261560623000438. [Accessed: Apr. 13, 2026].
 
-<span id="ref-3"></span>\[3\] Reuters, "Some trades ahead of Trump policy moves raise questions," *Reuters / Investing.com*, Apr. 2026. [Online]. Available: https://www.investing.com/news/stock-market-news/some-trades-ahead-of-trump-policy-moves-raise-questions-4606365. [Accessed: Apr. 13, 2026].
+<span id="ref-3" data-kvalitet="B" data-habilitet="1">B1</span>\[3\] Reuters, "Some trades ahead of Trump policy moves raise questions," *Reuters / Investing.com*, Apr. 2026. [Online]. Available: https://www.investing.com/news/stock-market-news/some-trades-ahead-of-trump-policy-moves-raise-questions-4606365. [Accessed: Apr. 13, 2026].
 
-<span id="ref-4"></span>\[4\] Citi Wealth, "Resilience and Potential Opportunity in a Higher-Volatility World: The Short and Long Q2 2026," *Citigroup*, Apr. 2026. [Online]. Available: https://marketinsights.citi.com/Market-Commentary/Short-and-Long/Q2-2026.html. [Accessed: Apr. 13, 2026].
+<span id="ref-4" data-kvalitet="B" data-habilitet="2">B2</span>\[4\] Citi Wealth, "Resilience and Potential Opportunity in a Higher-Volatility World: The Short and Long Q2 2026," *Citigroup*, Apr. 2026. [Online]. Available: https://marketinsights.citi.com/Market-Commentary/Short-and-Long/Q2-2026.html. [Accessed: Apr. 13, 2026].
 
-<span id="ref-5"></span>\[5\] Center for Strategic and International Studies, "Sanctions, SWIFT, and China's Cross-Border Interbank Payments System," *CSIS*, 2023. [Online]. Available: https://www.csis.org/analysis/sanctions-swift-and-chinas-cross-border-interbank-payments-system. [Accessed: Apr. 13, 2026].
+<span id="ref-5" data-kvalitet="B" data-habilitet="2">B2</span>\[5\] Center for Strategic and International Studies, "Sanctions, SWIFT, and China's Cross-Border Interbank Payments System," *CSIS*, 2023. [Online]. Available: https://www.csis.org/analysis/sanctions-swift-and-chinas-cross-border-interbank-payments-system. [Accessed: Apr. 13, 2026].

@@ -33,18 +33,18 @@ I 2026 har Midtausten gått inn i ein æra av «mørkegrøn styring». Evna til 
 
 <span id="ref-1"></span>\[1\] Opinio Juris, "Water as a Weapon: Structural Punishment in Gaza," Jan. 2026. [Online]. Available: https://opiniojuris.org. [Accessed: 23. april 2026].
 
-<span id="ref-2"></span>\[2\] ReliefWeb, "Gaza's Hydrological Collapse: Early 2026 Report," UN OCHA, Feb. 2026. [Online]. Available: https://reliefweb.int/report/occupied-palestinian-territory/humanitarian-situation-update-101-gaza-strip.
+<span id="ref-2" data-kvalitet="A" data-habilitet="1"></span>\[2\] ReliefWeb, "Gaza's Hydrological Collapse: Early 2026 Report," UN OCHA, Feb. 2026. [Online]. Available: https://reliefweb.int/report/occupied-palestinian-territory/humanitarian-situation-update-101-gaza-strip.
 
-<span id="ref-3"></span>\[3\] OCHA OPT, "Water Scarcity and Displacement in the Jordan Valley," Mar. 2026. [Online]. Available: https://ochaopt.org. [Accessed: 23. april 2026].
+<span id="ref-3" data-kvalitet="A" data-habilitet="1"></span>\[3\] OCHA OPT, "Water Scarcity and Displacement in the Jordan Valley," Mar. 2026. [Online]. Available: https://ochaopt.org. [Accessed: 23. april 2026].
 
-<span id="ref-4"></span>\[4\] Hewar Iraq, "The Impact of Turkish Dams on Tigris Flow Rates," Feb. 2026. [Online]. Available: https://hewariraq.com. [Accessed: 23. april 2026].
+<span id="ref-4" data-kvalitet="C" data-habilitet="2"></span>\[4\] Hewar Iraq, "The Impact of Turkish Dams on Tigris Flow Rates," Feb. 2026. [Online]. Available: https://hewariraq.com. [Accessed: 23. april 2026].
 
-<span id="ref-5"></span>\[5\] Türkiye Today, "Implementing the Oil-for-Water Framework Agreement with Baghdad," Türkiye Today, Apr. 2026. [Online]. Available: https://www.turkiyetoday.com/business/turkiye-iraq-launch-oil-for-water-deal-amid-growing-regional-tensions-75432/.
+<span id="ref-5" data-kvalitet="B" data-habilitet="3"></span>\[5\] Türkiye Today, "Implementing the Oil-for-Water Framework Agreement with Baghdad," Türkiye Today, Apr. 2026. [Online]. Available: https://www.turkiyetoday.com/business/turkiye-iraq-launch-oil-for-water-deal-amid-growing-regional-tensions-75432/.
 
-<span id="ref-6"></span>\[6\] Save the Tigris, "Iranian River Diversion: A Threat to Regional Stability," 2025. [Online]. Available: https://savethetigris.org. [Accessed: 23. april 2026].
+<span id="ref-6" data-kvalitet="C" data-habilitet="2"></span>\[6\] Save the Tigris, "Iranian River Diversion: A Threat to Regional Stability," 2025. [Online]. Available: https://savethetigris.org. [Accessed: 23. april 2026].
 
-<span id="ref-7"></span>\[7\] The Guardian, "The Basra Water Crisis and Upstream Politics," Archive/Update 2026. [Online]. Available: https://theguardian.com. [Accessed: 23. april 2026].
+<span id="ref-7" data-kvalitet="B" data-habilitet="3"></span>\[7\] The Guardian, "The Basra Water Crisis and Upstream Politics," Archive/Update 2026. [Online]. Available: https://theguardian.com. [Accessed: 23. april 2026].
 
-<span id="ref-8"></span>\[8\] Resilience.org, "Tehran's Sinking Infrastructure: Aquifer Depletion in 2026," Nov. 2025. [Online]. Available: https://resilience.org. [Accessed: 23. april 2026].
+<span id="ref-8" data-kvalitet="C" data-habilitet="2"></span>\[8\] Resilience.org, "Tehran's Sinking Infrastructure: Aquifer Depletion in 2026," Nov. 2025. [Online]. Available: https://resilience.org. [Accessed: 23. april 2026].
 
-<span id="ref-9"></span>\[9\] Irish Times, "Desalination Plants as Existential Targets in the Gulf," Apr. 2026. [Online]. Available: https://irishtimes.com. [Accessed: 23. april 2026].
+<span id="ref-9" data-kvalitet="B" data-habilitet="3"></span>\[9\] Irish Times, "Desalination Plants as Existential Targets in the Gulf," Apr. 2026. [Online]. Available: https://irishtimes.com. [Accessed: 23. april 2026].
