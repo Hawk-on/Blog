@@ -105,7 +105,7 @@ body {
   background: var(--kvit);
   color: var(--svart);
   font-family: var(--skrift-brød);
-  font-weight: 400; /* Strammare typografi for betre lesbarheit */
+  font-weight: 300; /* Tilbake til 300 for editorial eleganse */
   line-height: 1.62;
   -webkit-font-smoothing: antialiased;
 }
@@ -116,6 +116,7 @@ h1, h2, h3, h4 {
   font-weight: 700;
   line-height: 1.15;
   letter-spacing: -0.02em;
+  color: var(--svart);
 }
 
 h1 { font-size: clamp(2rem, 5vw, 3.5rem); }
@@ -203,6 +204,12 @@ hr {
   padding: 0 1.5rem;
 }
 
+.container--brei {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
 /* Header */
 .nettstad-header {
   border-bottom: 1px solid var(--lys-grå);
@@ -269,71 +276,6 @@ hr {
   gap: 1rem;
 }
 
-/* Blogg-listeside */
-.artikkel-liste {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 0;
-}
-
-.artikkel-kort {
-  display: grid;
-  grid-template-columns: 100px 1fr;
-  gap: 2rem;
-  padding: 2.2rem 0.75rem;
-  border-bottom: 1px solid var(--lys-grå);
-  align-items: start;
-  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-  margin: 0 -0.75rem;
-  border-radius: 4px;
-}
-
-.artikkel-kort:hover {
-  background-color: var(--lys-grå);
-  transform: translateX(6px);
-}
-
-.artikkel-kort:first-child { border-top: 1px solid var(--lys-grå); }
-
-.artikkel-kort__dato {
-  font-family: var(--skrift-kode);
-  font-size: 0.72rem;
-  color: var(--grå);
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  padding-top: 0.35rem;
-  line-height: 1.4;
-}
-
-.artikkel-kort__tittel {
-  font-family: var(--skrift-brei);
-  font-size: 1.3rem;
-  font-weight: 700;
-  line-height: 1.2;
-  margin-bottom: 0.5rem;
-}
-
-.artikkel-kort__tittel a {
-  text-decoration: none;
-  color: var(--svart);
-}
-
-.artikkel-kort__tittel a:hover { color: var(--raud); }
-
-.artikkel-kort__ingress {
-  font-size: 0.95rem;
-  color: var(--tekst-sekundar);
-  line-height: 1.6;
-  margin-bottom: 0.75rem;
-}
-
-.artikkel-kort__tags {
-  display: flex;
-  gap: 0.5rem;
-  flex-wrap: wrap;
-}
-
 .tag {
   font-family: var(--skrift-kode);
   font-size: 0.65rem;
@@ -350,18 +292,84 @@ hr {
   border-color: var(--grå);
 }
 
-/* Tag-filter strip */
-.tag-strip {
-  display: flex;
-  flex-wrap: nowrap;
-  gap: 0.4rem;
-  overflow-x: auto;
-  padding-bottom: 0.75rem;
-  margin-bottom: 0.25rem;
-  scrollbar-width: thin;
+/* Artikkel-side */
+.artikkel-header {
+  padding: 4rem 0 3rem;
+  border-bottom: 1px solid var(--lys-grå);
+  margin-bottom: 3rem;
 }
 
-/* Pagefind UI */
+.artikkel-header__meta {
+  font-family: var(--skrift-kode);
+  font-size: 0.72rem;
+  color: var(--grå);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 1.2rem;
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.artikkel-header__tittel {
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  line-height: 1.1;
+  margin-bottom: 1.2rem;
+}
+
+.artikkel-header__ingress {
+  font-size: 1.15rem;
+  color: var(--tekst-dempa);
+  font-style: italic;
+  line-height: 1.6;
+  max-width: 600px;
+}
+
+.artikkel-kropp {
+  padding-bottom: 4rem;
+}
+
+/* Forsida */
+.forsida-hero {
+  padding: 5rem 0 4rem;
+  border-bottom: 1px solid var(--lys-grå);
+  margin-bottom: 4rem;
+}
+
+.forsida-hero__kicker {
+  font-family: var(--skrift-kode);
+  font-size: 0.72rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--raud);
+  margin-bottom: 1.2rem;
+}
+
+.forsida-hero__tittel {
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  line-height: 1.05;
+  margin-bottom: 1.5rem;
+  max-width: 700px;
+}
+
+.forsida-hero__beskriving {
+  font-size: 1.1rem;
+  color: var(--tekst-sekundar);
+  max-width: 520px;
+  line-height: 1.7;
+}
+
+.seksjon-tittel {
+  font-family: var(--skrift-kode);
+  font-size: 0.72rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--grå);
+  margin-bottom: 0;
+  padding-bottom: 1rem;
+}
+
+/* Pagefind UI Tilpassing */
 .pagefind-container {
   margin-bottom: 3rem;
 }
@@ -386,8 +394,13 @@ hr {
 
 /* Responsiv */
 @media (max-width: 640px) {
-  .artikkel-kort {
-    grid-template-columns: 1fr;
-    gap: 0.5rem;
+  .forsida-hero {
+    padding: 2.5rem 0 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .artikkel-header {
+    padding: 2rem 0 1.5rem;
+    margin-bottom: 2rem;
   }
 }
