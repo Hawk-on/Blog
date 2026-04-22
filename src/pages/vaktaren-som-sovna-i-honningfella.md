@@ -2,13 +2,13 @@
 layout: ../layouts/Artikkel.astro
 tittel: "Når vaktaren sovnar i honningfella: Andrew Hugg og den kjernefysiske stormakta sitt indre forfall"
 dato: "2026-04-22"
-ingress: "Då Andrew Hugg, sjefen for US Army si avdeling for atom- og kjemisk tryggleik, lét seg forføra av ein «undercover»-journalist, avslørte han meir enn berre statsløyndomar. Han blottla den strukturelle erosjonen i det amerikanske tryggingsapparatet."
+ingress: "Då Andrew Hugg, sjefen for US Army si avdeling for kjernefysisk og kjemisk tryggleik, lét seg forføra av ein «undercover»-journalist, avslørte han meir enn berre statsløyndomar. Han blottla den strukturelle erosjonen i det amerikanske tryggingsapparatet."
 tags: ["geopolitikk", "usa", "atomvapen", "iran", "kjemiske-vapen", "pentagon"]
 lesetid: 10
 ---
 
 > **Redaksjonell merknad om kjelder og integritet:**
-> Dette innlegget byggjer på ei blanding av primær- og sekundærkjelder. Stadfestinga av at Andrew Hugg er suspendert og fjerna frå Pentagon er ei **primæropplysning** gjeve av offisielle talspersonar for US Army [6]. Hugg si faktiske stilling som sjef for atomtryggleik er verifisert gjennom arkivert tenestehistorikk. 
+> Dette innlegget byggjer på ei blanding av primær- og sekundærkjelder. Stadfestinga av at Andrew Hugg er suspendert og fjerna frå Pentagon er ei **primæropplysning** gjeve av offisielle talspersonar for US Army [\[6\]](#ref-6). Hugg si faktiske stilling som sjef for atomtryggleik er verifisert gjennom arkivert tenestehistorikk. 
 >
 > Innhaldet i sjølve lekkasjane (om kjemiske våpen og Iran) stammar frå skjulte opptak publiserte av O'Keefe Media Group (OMG). Dette reknast som **ustadfesta påstandar** frå ei kontroversiell kjelde med ein politisk agenda. Sjølv om det er verifisert at Hugg faktisk seier dette i opptaket, har Pentagon ikkje stadfesta sanninga i påstandane om operative planar eller hemmelege lager. Analysen under fokuserer på dei strukturelle konsekvensane av at ein slik lekkasje kan skje, uavhengig av om påstandane er faktiske eller desinformasjon.
 
