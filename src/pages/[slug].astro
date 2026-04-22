@@ -1,5 +1,5 @@
 ---
-import { getCollection } from 'astro:content';
+import { getCollection, render } from 'astro:content';
 import Artikkel from '../layouts/Artikkel.astro';
 import { reknaUtLesetid } from '../utils/tekst';
 
@@ -8,16 +8,16 @@ export async function getStaticPaths() {
     return import.meta.env.DEV || !data.utkast;
   });
   return blogEntries.map(entry => ({
-    params: { slug: entry.slug }, props: { entry },
+    params: { slug: entry.id }, props: { entry },
   }));
 }
 
 const { entry } = Astro.props;
-const { Content } = await entry.render();
+const { Content } = await render(entry);
 
 const frontmatter = {
   ...entry.data,
-  lesetid: entry.data.lesetid || reknaUtLesetid(entry.body)
+  lesetid: entry.data.lesetid || reknaUtLesetid(entry.body || '')
 };
 ---
 

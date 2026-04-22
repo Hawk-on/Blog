@@ -66,11 +66,11 @@ const relaterteInnlegg = alleInnlegg
         <h2 class="seksjon-tittel">Les meir om emnet</h2>
         <ul className="artikkel-liste">
           {relaterteInnlegg.map(innlegg => (
-            <li key={innlegg.slug} className="artikkel-kort artikkel-kort--sm">
+            <li key={innlegg.id} className="artikkel-kort artikkel-kort--sm">
               <div className="artikkel-kort__dato">{formaterDato(innlegg.data.dato)}</div>
               <div>
                 <h3 className="artikkel-kort__tittel">
-                  <a href={`${base}/${innlegg.slug}`}>{innlegg.data.tittel}</a>
+                  <a href={`${base}/${innlegg.id}`}>{innlegg.data.tittel}</a>
                 </h3>
               </div>
             </li>

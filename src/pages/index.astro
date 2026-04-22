@@ -15,10 +15,10 @@ const sortertInnleggData = innlegg
   .map(i => ({
     tittel: i.data.tittel,
     dato: i.data.dato,
-    ingress: i.data.ingress || genererUtdrag(i.body),
-    lesetid: i.data.lesetid || reknaUtLesetid(i.body),
+    ingress: i.data.ingress || genererUtdrag(i.body || ''),
+    lesetid: i.data.lesetid || reknaUtLesetid(i.body || ''),
     tags: i.data.tags ?? [],
-    slug: i.slug,
+    slug: i.id,
     datoFormatert: formaterDato(i.data.dato)
   }));
 

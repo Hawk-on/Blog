@@ -22,8 +22,8 @@ export async function GET(context: APIContext) {
       title: post.data.tittel,
       pubDate: post.data.dato,
       description: post.data.ingress || '',
-      link: `${base}/${post.slug}/`,
-      content: sanitizeHtml(parser.render(post.body)),
+      link: `${base}/${post.id}/`,
+      content: sanitizeHtml(parser.render(post.body || '')),
     })),
   });
 }

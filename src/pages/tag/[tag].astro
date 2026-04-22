@@ -40,7 +40,7 @@ const sortertInnlegg = innlegg.sort(
       {sortertInnlegg.map(innlegg => {
         const { tittel, dato, ingress, tags = [] } = innlegg.data;
         const datoFormatert = formaterDato(dato);
-        const slug = innlegg.slug;
+        const slug = innlegg.id;
         return (
           <li class="artikkel-kort">
             <div class="artikkel-kort__dato">{datoFormatert}</div>
