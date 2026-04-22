@@ -4,6 +4,7 @@ import Grunnoppsett from '../layouts/Grunnoppsett.astro';
 import { formaterDato } from '../utils/dato';
 import { reknaUtLesetid, genererUtdrag } from '../utils/tekst';
 import ArtikkelListe from '../components/ArtikkelListe/ArtikkelListe';
+import Sok from '../components/Sok/Sok';
 
 const base = import.meta.env.BASE_URL;
 const innlegg = await getCollection('blog', ({ data }) => {
