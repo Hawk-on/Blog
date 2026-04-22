@@ -1,14 +1,19 @@
 ---
 import Grunnoppsett from './Grunnoppsett.astro';
 import { formaterDato } from '../utils/dato';
-import GiscusKommentarar from '../components/GiscusKommentarar.astro';
+import GiscusKommentarar from '../components/GiscusKommentarar';
+import ArtikkelMeta from '../components/ArtikkelMeta';
+import Innhaldstabell from '../components/Innhaldstabell';
+import LeseProgresjon from '../components/LeseProgresjon';
 
 interface Props {
-  tittel: string;
-  dato: string | Date;
-  ingress?: string;
-  tags?: string[];
-  lesetid?: number;
+  frontmatter: {
+    tittel: string;
+    dato: string | Date;
+    ingress?: string;
+    tags?: string[];
+    lesetid?: number;
+  }
 }
 
 const { frontmatter } = Astro.props;
@@ -21,164 +26,26 @@ const datoFormatert = formaterDato(dato, 'lang');
 <Grunnoppsett tittel={tittel} beskriving={ingress} erArtikkel={true}>
   <div class="container">
     <header class="artikkel-header">
-      <div class="artikkel-header__meta">
-        <span>{datoFormatert}</span>
-        <span data-lesetid-auto>{lesetid ? `~${lesetid} min lesing` : ''}</span>
-        {tags.map(tag => <a href={`${base}/tag/${tag}`} class="tag" data-umami-event="tagg-klikk" data-umami-event-tag={tag}>{tag}</a>)}
-      </div>
+      <ArtikkelMeta 
+        client:load 
+        datoFormatert={datoFormatert} 
+        lesetid={lesetid} 
+        tags={tags} 
+        base={base} 
+      />
       <h1 class="artikkel-header__tittel">{tittel}</h1>
       {ingress && <p class="artikkel-header__ingress">{ingress}</p>}
     </header>
 
-    <details class="innhaldstabell" id="innhaldstabell" open>
-      <summary class="innhaldstabell__tittel">
-        <span>Innhald</span>
-        <span class="innhaldstabell__pil" aria-hidden="true">▾</span>
-      </summary>
-      <ol class="innhaldstabell__liste" id="innhaldstabell-liste"></ol>
-    </details>
+    <Innhaldstabell client:idle />
 
     <article class="artikkel-kropp" id="artikkel-kropp">
       <slot />
     </article>
 
-    <GiscusKommentarar />
+    <GiscusKommentarar client:only="react" />
 
-    <div class="les-framgang" id="les-framgang" aria-hidden="true"></div>
-
-    <div class="les-tid-igjen" id="les-tid-igjen" aria-hidden="true"></div>
-
-    <button type="button" class="til-toppen" id="til-toppen" aria-label="Til toppen">↑</button>
-
-    <script>
-      // Bygg innhaldstabell
-      (function() {
-        var headings = document.querySelectorAll('.artikkel-kropp h2, .artikkel-kropp h3');
-        var liste = document.getElementById('innhaldstabell-liste');
-        var toc = document.getElementById('innhaldstabell');
-        if (headings.length < 2) { toc.style.display = 'none'; return; }
-
-        // Lukk som default på smale skjermar
-        if (window.matchMedia('(max-width: 768px)').matches) {
-          toc.open = false;
-        }
-
-        var tocLenker = [];
-        headings.forEach(function(h, i) {
-          if (!h.id) h.id = 'seksjon-' + i;
-          var li = document.createElement('li');
-          li.className = h.tagName === 'H3' ? 'innhaldstabell__element--h3' : '';
-          var a = document.createElement('a');
-          a.href = '#' + h.id;
-          a.textContent = h.textContent;
-          a.dataset.malId = h.id;
-          li.appendChild(a);
-          liste.appendChild(li);
-          tocLenker.push(a);
-        });
-
-        // Aktiv seksjon via IntersectionObserver
-        if ('IntersectionObserver' in window) {
-          var synlege = new Map();
-          var obs = new IntersectionObserver(function(entries) {
-            entries.forEach(function(entry) {
-              synlege.set(entry.target.id, entry.isIntersecting ? entry.intersectionRatio : 0);
-            });
-            var beste = '';
-            var bestePos = Infinity;
-            headings.forEach(function(h) {
-              if (synlege.get(h.id)) {
-                var rect = h.getBoundingClientRect();
-                if (rect.top >= 0 && rect.top < bestePos) {
-                  bestePos = rect.top;
-                  beste = h.id;
-                }
-              }
-            });
-            if (!beste) {
-              // Fall tilbake: siste overskrift over visningsporten
-              for (var i = headings.length - 1; i >= 0; i--) {
-                if (headings[i].getBoundingClientRect().top < 100) {
-                  beste = headings[i].id;
-                  break;
-                }
-              }
-            }
-            tocLenker.forEach(function(a) {
-              if (a.dataset.malId === beste) {
-                a.classList.add('is-aktiv');
-              } else {
-                a.classList.remove('is-aktiv');
-              }
-            });
-          }, { rootMargin: '-80px 0px -60% 0px', threshold: [0, 0.5, 1] });
-          headings.forEach(function(h) { obs.observe(h); });
-        }
-      })();
-
-      // Auto-lesetid + progresjon + tilbake-til-toppen
-      (function() {
-        var milestones = [25, 50, 75, 100];
-        var reached = new Set();
-        var progressBar = document.getElementById('les-framgang');
-        var tilToppenBtn = document.getElementById('til-toppen');
-        var tidIgjenEl = document.getElementById('les-tid-igjen');
-
-        // Rekn ut lesetid frå tekst i artikkelkroppen (200 ord/min)
-        var kropp = document.getElementById('artikkel-kropp');
-        var ord = kropp ? (kropp.textContent || '').trim().split(/\s+/).length : 0;
-        var totalMin = Math.max(1, Math.round(ord / 200));
-
-        // Oppdater lesetid-visning i header om den har placeholder
-        var lesetidVisar = document.querySelector('[data-lesetid-auto]');
-        if (lesetidVisar) {
-          lesetidVisar.textContent = '~' + totalMin + ' min lesing';
-        }
-
-        function onScroll() {
-          var el = document.documentElement;
-          var scrollMax = el.scrollHeight - el.clientHeight;
-          if (scrollMax <= 0) return;
-          var scrollPct = el.scrollTop / scrollMax;
-          var pct = Math.round(scrollPct * 100);
-
-          progressBar.style.width = Math.min(scrollPct * 100, 100) + '%';
-
-          // Tid igjen
-          var minIgjen = Math.max(0, Math.round(totalMin * (1 - scrollPct)));
-          if (scrollPct > 0.02 && scrollPct < 0.98) {
-            tidIgjenEl.textContent = minIgjen + ' min igjen';
-            tidIgjenEl.classList.add('synleg');
-          } else {
-            tidIgjenEl.classList.remove('synleg');
-          }
-
-          if (el.scrollTop > el.clientHeight * 0.5) {
-            tilToppenBtn.classList.add('synleg');
-          } else {
-            tilToppenBtn.classList.remove('synleg');
-          }
-
-          for (var i = 0; i < milestones.length; i++) {
-            var m = milestones[i];
-            if (pct >= m && !reached.has(m)) {
-              reached.add(m);
-              try {
-                if (typeof umami !== 'undefined') {
-                  umami.track('les-djupn', { prosent: m, tittel: document.title });
-                }
-              } catch (e) {}
-            }
-          }
-        }
-
-        window.addEventListener('scroll', onScroll, { passive: true });
-
-        tilToppenBtn.addEventListener('click', function() {
-          window.scrollTo({ top: 0, behavior: 'smooth' });
-        });
-      })();
-    </script>
+    <LeseProgresjon client:idle manueltLesetid={lesetid} />
 
     <nav class="artikkel-tilbake-nav">
       <a href={base} class="artikkel-tilbake-lenke" data-umami-event="artikkel-tilbake">

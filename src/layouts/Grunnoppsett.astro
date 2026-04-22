@@ -1,5 +1,7 @@
 ---
 import '../styles/global.css';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 interface Props {
   tittel: string;
@@ -42,89 +44,18 @@ const fullTittel = `${tittel} — hawk-on`;
       } catch (e) {}
     })();
   </script>
-  <script is:inline define:vars={{ base: import.meta.env.BASE_URL }}>
-    (function() {
-      function oppdaterLogoikon() {
-        var img = document.getElementById('header-ikon');
-        if (!img) return;
-        var html = document.documentElement;
-        var theme = html.getAttribute('data-theme');
-        var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-        var isDark = theme === 'dark' || (!theme && prefersDark);
-        img.src = isDark
-          ? base + '/favicon-header-dark.png'
-          : base + '/favicon-header.png';
-      }
-      document.addEventListener('DOMContentLoaded', oppdaterLogoikon);
-      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', oppdaterLogoikon);
-      window.__oppdaterLogoikon = oppdaterLogoikon;
-    })();
-  </script>
 </head>
 <body>
 
   <a href="#hovudinnhald" class="hopp-til-innhald">Hopp til innhald</a>
 
-  <header class="nettstad-header">
-    <div class="container--brei">
-      <div class="nettstad-header__indre">
-        <a href={base} class="nettstad-header__logo">
-          <img src={`${base}/favicon-header.png`} alt="" class="nettstad-header__ikon" id="header-ikon" aria-hidden="true" />
-          hawk-on
-        </a>
-        <input type="checkbox" id="meny-bryter" class="meny-bryter__input" aria-label="Opne eller lukk meny" aria-controls="hovudnav" />
-        <label for="meny-bryter" class="meny-bryter" aria-hidden="true">
-          <span class="meny-bryter__linje"></span>
-          <span class="meny-bryter__linje"></span>
-          <span class="meny-bryter__linje"></span>
-        </label>
-        <nav id="hovudnav">
-          <ul class="nettstad-nav">
-            <li><a href={base} class={aktuellSti === base || aktuellSti === `${base}/` || (!aktuellSti.startsWith(`${base}/om`) && !aktuellSti.startsWith(`${base}/tag`)) ? 'aktiv' : ''}>Blogg</a></li>
-            <li><a href={`${base}/om`} class={aktuellSti === `${base}/om` ? 'aktiv' : ''}>Om</a></li>
-            <li><a href="https://hawk-on.github.io">CV</a></li>
-            <li><a href={`${base}/rss.xml`} data-umami-event="nav-rss">RSS</a></li>
-            <li>
-              <button type="button" class="tema-bryter" aria-label="Byt fargetema">
-                <span class="tema-bryter__sol">☀</span>
-                <span class="tema-bryter__mane">☽</span>
-              </button>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-  </header>
+  <Header client:load base={base} aktuellSti={aktuellSti} />
 
   <main id="hovudinnhald">
     <slot />
   </main>
 
-  <footer class="nettstad-footer">
-    <div class="container--brei">
-      <div class="nettstad-footer__indre">
-        <span>© {new Date().getFullYear()} hawk-on</span>
-        <span>Skrive på nynorsk · Bygd med <a href="https://astro.build">Astro</a></span>
-      </div>
-    </div>
-  </footer>
-
-  <script is:inline>
-    document.querySelector('.tema-bryter').addEventListener('click', function() {
-      var html = document.documentElement;
-      var current = html.getAttribute('data-theme');
-      var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      var next;
-      if (current === 'dark' || (!current && prefersDark)) {
-        next = 'light';
-      } else {
-        next = 'dark';
-      }
-      html.setAttribute('data-theme', next);
-      try { localStorage.setItem('theme', next); } catch (e) {}
-      if (window.__oppdaterLogoikon) window.__oppdaterLogoikon();
-    });
-  </script>
+  <Footer />
 
 </body>
 </html>
