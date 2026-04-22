@@ -5,13 +5,26 @@
   overflow-x: auto;
   gap: 0.5rem;
   margin-bottom: 2rem;
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.75rem;
   -webkit-overflow-scrolling: touch;
-  scrollbar-width: none; /* Skjul scrollbar i Firefox */
 }
 
+/* Stilfull scrollbar for tag-strip */
 .tag-strip::-webkit-scrollbar {
-  display: none; /* Skjul scrollbar i Chrome/Safari */
+  height: 4px;
+}
+
+.tag-strip::-webkit-scrollbar-track {
+  background: var(--farge-bakgrunn-lys);
+}
+
+.tag-strip::-webkit-scrollbar-thumb {
+  background: var(--farge-border);
+  border-radius: 2px;
+}
+
+.tag-strip::-webkit-scrollbar-thumb:hover {
+  background: var(--farge-hovud);
 }
 
 .tag--filter {
