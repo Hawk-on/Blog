@@ -54,8 +54,8 @@ Når vaktarane av dei mest øydeleggjande våpena i menneskesoga er så lettlurt
 
 <span id="ref-3"></span>\[3\] Global Village Space, "US nuclear official leaks sensitive info to undercover journalist (VIDEO)," *Global Village Space*, 20. april 2026. [Online]. Available: https://www.globalvillagespace.com/us-nuclear-official-leaks-sensitive-info-to-undercover-journalist-video/. [Accessed: 22. april 2026].
 
-<span id="ref-4"></span>\[4\] Hindustan Times, "Andrew Hugg: 5 things on US nuclear 'chief' allegedly escorted out of Pentagon after sharing sensitive information," *Hindustan Times*, 21. april 2026. [Online]. Available: https://www.hindustantimes.com/world-news/us-news/andrew-hugg-5-things-on-us-nuclear-chief-allegedly-escorted-out-of-pentagon-after-sharing-sensitive-information-101713698444444.html. [Accessed: 22. april 2026].
+<span id="ref-4"></span>\[4\] Hindustan Times, "Andrew Hugg: 5 things on US nuclear 'chief' allegedly escorted out of Pentagon after sharing sensitive information (VIDEO)," *Hindustan Times*, 21. april 2026. [Online]. Available: https://www.hindustantimes.com/world-news/us-news/andrew-hugg-5-things-on-us-nuclear-chief-allegedly-escorted-out-pentagon-after-sharing-sensitive-information-video-101776808038018.html. [Accessed: 22. april 2026].
 
-<span id="ref-5"></span>\[5\] Times Now, "Who Is Andrew Hugg? US Army Nuclear 'Chief' Escorted Out After James O'Keefe Expose," *Times Now News*, 21. april 2026. [Online]. Available: https://www.timesnownews.com/world/us-news/who-is-andrew-hugg-us-army-nuclear-chief-escorted-out-after-james-okeefe-expose-article-109484444. [Accessed: 22. april 2026].
+<span id="ref-5"></span>\[5\] Times Now, "Who Is Andrew Hugg? US Army Nuclear 'Chief' Escorted Out After James O'Keefe Expose," *Times Now News*, 21. april 2026. [Online]. Available: https://www.timesnownews.com/world/us/us-news/who-is-andrew-hugg-us-army-nuclear-chief-escorted-out-after-james-okeefe-expose-article-119845634. [Accessed: 22. april 2026].
 
 <span id="ref-6"></span>\[6\] Cynthia O. Smith (Army Spokeswoman), Official Statement regarding Andrew Hugg, released via *BNO News* and *Associated Press*, 21. april 2026.
