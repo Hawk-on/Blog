@@ -1,9 +1,9 @@
 /* Innhaldstabell spesifikke stilar */
 .innhaldstabell {
-  background-color: var(--farge-bakgrunn-lys);
-  border: 1px solid var(--farge-border);
-  padding: 1.5rem;
-  margin-bottom: 3rem;
+  background-color: var(--kvit);
+  border: 1px solid var(--lys-grå);
+  padding: 2rem;
+  margin: 2rem 0 4rem; /* Meir luft under til brødteksten */
 }
 
 .innhaldstabell__tittel {
@@ -16,6 +16,8 @@
   text-transform: uppercase;
   font-size: 0.85rem;
   letter-spacing: 0.1em;
+  font-family: var(--skrift-kode);
+  color: var(--grå);
 }
 
 .innhaldstabell__tittel::-webkit-details-marker {
@@ -37,16 +39,17 @@
 
 .innhaldstabell__liste a {
   text-decoration: none;
-  color: var(--farge-tekst-lys);
+  color: var(--tekst-sekundar);
   font-size: 0.95rem;
   transition: color 0.2s;
 }
 
 .innhaldstabell__liste a:hover,
-.innhaldstabell__liste a.is-aktiv {
-  color: var(--farge-hovud);
+.innhaldstabell__liste a.aktiv {
+  color: var(--raud) !important;
 }
 
 .innhaldstabell__element--h3 {
   padding-left: 1.5rem;
+  font-size: 0.9rem;
 }

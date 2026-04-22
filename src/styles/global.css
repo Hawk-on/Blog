@@ -326,6 +326,7 @@ hr {
 }
 
 .artikkel-kropp {
+  padding-top: 1rem;
   padding-bottom: 4rem;
 }
 
@@ -404,3 +405,4 @@ hr {
     margin-bottom: 2rem;
   }
 }
+
