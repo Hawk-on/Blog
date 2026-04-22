@@ -16,6 +16,7 @@
 - Sjekk mot `CLAUDE.md` sine språkvask-reglar før commit.
 - Unngå bokmål: `første` (-> `fyrste`), `bli` (-> `verta`), `mye` (-> `mykje`).
 - Bruk IEEE-stil for kjelder.
+- **Kjelde-krav:** Alle lenkjer må vera djupe/spesifikke (peika direkte til ressursen). Bruk `google_web_search` for å verifisera kvar enkelt URL før lagring. Aldri lenk berre til hovuddomenet.
 
 ## Arbeidsflyt
 - **Execution:** Plan → Act → Validate.

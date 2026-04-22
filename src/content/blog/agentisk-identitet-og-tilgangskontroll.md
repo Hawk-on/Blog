@@ -458,4 +458,4 @@ Me er tidleg i ein epoke der ikkje-menneskelege aktørar gradvis overtek oppgåv
 
 <span id="ref-14">[14]</span> GitHub, "About security hardening with OpenID Connect," *GitHub Docs*, 2024. [Online]. Available: https://docs.github.com/en/actions/security-for-github-actions/security-hardening-your-deployments/about-security-hardening-with-openid-connect. [Accessed: Apr. 21, 2026].
 
-<span id="ref-15">[15]</span> Google, "Agent2Agent Protocol (A2A)," *GitHub google/A2A*, Apr. 2025. [Online]. Available: https://github.com/google/A2A. [Accessed: Apr. 21, 2026].
+<span id="ref-15">[15]</span> Google, "Agent2Agent Protocol (A2A)," GitHub google/A2A, Apr. 2025. [Online]. Available: https://google.github.io/A2A. [Accessed: Apr. 21, 2026].

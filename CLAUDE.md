@@ -19,6 +19,12 @@ Språk: Nynorsk med kløyvd infinitiv.
 - **Søk:** `npm run build` køyrer `pagefind` etter Astro-bygginga.
 - **SEO:** JSON-LD for `BlogPosting` i `Grunnoppsett.astro`.
 
+## Kjeldebruk og referansar
+- **Obligatorisk rutine:** Ved kvar endring eller nytt innlegg, skal alle nye kjelder verifiserast via `google_web_search`. 
+- **Ingen landingssider:** Lenkjer skal alltid peika til den spesifikke ressursen (artikkel, rapport, dokument), aldri berre til hovuddomenet (t.d. peik til `reuters.com/nyheit-123`, ikkje berre `reuters.com`).
+- **IEEE-stil:** Bruk IEEE-referansestil for alle kjelder. Legg til inline-sitat [N] og nummerert liste under `## Kjelder`.
+- **Format:** `[N] Forfattar/org, "Tittel," *Publikasjon*, Dato. [Online]. Available: URL. [Accessed: dato].`
+
 ## Språkvask — sjekk alltid
 - **Terminologi:** 'atomvåpen' -> 'kjernefysiske våpen', 'oppmerksomhet' -> 'merksemd'.
 - **Kløyvd infinitiv:** Korte verb endar på -a (`vera`, `gjera`), lange på -e (`analysere`).
