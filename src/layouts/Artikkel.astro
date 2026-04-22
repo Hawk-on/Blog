@@ -90,3 +90,66 @@ const relaterteInnlegg = alleInnlegg
     </nav>
   </div>
 </Grunnoppsett>
+
+<script>
+  // Fotnote Preview Logikk
+  function initFotnotePreview() {
+    const referansar = document.querySelectorAll('a[href^="#ref-"]');
+    
+    referansar.forEach(ref => {
+      ref.addEventListener('mouseenter', (e) => {
+        const targetId = (e.currentTarget as HTMLAnchorElement).getAttribute('href')?.substring(1);
+        if (!targetId) return;
+
+        const kjeldeElement = document.getElementById(targetId);
+        if (!kjeldeElement) return;
+
+        // Lag preview-boks
+        const preview = document.createElement('div');
+        preview.className = 'fotnote-preview';
+        preview.innerHTML = kjeldeElement.innerHTML;
+        
+        // Posisjonering
+        const rect = (e.currentTarget as HTMLElement).getBoundingClientRect();
+        preview.style.top = `${rect.top + window.scrollY - 10}px`;
+        preview.style.left = `${rect.left + window.scrollX}px`;
+        
+        document.body.appendChild(preview);
+
+        // Fjern når musa forlet
+        const removePreview = () => {
+          preview.remove();
+          ref.removeEventListener('mouseleave', removePreview);
+        };
+        ref.addEventListener('mouseleave', removePreview);
+      });
+    });
+  }
+
+  // Køyr ved oppstart og etter Astro-navigering
+  initFotnotePreview();
+  document.addEventListener('astro:after-swap', initFotnotePreview);
+</script>
+
+<style is:global>
+  .fotnote-preview {
+    position: absolute;
+    transform: translateY(-100%);
+    background: var(--kvit);
+    border: 1px solid var(--lys-grå);
+    padding: 0.75rem 1rem;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    max-width: 350px;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    z-index: 1000;
+    pointer-events: none;
+    font-family: var(--skrift-brød);
+    border-top: 2px solid var(--raud);
+  }
+
+  html[data-theme="dark"] .fotnote-preview {
+    background: var(--kvit);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+  }
+</style>
