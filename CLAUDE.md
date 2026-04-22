@@ -14,16 +14,15 @@ Språk: Nynorsk med kløyvd infinitiv.
 ## Viktig mandat
 **Hugs å oppdatere denne fila (CLAUDE.md), README.md og gemini.md kvar gong det vert gjort endringar i arkitektur, teknisk stack eller viktige funksjonar.**
 
-## Arkitektur og konfigurasjon
-- **Innhald:** `src/content.config.ts` brukar den nye `glob`-loaderen.
-- **Søk:** `npm run build` køyrer `pagefind` etter Astro-bygginga.
-- **SEO:** JSON-LD for `BlogPosting` i `Grunnoppsett.astro`.
+## Kjeldekritikk-system (Obligatorisk)
+Alle artiklar skal bruka den to-dimensjonale kjelde-matrisa.
+- **Kvalitet (A-D):** A: Institusjonell/Forskning, B: Kvalitetsmedia, C: OSINT/Teknisk, D: Ustadfesta/Lekkasje.
+- **Habilitet (1-3):** 1: Uavhengig, 2: Interessepart/Bias, 3: Partisisk/Statskontrollert.
+- **Markering:** Bruk `<span id="ref-N" data-kvalitet="X" data-habilitet="Y"></span>[N] Kjeldetekst...` nedst i artikkelen.
 
 ## Kjeldebruk og referansar
-- **Obligatorisk rutine:** Ved kvar endring eller nytt innlegg, skal alle nye kjelder verifiserast via `google_web_search`. 
-- **Ingen landingssider:** Lenkjer skal alltid peika til den spesifikke ressursen (artikkel, rapport, dokument), aldri berre til hovuddomenet (t.d. peik til `reuters.com/nyheit-123`, ikkje berre `reuters.com`).
-- **IEEE-stil:** Bruk IEEE-referansestil for alle kjelder. Legg til inline-sitat [N] og nummerert liste under `## Kjelder`.
-- **Format:** `[N] Forfattar/org, "Tittel," *Publikasjon*, Dato. [Online]. Available: URL. [Accessed: dato].`
+- **Verifisering:** Ved kvar endring eller nytt innlegg, skal alle nye kjelder verifiserast via `google_web_search`. Peik alltid til spesifikke ressursar, aldri berre landingssider.
+- **IEEE-stil:** Bruk IEEE-referansestil for alle kjelder. Legg til inline-sitat [N] og den spesifikke span-taggen over.
 
 ## Språkvask — sjekk alltid
 - **Terminologi:** 'atomvåpen' -> 'kjernefysiske våpen', 'oppmerksomhet' -> 'merksemd'.
@@ -33,4 +32,3 @@ Språk: Nynorsk med kløyvd infinitiv.
 ## Git og Deploy
 - Push til `master` trigger auto-deploy.
 - Bruk `;` som separator i PowerShell.
-- Ved push-feil via proxy (127.0.0.1:62343), sjekk at Claude-appen er vaken.

@@ -8,15 +8,14 @@
 **Oppdater alltid denne fila, CLAUDE.md og README.md ved kvar endring i prosjektet.**
 
 ## Prosjektspesifikke instruksar
+- **Metodisk kjeldevurdering:** Ved kvar ny kjelde, gjer ein aktiv vurdering av Kvalitet (A-D) og Habilitet (1-3) basert på skalaen i `CLAUDE.md`. Deklarer dette alltid i kjelde-lista.
 - **Språk:** Nynorsk (kløyvd infinitiv). 'kjernefysiske våpen' konsekvent.
-- **Arkitektur:** Astro 6 (Content Layer), Pagefind, Giscus.
 - **Søk:** Bruk `data-pagefind-body` i `Artikkel.astro`.
 
 ## Verifisering
 - Sjekk mot `CLAUDE.md` sine språkvask-reglar før commit.
-- Unngå bokmål: `første` (-> `fyrste`), `bli` (-> `verta`), `mye` (-> `mykje`).
+- **Kjelde-krav:** Alle lenkjer må vera djupe (ingen landingssider). Verifiser kvar enkelt URL via `google_web_search`.
 - Bruk IEEE-stil for kjelder.
-- **Kjelde-krav:** Alle lenkjer må vera djupe/spesifikke (peika direkte til ressursen). Bruk `google_web_search` for å verifisera kvar enkelt URL før lagring. Aldri lenk berre til hovuddomenet.
 
 ## Arbeidsflyt
 - **Execution:** Plan → Act → Validate.
