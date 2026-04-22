@@ -87,7 +87,7 @@ body {
   color: var(--svart);
   font-family: var(--skrift-brød);
   font-weight: 300;
-  line-height: 1.7;
+  line-height: 1.62; /* Stramma opp frå 1.7 for betre flyt i lange essay */
   -webkit-font-smoothing: antialiased;
 }
 
@@ -279,18 +279,17 @@ hr {
   display: grid;
   grid-template-columns: 100px 1fr;
   gap: 2rem;
-  padding: 2rem 0;
+  padding: 2.2rem 0.75rem; /* Litt meir vertikal luft */
   border-bottom: 1px solid var(--lys-grå);
   align-items: start;
-  transition: background-color 0.2s;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
   margin: 0 -0.75rem;
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
   border-radius: 4px;
 }
 
 .artikkel-kort:hover {
   background-color: var(--lys-grå);
+  transform: translateX(6px); /* Subtil taktil feedback */
 }
 
 .artikkel-kort:first-child { border-top: 1px solid var(--lys-grå); }
