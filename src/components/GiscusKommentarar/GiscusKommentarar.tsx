@@ -28,7 +28,15 @@ const GiscusKommentarar: React.FC = () => {
     });
 
     observer.observe(document.documentElement, { attributes: true });
-    return () => observer.disconnect();
+    
+    return () => {
+      observer.disconnect();
+      // Manuell opprydding av Giscus-element for å hindra lekkasje ved navigering
+      const giscusFrame = document.querySelector('iframe.giscus-frame');
+      if (giscusFrame) giscusFrame.remove();
+      const giscusScript = document.querySelector('script[src*="giscus.app"]');
+      if (giscusScript) giscusScript.remove();
+    };
   }, []);
 
   if (!mounted) return null;
