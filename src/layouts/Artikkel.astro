@@ -117,21 +117,23 @@ const relaterteInnlegg = alleInnlegg
           b1.className = 'kjelde-badge';
           b1.style.backgroundColor = fargar[kvalitet as keyof typeof fargar];
           b1.textContent = kvalitet;
+          b1.onclick = (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            window.dispatchEvent(new CustomEvent('opne-kjeldeinfo'));
+          };
           ref.appendChild(b1);
         }
         if (habilitet) {
           const b2 = document.createElement('span');
           b2.className = 'kjelde-badge kjelde-badge--habilitet';
           b2.textContent = habilitet;
-          ref.appendChild(b2);
-        }
-        
-        // Gjer heile referansen klikkbar for å opna modal
-        if (kvalitet || habilitet) {
-          ref.addEventListener('click', (e) => {
+          b2.onclick = (e) => {
             e.preventDefault();
+            e.stopPropagation();
             window.dispatchEvent(new CustomEvent('opne-kjeldeinfo'));
-          });
+          };
+          ref.appendChild(b2);
         }
       }
 
