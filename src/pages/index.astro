@@ -45,6 +45,10 @@ const sorterteTags = [...tagFrekvens.entries()]
       </p>
     </section>
 
+    <div class="sok-seksjon">
+      <Sok client:idle />
+    </div>
+
     <ArtikkelListe 
       client:load 
       alleInnlegg={sortertInnleggData} 

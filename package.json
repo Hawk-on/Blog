@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "astro build && pagefind --site dist --base-path /Blog/pagefind",
     "preview": "astro preview"
   },
   "dependencies": {
@@ -15,6 +15,7 @@
     "@types/sanitize-html": "^2.16.1",
     "astro": "^6.1.9",
     "markdown-it": "^14.1.1",
+    "pagefind": "^1.5.2",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
     "sanitize-html": "^2.17.3"

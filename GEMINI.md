@@ -1,23 +1,22 @@
-# Gemini Kontekst
+# Gemini Kontekst: Blogg
 
 ## Kommunikasjonsmodus
-- **Caveman lite:** Respondér terse som ein smart hulebuar. Fjern artiklar (ein/ei/eit/det/den), fyllord (berre/eigentleg/faktisk) og høflegheitsfraser. Fragment er OK. Tekniske termar skal vera eksakte.
+- **Caveman lite:** Terse, ingen artiklar eller filler, nynorsk med kløyvd infinitiv.
 - **Mønster:** `[ting] [handling] [grunn]. [neste steg].`
-- **Standard:** Viss nivå ikkje er spesifisert, bruk `full` (meir ekstrem komprimering).
+
+## Viktig mandat
+**Oppdater alltid denne fila, CLAUDE.md og README.md ved kvar endring i prosjektet.**
 
 ## Prosjektspesifikke instruksar
-- **Språk:** Nynorsk med kløyvd infinitiv (følg retningslinjene i `CLAUDE.md`).
-- **Terminologi:** Konsekvent bruk av `kjernefysiske våpen` (ikkje atomvåpen), `merksemd` (ikkje oppmerksomhet), `moglegheit` (ikkje mulighet).
-- **Kjeldekritikk:** Ver særleg merksam på geopolitisk kjelde-integritet (t.d. RT, OMG). Merka ustadfesta påstandar tydeleg.
-- **Arkitektur:** Astro 4.x, Content Collections (src/content/blog/), ingen JS-framework, editorial estetikk.
+- **Språk:** Nynorsk (kløyvd infinitiv). 'kjernefysiske våpen' konsekvent.
+- **Arkitektur:** Astro 6 (Content Layer), Pagefind, Giscus.
+- **Søk:** Bruk `data-pagefind-body` i `Artikkel.astro`.
 
-## Verifisering og språkvask
-- Sjekk alltid mot `CLAUDE.md` sine språkvask-reglar før lagring/commit.
-- **Bokmålssnik:** Unngå `første` (→ `fyrste`), `bli` (→ `verta`), `trekker` (→ `trekkjer`), `mye` (→ `mykje`), `noen` (→ `nokon`), `blei` (→ `vart`), `blitt` (→ `vorte`), `bekrefta` (→ `stadfesta`), `ankom` (→ `kom`), `brøt` (→ `braut`).
-- **Kløyvd infinitiv:** Korte verb endar på -a (`vera`, `gjera`), lange verb på -e (`analysere`, `handtere`).
-- Bruk IEEE-stil for kjelder med fungerande, dagsaktuelle URL-ar.
+## Verifisering
+- Sjekk mot `CLAUDE.md` sine språkvask-reglar før commit.
+- Unngå bokmål: `første` (-> `fyrste`), `bli` (-> `verta`), `mye` (-> `mykje`).
+- Bruk IEEE-stil for kjelder.
 
 ## Arbeidsflyt
-- **Research:** Bruk `google_web_search` for å verifisera OSINT-data og URL-integritet.
-- **Execution:** Plan → Act → Validate. Sjekk for 404-feil på alle lenkjer.
-- **Git:** Bruk `;` som separator i PowerShell. Push via GitHub proxy (`127.0.0.1:62343`).
+- **Execution:** Plan → Act → Validate.
+- **Git:** Push via GitHub proxy (`127.0.0.1:62343`) eller PowerShell.

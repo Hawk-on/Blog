@@ -57,7 +57,7 @@ const relaterteInnlegg = alleInnlegg
 
     <Innhaldstabell client:idle />
 
-    <article class="artikkel-kropp" id="artikkel-kropp">
+    <article class="artikkel-kropp" id="artikkel-kropp" data-pagefind-body>
       <slot />
     </article>
 
@@ -101,13 +101,17 @@ const relaterteInnlegg = alleInnlegg
         const targetId = (e.currentTarget as HTMLAnchorElement).getAttribute('href')?.substring(1);
         if (!targetId) return;
 
-        const kjeldeElement = document.getElementById(targetId);
-        if (!kjeldeElement) return;
+        const targetSpan = document.getElementById(targetId);
+        if (!targetSpan) return;
+
+        // Referanseteksten ligg etter span-elementet i din Markdown-struktur
+        const kjeldeTekst = targetSpan.nextSibling?.textContent || targetSpan.parentElement?.textContent?.split(']')[1] || '';
+        if (!kjeldeTekst.trim()) return;
 
         // Lag preview-boks
         const preview = document.createElement('div');
         preview.className = 'fotnote-preview';
-        preview.innerHTML = kjeldeElement.innerHTML;
+        preview.textContent = kjeldeTekst.trim();
         
         // Posisjonering
         const rect = (e.currentTarget as HTMLElement).getBoundingClientRect();
@@ -116,7 +120,6 @@ const relaterteInnlegg = alleInnlegg
         
         document.body.appendChild(preview);
 
-        // Fjern når musa forlet
         const removePreview = () => {
           preview.remove();
           ref.removeEventListener('mouseleave', removePreview);
@@ -126,9 +129,29 @@ const relaterteInnlegg = alleInnlegg
     });
   }
 
+  // ScrollSpy for Innhaldstabell
+  function initScrollSpy() {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const id = entry.target.getAttribute('id');
+          document.querySelectorAll('.innhaldstabell a').forEach(link => {
+            link.classList.toggle('aktiv', link.getAttribute('href') === `#${id}`);
+          });
+        }
+      });
+    }, { rootMargin: '-10% 0px -80% 0px' });
+
+    document.querySelectorAll('.artikkel-kropp h2, .artikkel-kropp h3').forEach(h => observer.observe(h));
+  }
+
   // Køyr ved oppstart og etter Astro-navigering
   initFotnotePreview();
-  document.addEventListener('astro:after-swap', initFotnotePreview);
+  initScrollSpy();
+  document.addEventListener('astro:after-swap', () => {
+    initFotnotePreview();
+    initScrollSpy();
+  });
 </script>
 
 <style is:global>
@@ -146,10 +169,21 @@ const relaterteInnlegg = alleInnlegg
     pointer-events: none;
     font-family: var(--skrift-brød);
     border-top: 2px solid var(--raud);
+    border-radius: 2px;
   }
 
   html[data-theme="dark"] .fotnote-preview {
-    background: var(--kvit);
+    background: #252220;
+    color: var(--svart);
     box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    border-color: #444;
+  }
+
+  .innhaldstabell a.aktiv {
+    color: var(--raud) !important;
+    font-weight: 600;
+    border-left: 2px solid var(--raud);
+    padding-left: 0.5rem;
+    margin-left: -0.6rem;
   }
 </style>
