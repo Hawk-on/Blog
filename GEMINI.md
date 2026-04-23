@@ -8,7 +8,7 @@
 **Oppdater alltid denne fila, CLAUDE.md og README.md ved kvar endring i prosjektet.**
 
 ## Prosjektspesifikke instruksar
-- **Metodisk kjeldevurdering:** Kjelde-matrisa er no oppdatert i tre sentrale innlegg (Trump-blokkade, Ungarn-valet, Andrew Hugg-lekkasjen). Ved kvar ny kjelde, gjer ein aktiv vurdering av Kvalitet (A-D) og Habilitet (1-3) basert på skalaen i `CLAUDE.md`. Deklarer dette alltid i kjelde-lista.
+- **Metodisk kjeldevurdering:** Kjelde-matrisa er no oppdatert i fire sentrale innlegg (Trump-blokkade, Ungarn-valet, Andrew Hugg-lekkasjen, FMA-korrupsjon). Ved kvar ny kjelde, gjer ein aktiv vurdering av Kvalitet (A-D) og Habilitet (1-3) basert på skalaen i `CLAUDE.md`. Deklarer dette alltid i kjelde-lista.
 - **Språk:** Nynorsk (kløyvd infinitiv). 'kjernefysiske våpen' konsekvent.
 - **Søk:** Bruk `data-pagefind-body` i `Artikkel.astro`.
 
