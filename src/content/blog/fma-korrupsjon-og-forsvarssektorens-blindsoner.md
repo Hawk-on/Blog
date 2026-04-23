@@ -15,17 +15,19 @@ Då Økokrim i dag gjekk til aksjon og pågreip tre leiarar i Forsvarsmateriell 
 
 Det var FMA sjølv som varsla Økokrim etter at deira eigen internkontroll avdekka alvorlege brot på habilitetsreglar og anskaffingsregelverk. Kjerna i saka er anskaffing av konsulenttenester frå eit selskap som er eigd av ein av dei sikta leiarane. Mest graverande er påstanden om at timeprisen for desse tenestene vart auka med heile 35 prosent, stikk i strid med den opphavlege kontrakten [\[1\]](#ref-1).
 
-Dette viser ei tydeleg svikt i kontrollmekanismane:
-1. **Habilitet:** At ein leiar kan vera med på å styra kontraktar til eige selskap utan at raude flagg vert heisa tidlegare.
-2. **Kontraktsoppfølging:** At prisen kan skruast opp med over ein tredjedel utan at systemet stoppar utbetalingane.
+### OSINT-kontekst: Ein varsla katastrofe
+
+Arrestasjonane kjem ikkje som eit lyn frå klar himmel for dei som har følgt med på kontrollorgana sine rapportar dei siste åra. Riksrevisjonen har i fleire dokument (mellom anna Dok. 3:16 frå 2024 og oppfølgingar i 2026) gjeve forsvarssektoren karakteren **"sterkt kritikkverdig"** [\[2\]](#ref-2). Dei peika spesifikt på:
+*   **Manglande kontroll med rammeavtalar:** Sektoren har ikkje hatt system for å sikra at avtalar vert brukte lovleg.
+*   **Uoversiktleg konsulentbruk:** Manglande oversikt over habilitet og faktiske leveransar.
+
+Samstundes ventar forsvarsverda på Transparency International sin **Government Defence Integrity Index (GDI) 2025** [\[3\]](#ref-3). Noreg har tradisjonelt vore ein "mønsterelev", men systemsvikten i FMA trugar no den norske statusen som eit land med låg korrupsjonsrisiko.
 
 ### Risikoen ved hurtig opprusting
 
-Økokrim kom nyleg med ei fersk risikovurdering som åtvara nettopp om dette. Når forsvarsløyvingane aukar kraftig på kort tid, vert presset på organisasjonen stort. Kravet om tempo i innkjøp kan gå på bekostning av grundigheit i kontrollarbeidet. Forsvarsminister Tore O. Sandvik har vore tydeleg på at det er nulltoleranse for korrupsjon, men denne saka viser at papirlausningar og etiske retningslinjer ikkje er nok når dei menneskelege og økonomiske fristingane vert for store.
-
-### Systemiske konsekvensar
-
-Dei tre sikta leiarane har no miste sin autorisasjon i FMA. Sjølv om dei nektar straffskuld, er skaden på tilliten til forsvarssektoren allereie skjedd. For ein sektor som er avhengig av hemmeleghald og høg integritet, er slike saker øydeleggjande. Det reiser spørsmål om kor mange fleire "blindsoner" som finst i det norske forsvarsbyråkratiet no som pengestraumen er større enn nokon gong.
+Økokrim kom nyleg med ei fersk risikovurdering som åtvara nettopp om dette. Når forsvarsløyvingane aukar kraftig på kort tid, vert presset på organisasjonen stort. Kravet om tempo i innkjøp kan gå på bekostning av grundigheit i kontrollarbeidet.
 
 ## Kjelder
-<span id="ref-1" data-kvalitet="B" data-habilitet="1">B1</span> [1] NRK Norge, «Tre ledere i Forsvarsmateriell pågrepet av Økokrim – NRK Norge – Oversikt over nyheter fra ulike deler av landet,» *nrk.no*, 23. april 2026. [Online]. Tilgjengeleg: https://www.nrk.no/norge/tre-ledere-i-forsvarsmateriell-pagrepet-av-okokrim-1.16856000
+<span id="ref-1" data-kvalitet="B" data-habilitet="1">B1</span> [1] NRK Norge, «Tre ledere i Forsvarsmateriell pågrepet av Økokrim,» *nrk.no*, 23. april 2026.
+<span id="ref-2" data-kvalitet="A" data-habilitet="1">A1</span> [2] Riksrevisjonen, «Undersøkelse av materiellinvesteringar i forsvarssektoren (Dokument 3:16)», *riksrevisjonen.no*, 2024/2026.
+<span id="ref-3" data-kvalitet="A" data-habilitet="2">A2</span> [3] Transparency International Defence & Security, «Government Defence Integrity Index (GDI) 2025», *ti-defence.org*, 2025.
