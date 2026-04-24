@@ -7,10 +7,10 @@ Bruk denne fila for å sleppe å re-utforska kodebasen i nye sesjonar.
 
 ## Teknisk stack
 
-- **Framework:** Astro 4.x, statisk HTML/CSS
+- **Framework:** Astro 6.x (Content Layer), statisk HTML/CSS
 - **Hosting:** GitHub Pages via GitHub Actions
-- **Innhald:** Markdown-filer (`.md`) direkte i `src/pages/`
-- **Ingen JS-framework** — berre Astro og `@astrojs/rss`
+- **Innhald:** Markdown-filer (`.md`) i `src/content/blog/`
+- **Ingen JS-framework** — berre Astro og `@astrojs/rss` (med React Islands for spesifikke komponentar)
 
 ---
 
@@ -18,6 +18,10 @@ Bruk denne fila for å sleppe å re-utforska kodebasen i nye sesjonar.
 
 ```
 src/
+├── content/
+│   └── blog/
+│       └── *.md             # Blogginnlegg
+├── content.config.ts        # Schema for innhaldssamlingar
 ├── layouts/
 │   ├── Grunnoppsett.astro   # Hovudlayout (header, footer, tema-bryter)
 │   └── Artikkel.astro       # Artikkellayout (innhaldstabell, leseprosessbar)
@@ -27,7 +31,7 @@ src/
 │   ├── 404.astro            # 404-side
 │   ├── rss.xml.ts           # RSS-feed
 │   ├── tag/[tag].astro      # Dynamiske tag-sider
-│   └── *.md                 # Blogginnlegg (ligg direkte her, ikkje i undermappe)
+│   └── [slug].astro         # Dynamisk ruting for blogginnlegg
 ├── styles/
 │   └── global.css           # All CSS (éi fil, ingen komponent-CSS)
 └── utils/
@@ -40,11 +44,10 @@ src/
 
 ```yaml
 ---
-layout: ../layouts/Artikkel.astro   # ALLTID denne stien (relativt frå src/pages/)
 tittel: "Tittelen på innlegget"     # Påkravd
 dato: "2026-04-14"                  # Påkravd, format YYYY-MM-DD
 ingress: "Kort ingress..."          # Viast på startsida og i meta-tags
-tags: ["geopolitikk", "økonomi"]   # Valfritt, driv tag-sidene automatisk
+tags: ["geopolitikk", "økonomi"]    # Valfritt, driv tag-sidene automatisk
 lesetid: 12                         # Valfritt, tal i minutt
 ---
 ```
@@ -57,12 +60,12 @@ lesetid: 12                         # Valfritt, tal i minutt
 |----------------------------|------------------------------|
 | `/`                        | `src/pages/index.astro`      |
 | `/om`                      | `src/pages/om.astro`         |
-| `/mitt-innlegg`            | `src/pages/mitt-innlegg.md`  |
+| `/mitt-innlegg`            | `src/content/blog/mitt-innlegg.md` (via `[slug].astro`) |
 | `/tag/geopolitikk`         | automatisk frå tag-array     |
 | `/rss.xml`                 | `src/pages/rss.xml.ts`       |
 
-**Merk:** Innlegg ligg *direkte* i `src/pages/`, ikkje i ei `blogg/`-undermappe.
-Startsida brukar `Astro.glob('./*.md')` for å oppdaga alle innlegg.
+**Merk:** Innlegg ligg i `src/content/blog/`.
+Prosjektet brukar `getCollection('blog')` for å henta innlegg i staden for `Astro.glob`.
 
 ---
 
