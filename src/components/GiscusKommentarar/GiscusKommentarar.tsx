@@ -1,26 +1,50 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef } from 'react';
 
 const GiscusKommentarar: React.FC = () => {
-  const [mounted, setMounted] = useState(false);
+  const containerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    setMounted(true);
+    if (!containerRef.current) return;
+
+    // Fjern eksisterande giscus-innhald før me legg til nytt
+    containerRef.current.innerHTML = '';
+
+    const currentTheme = document.documentElement.getAttribute('data-theme');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const theme = currentTheme === 'dark' || (!currentTheme && prefersDark) ? 'dark' : 'light';
+
+    const script = document.createElement('script');
+    script.src = 'https://giscus.app/client.js';
+    script.setAttribute('data-repo', 'Hawk-on/Blog');
+    script.setAttribute('data-repo-id', 'R_kgDOMmE1eA');
+    script.setAttribute('data-category', 'Announcements');
+    script.setAttribute('data-category-id', 'DIC_kwDOMmE1eM4CiAsm');
+    script.setAttribute('data-mapping', 'pathname');
+    script.setAttribute('data-strict', '0');
+    script.setAttribute('data-reactions-enabled', '1');
+    script.setAttribute('data-emit-metadata', '0');
+    script.setAttribute('data-input-position', 'bottom');
+    script.setAttribute('data-theme', theme);
+    script.setAttribute('data-lang', 'no');
+    script.setAttribute('data-loading', 'lazy');
+    script.setAttribute('crossorigin', 'anonymous');
+    script.async = true;
+
+    containerRef.current.appendChild(script);
 
     const oppdaterGiscusTema = () => {
-      const currentTheme = document.documentElement.getAttribute('data-theme');
-      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      const theme = currentTheme === 'dark' || (!currentTheme && prefersDark) ? 'dark' : 'light';
+      const newTheme = document.documentElement.getAttribute('data-theme');
+      const gTheme = newTheme === 'dark' ? 'dark' : 'light';
       
       const iframe = document.querySelector<HTMLIFrameElement>('iframe.giscus-frame');
       if (!iframe) return;
 
       iframe.contentWindow?.postMessage(
-        { giscus: { setConfig: { theme: theme } } },
+        { giscus: { setConfig: { theme: gTheme } } },
         'https://giscus.app'
       );
     };
 
-    // Lytt på tema-endringar
     const observer = new MutationObserver((mutations) => {
       mutations.forEach((m) => {
         if (m.attributeName === 'data-theme') oppdaterGiscusTema();
@@ -31,37 +55,15 @@ const GiscusKommentarar: React.FC = () => {
     
     return () => {
       observer.disconnect();
-      // Manuell opprydding av Giscus-element for å hindra lekkasje ved navigering
-      const giscusFrame = document.querySelector('iframe.giscus-frame');
-      if (giscusFrame) giscusFrame.remove();
-      const giscusScript = document.querySelector('script[src*="giscus.app"]');
-      if (giscusScript) giscusScript.remove();
+      if (containerRef.current) {
+        containerRef.current.innerHTML = '';
+      }
     };
   }, []);
 
-  if (!mounted) return null;
-
   return (
-    <section className="giscus-container" style={{ marginTop: '4rem', borderTop: '1px solid var(--lys-grå)', paddingTop: '2rem' }}>
-      <div id="giscus-wrapper">
-        <script
-          src="https://giscus.app/client.js"
-          data-repo="Hawk-on/Blog"
-          data-repo-id="R_kgDOMmE1eA"
-          data-category="Announcements"
-          data-category-id="DIC_kwDOMmE1eM4CiAsm"
-          data-mapping="pathname"
-          data-strict="0"
-          data-reactions-enabled="1"
-          data-emit-metadata="0"
-          data-input-position="bottom"
-          data-theme="preferred_color_scheme"
-          data-lang="no"
-          data-loading="lazy"
-          crossOrigin="anonymous"
-          async
-        ></script>
-      </div>
+    <section className="giscus-container" style={{ marginTop: '4rem', borderTop: '1px solid var(--lys-grå)', paddingTop: '2rem', minHeight: '300px' }}>
+      <div id="giscus-wrapper" ref={containerRef}></div>
     </section>
   );
 };
