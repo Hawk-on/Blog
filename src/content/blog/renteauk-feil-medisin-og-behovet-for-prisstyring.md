@@ -1,7 +1,7 @@
 ---
-title: "Renteauke er feil medisin: Behovet for statleg prisstyring"
-description: "Kvifor Norges Bank sin einsidige kamp mot inflasjon via renta skadar meir enn han hjelper, og kvifor me treng aktive grep mot prisane."
-pubDate: 2026-04-24
+tittel: "Renteauke er feil medisin: Behovet for statleg prisstyring"
+ingress: "Kvifor Norges Bank sin einsidige kamp mot inflasjon via renta skadar meir enn han hjelper, og kvifor me treng aktive grep mot prisane."
+dato: 2026-04-24
 tags: ["økonomi", "noreg", "politikk", "prisstyring"]
 ---
 
