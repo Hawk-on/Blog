@@ -18,6 +18,10 @@ npm install
 npm run build   # Bygger nettstad og køyrer pagefind-indeksering
 ```
 
+## Nyaste artiklar
+- **Renteauke er feil medisin:** Analyse av Norges Bank sin pengepolitikk og behovet for prisstyring. (24. april 2026)
+- **FMA-korrupsjon:** Blindsoner i forsvarssektoren. (23. april 2026)
+
 ## Struktur
 - `src/content.config.ts`: Konfigurasjon for innhaldssamlingar.
 - `src/content/blog/`: Markdown-filer for analysar.
