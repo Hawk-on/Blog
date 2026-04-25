@@ -1,6 +1,6 @@
 ---
 tittel: "Libanon og Israel-krigen som ingen snakkar om"
-dato: "2026-04-14"
+publisertDato: "2026-04-14"
 ingress: "Medan verda fylgjer Iran-USA-forhandlingane i Islamabad, held Israel fram med å bomba Libanon. 357 daude på éin dag. Spørsmålet som splitter: var Libanon inkludert i våpenkvila — og kven bestemde at det ikkje var det?"
 tags: ["geopolitikk", "libanon", "israel", "iran", "midtausten"]
 lesetid: 12

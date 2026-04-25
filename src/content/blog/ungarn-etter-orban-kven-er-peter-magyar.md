@@ -1,6 +1,6 @@
 ---
 tittel: "Ungarn etter Orbán: Kven er Peter Magyar, og kva betyr sigeren hans?"
-dato: "2026-04-13"
+publisertDato: "2026-04-13"
 ingress: "12. april 2026 vann Péter Magyar og Tisza-partiet eit jordskredval i Ungarn og avslutta 16 år med Orbán-styre. Men kven er denne mannen eigentleg — og kva strukturelle krefter forklarer både fallet hans og sigeren hans?"
 tags: ["geopolitikk", "eu", "ungarn", "demokrati", "noreg"]
 lesetid: 10

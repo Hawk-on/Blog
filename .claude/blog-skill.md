@@ -44,11 +44,12 @@ src/
 
 ```yaml
 ---
-tittel: "Tittelen på innlegget"     # Påkravd
-dato: "2026-04-14"                  # Påkravd, format YYYY-MM-DD
-ingress: "Kort ingress..."          # Viast på startsida og i meta-tags
-tags: ["geopolitikk", "økonomi"]    # Valfritt, driv tag-sidene automatisk
-lesetid: 12                         # Valfritt, tal i minutt
+tittel: "Tittelen på innlegget"             # Påkravd
+publisertDato: "2026-04-14"                  # Påkravd, format YYYY-MM-DD
+oppdatertDato: "2026-04-24"                  # Valfritt
+ingress: "Kort ingress..."                  # Viast på startsida og i meta-tags
+tags: ["geopolitikk", "økonomi"]            # Valfritt, driv tag-sidene automatisk
+lesetid: 12                                 # Valfritt, tal i minutt
 ---
 ```
 

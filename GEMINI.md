@@ -9,6 +9,7 @@
 
 ## Prosjektspesifikke instruksar
 - **Metodisk kjeldevurdering:** Kjelde-matrisa er no oppdatert i fem sentrale innlegg (Trump-blokkade, Ungarn-valet, Andrew Hugg-lekkasjen, FMA-korrupsjon, Renteauke). Ved kvar ny kjelde, gjer ein aktiv vurdering av Kvalitet (A-D) og Habilitet (1-3) basert på skalaen i `CLAUDE.md`. Deklarer dette alltid i kjelde-lista.
+- **Dato-schema:** Alle artiklar skal ha `publisertDato` og `oppdatertDato` (viss endra).
 - **Språk:** Nynorsk (kløyvd infinitiv). 'kjernefysiske våpen' konsekvent.
 - **Søk:** Bruk `data-pagefind-body` i `Artikkel.astro`.
 

@@ -1,6 +1,6 @@
 ---
 tittel: "Gen Z-opprøret og den stille politiske omveltinga i Sør"
-dato: "2026-04-14"
+publisertDato: "2026-04-14"
 ingress: "Frå Bangladesh til Bulgaria har unge menneske med mobiltelefon og Discord-kanalar toppa regjeringar og rystt institusjonar. Det er ikkje tilfeldig, og det er ikkje over. Det er ein strukturell bølgje — og han er berre i starten."
 tags: ["geopolitikk", "demokrati", "ungdom", "globalt-sor", "bangladesh"]
 lesetid: 10

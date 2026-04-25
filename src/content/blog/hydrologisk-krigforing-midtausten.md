@@ -1,6 +1,6 @@
 ---
 tittel: "Hydrologisk krigføring: Vatn som det ultimate gisselet i eit uttørka Midtausten"
-dato: "2026-04-23"
+publisertDato: "2026-04-23"
 ingress: "I 2026 er ikkje vatn lenger berre ein ressurs under press; det er ein strategisk arkitektur brukt til å tvinga fram suverenitet, straffa motstandarar og sementera avhengnad."
 tags: ["geopolitikk", "midtausten", "ressurskrig", "israel", "iran", "tyrkia"]
 lesetid: 10

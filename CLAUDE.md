@@ -27,6 +27,7 @@ Alle artiklar skal bruka den to-dimensjonale kjelde-matrisa. Systemet er no full
 ## Språkvask — sjekk alltid
 - **Terminologi:** 'atomvåpen' -> 'kjernefysiske våpen', 'oppmerksomhet' -> 'merksemd'.
 - **Kløyvd infinitiv:** Korte verb endar på -a (`vera`, `gjera`), lange på -e (`analysere`).
+- **Schema:** Bruk `publisertDato` og `oppdatertDato` (valfri) i frontmatter.
 - **Bokmålssnik:** Unngå `første` (-> `fyrste`), `blei` (-> `vart`), `noen` (-> `nokon`).
 
 ## Git og Deploy

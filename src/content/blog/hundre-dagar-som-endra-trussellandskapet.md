@@ -1,6 +1,6 @@
 ---
 tittel: "Hundre dagar som endra trussellandskapet"
-dato: "2026-04-17"
+publisertDato: "2026-04-17"
 ingress: "Eit kvartal med supply chain-åtak, statsaktørar og eit hastemøte mellom finansdepartementet og Wall Street. Ein gjennomgang av kva som eigentleg har skjedd, og kvifor det angår alle som byggjer programvare."
 tags: ["cybersikkerheit", "supply-chain", "infosec", "osint", "ai", "geopolitikk"]
 lesetid: 15

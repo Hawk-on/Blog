@@ -1,6 +1,6 @@
 ---
 tittel: "Petrodollaren og imperiet sitt sjølvmord"
-dato: "2026-04-08"
+publisertDato: "2026-04-08"
 ingress: "Korleis USA sin krig mot Iran kan kome til å øydelegge det finansielle grunnlaget for amerikansk hegemoni — og kvifor det var fullstendig føreseieleg."
 tags: ["geopolitikk", "økonomi", "iran", "usa"]
 lesetid: 12

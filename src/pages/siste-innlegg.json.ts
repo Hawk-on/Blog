@@ -6,11 +6,12 @@ export async function GET() {
   });
 
   const sorterteInnlegg = innlegg
-    .sort((a, b) => b.data.dato.valueOf() - a.data.dato.valueOf())
+    .sort((a, b) => b.data.publisertDato.valueOf() - a.data.publisertDato.valueOf())
     .slice(0, 3)
     .map(i => ({
       tittel: i.data.tittel,
-      dato: i.data.dato,
+      dato: i.data.publisertDato,
+      oppdatertDato: i.data.oppdatertDato,
       ingress: i.data.ingress,
       url: `https://hawk-on.github.io/Blog/${i.id}/`
     }));

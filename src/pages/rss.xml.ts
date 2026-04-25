@@ -12,7 +12,7 @@ export async function GET(context: APIContext) {
   });
   
   const sorterteInnlegg = innlegg
-    .sort((a, b) => b.data.dato.valueOf() - a.data.dato.valueOf());
+    .sort((a, b) => b.data.publisertDato.valueOf() - a.data.publisertDato.valueOf());
 
   return rss({
     title: 'hawk-on',
@@ -20,7 +20,7 @@ export async function GET(context: APIContext) {
     site: context.site!.toString(),
     items: sorterteInnlegg.map((post) => ({
       title: post.data.tittel,
-      pubDate: post.data.dato,
+      pubDate: post.data.publisertDato,
       description: post.data.ingress || '',
       link: `${base}/${post.id}/`,
       content: sanitizeHtml(parser.render(post.body || '')),

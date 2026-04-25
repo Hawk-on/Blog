@@ -1,6 +1,6 @@
 ---
 tittel: "Kritiske mineral og den nye industrielle rivaliseringa"
-dato: "2026-04-14"
+publisertDato: "2026-04-14"
 ingress: "Kina kontrollerer over 90 prosent av verdas prosesseringskapasitet for sjeldne jordmetall. Eksportkontrollar er vorte eit geopolitisk våpen. Og staten er tilbake som aktiv industriell aktør — ikkje av ideologisk overtyding, men av strategisk tvang."
 tags: ["geopolitikk", "økonomi", "kina", "usa", "teknologi", "mineral"]
 lesetid: 12

@@ -1,6 +1,6 @@
 ---
 tittel: "Kven er agenten? Identitet, tilgang og tillit i agentar sin tidsalder"
-dato: "2026-04-21"
+publisertDato: "2026-04-21"
 ingress: "Når ein AI-agent skriv kode, lastar ned avhengnadar og opnar ei fil i Azure Key Vault, gjer han det ikkje som deg — han gjer det som seg sjølv, med ein identitet tildelt av Entra ID og tilgangsrettar du har konfigurert. Dette er ikkje eit teknisk detalj: det er eit spørsmål om makt, ansvar og kontroll i ein infrastruktur der agenten gradvis overtek oppgåver som tidlegare kravde eit menneske."
 tags: ["teknologi", "sikkerheit", "AI", "azure", "identitet", "microsoft"]
 lesetid: 18

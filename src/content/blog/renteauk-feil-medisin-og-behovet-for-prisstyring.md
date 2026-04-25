@@ -1,7 +1,8 @@
 ---
 tittel: "Renteauke er feil medisin: Den gløymde historia om statleg prisstyring"
 ingress: "Når marknadskreftene trugar det sosiale fundamentet, må politikken ta att styringa. Ein analyse av kvifor renta skadar meir enn ho hjelper, og korleis me kan læra av historia for å løysa dagens dyrtid."
-dato: 2026-04-24
+publisertDato: 2026-04-24
+oppdatertDato: 2026-04-24
 tags: ["økonomi", "noreg", "politikk", "prisstyring", "sosiologi", "historie"]
 ---
 

@@ -22,7 +22,7 @@ export async function getStaticPaths() {
 const { innlegg, tag } = Astro.props;
 const base = import.meta.env.BASE_URL;
 const sortertInnlegg = innlegg.sort(
-  (a, b) => b.data.dato.valueOf() - a.data.dato.valueOf()
+  (a, b) => b.data.publisertDato.valueOf() - a.data.publisertDato.valueOf()
 );
 ---
 
@@ -38,8 +38,8 @@ const sortertInnlegg = innlegg.sort(
 
     <ul class="artikkel-liste">
       {sortertInnlegg.map(innlegg => {
-        const { tittel, dato, ingress, tags = [] } = innlegg.data;
-        const datoFormatert = formaterDato(dato);
+        const { tittel, publisertDato, ingress, tags = [] } = innlegg.data;
+        const datoFormatert = formaterDato(publisertDato);
         const slug = innlegg.id;
         return (
           <li class="artikkel-kort">
