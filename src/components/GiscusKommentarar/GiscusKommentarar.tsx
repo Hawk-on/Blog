@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef } from 'react';
 
 const GiscusKommentarar: React.FC = () => {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -8,8 +8,7 @@ const GiscusKommentarar: React.FC = () => {
 
     containerRef.current.innerHTML = '';
     const currentTheme = document.documentElement.getAttribute('data-theme');
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    const theme = currentTheme === 'dark' || (!currentTheme && prefersDark) ? 'dark' : 'light';
+    const theme = currentTheme === 'dark' ? 'dark' : 'light';
 
     const script = document.createElement('script');
     script.src = 'https://giscus.app/client.js';
@@ -17,14 +16,13 @@ const GiscusKommentarar: React.FC = () => {
     script.setAttribute('data-repo-id', 'R_kgDOR94FZA');
     script.setAttribute('data-category', 'Announcements');
     script.setAttribute('data-category-id', 'DIC_kwDOR94FZM4C6-7g');
-    script.setAttribute('data-mapping', 'pathname');
+    script.setAttribute('data-mapping', 'title'); // Endra frå pathname til title
     script.setAttribute('data-strict', '0');
     script.setAttribute('data-reactions-enabled', '1');
     script.setAttribute('data-emit-metadata', '0');
     script.setAttribute('data-input-position', 'bottom');
     script.setAttribute('data-theme', theme);
     script.setAttribute('data-lang', 'no');
-    script.setAttribute('crossorigin', 'anonymous');
     script.async = true;
 
     containerRef.current.appendChild(script);
