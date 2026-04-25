@@ -40,7 +40,11 @@ const relaterteInnlegg = alleInnlegg
     return { ...innlegg, fellesTags };
   })
   .filter(innlegg => innlegg.fellesTags > 0)
-  .sort((a, b) => b.fellesTags - a.fellesTags || b.data.publisertDato.valueOf() - a.data.publisertDato.valueOf())
+  .sort((a, b) => {
+    const datoA = a.data.oppdatertDato ?? a.data.publisertDato;
+    const datoB = b.data.oppdatertDato ?? b.data.publisertDato;
+    return b.fellesTags - a.fellesTags || datoB.valueOf() - datoA.valueOf();
+  })
   .slice(0, 3);
 ---
 

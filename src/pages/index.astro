@@ -12,7 +12,11 @@ const innlegg = await getCollection('blog', ({ data }) => {
 });
 
 const sortertInnleggData = innlegg
-  .sort((a, b) => b.data.publisertDato.valueOf() - a.data.publisertDato.valueOf())
+  .sort((a, b) => {
+    const datoA = a.data.oppdatertDato ?? a.data.publisertDato;
+    const datoB = b.data.oppdatertDato ?? b.data.publisertDato;
+    return datoB.valueOf() - datoA.valueOf();
+  })
   .map(i => ({
     tittel: i.data.tittel,
     dato: i.data.publisertDato,
@@ -35,7 +39,7 @@ const sorterteTags = [...tagFrekvens.entries()]
   .map(([t]) => t);
 ---
 
-<Grunnoppsett tittel="Analysar av geopolitikk og teknologi" beskriving="Tankar om makt, system og kva som eigentleg skjer. Ein strukturalistisk kikk på verda.">
+<Grunnoppsett tittel="Analysar av geopolitikk og teknologi" beskriving="Tankar om makt, system og kva som eigentleg skjer. Ein strukturalistikk kikk på verda.">
   <div class="container">
 
     <section class="forsida-hero">

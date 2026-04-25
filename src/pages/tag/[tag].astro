@@ -21,9 +21,11 @@ export async function getStaticPaths() {
 
 const { innlegg, tag } = Astro.props;
 const base = import.meta.env.BASE_URL;
-const sortertInnlegg = innlegg.sort(
-  (a, b) => b.data.publisertDato.valueOf() - a.data.publisertDato.valueOf()
-);
+const sortertInnlegg = innlegg.sort((a, b) => {
+  const datoA = a.data.oppdatertDato ?? a.data.publisertDato;
+  const datoB = b.data.oppdatertDato ?? b.data.publisertDato;
+  return datoB.valueOf() - datoA.valueOf();
+});
 ---
 
 <Grunnoppsett tittel={`#${tag}`} beskriving={`Alle innlegg merka med ${tag}`}>

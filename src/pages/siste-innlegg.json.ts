@@ -6,7 +6,11 @@ export async function GET() {
   });
 
   const sorterteInnlegg = innlegg
-    .sort((a, b) => b.data.publisertDato.valueOf() - a.data.publisertDato.valueOf())
+    .sort((a, b) => {
+      const datoA = a.data.oppdatertDato ?? a.data.publisertDato;
+      const datoB = b.data.oppdatertDato ?? b.data.publisertDato;
+      return datoB.valueOf() - datoA.valueOf();
+    })
     .slice(0, 3)
     .map(i => ({
       tittel: i.data.tittel,

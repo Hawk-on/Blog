@@ -12,7 +12,11 @@ export async function GET(context: APIContext) {
   });
   
   const sorterteInnlegg = innlegg
-    .sort((a, b) => b.data.publisertDato.valueOf() - a.data.publisertDato.valueOf());
+    .sort((a, b) => {
+      const datoA = a.data.oppdatertDato ?? a.data.publisertDato;
+      const datoB = b.data.oppdatertDato ?? b.data.publisertDato;
+      return datoB.valueOf() - datoA.valueOf();
+    });
 
   return rss({
     title: 'hawk-on',
@@ -20,7 +24,7 @@ export async function GET(context: APIContext) {
     site: context.site!.toString(),
     items: sorterteInnlegg.map((post) => ({
       title: post.data.tittel,
-      pubDate: post.data.publisertDato,
+      pubDate: post.data.oppdatertDato ?? post.data.publisertDato,
       description: post.data.ingress || '',
       link: `${base}/${post.id}/`,
       content: sanitizeHtml(parser.render(post.body || '')),
