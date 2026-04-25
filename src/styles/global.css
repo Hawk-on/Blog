@@ -393,31 +393,44 @@ hr {
   color: var(--tekst-dempa) !important;
 }
 
-/* Kjeldekritikk & Modalar */
+/* Kjeldekritikk & Badges */
 .kjelde-badge {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 1.2rem;
-  height: 1.2rem;
+  width: 1.3rem;
+  height: 1.3rem;
   font-size: 0.65rem;
   font-weight: 700;
   border-radius: 50%;
-  color: white;
+  color: white !important;
   cursor: help;
-  margin-left: 0.3rem;
+  margin-right: 0.2rem;
   vertical-align: middle;
-  transition: opacity 0.2s;
+  transition: transform 0.2s;
+  font-family: var(--skrift-kode);
+  text-decoration: none !important;
 }
 
 .kjelde-badge:hover {
-  opacity: 0.8;
+  transform: scale(1.1);
+  opacity: 1;
 }
+
+/* Fargar basert på kvalitet-attributt */
+.kjelde-badge[data-kvalitet="A"] { background-color: #10b981 !important; }
+.kjelde-badge[data-kvalitet="B"] { background-color: #3b82f6 !important; }
+.kjelde-badge[data-kvalitet="C"] { background-color: #f59e0b !important; }
+.kjelde-badge[data-kvalitet="D"] { background-color: #ef4444 !important; }
 
 .kjelde-badge--habilitet {
   border-radius: 2px !important;
   background-color: var(--svart) !important;
-  margin-left: 0.15rem !important;
+  margin-right: 0.5rem;
+}
+
+html[data-theme="dark"] .kjelde-badge--habilitet {
+  background-color: #444 !important;
 }
 
 .kjelde-modal-overlay {

@@ -27,9 +27,9 @@ Historikaren E.P. Thompson skreiv om «den moralske økonomien til den engelske 
 
 I dag er det straumprisane og bustadlåna som er vår tids «brødprisar». Når folk ser at kraftselskapa tener milliardar på ein naturressurs som tilhøyrer fellesskapet, medan dei sjølve må velja mellom mat og varme, bryt det med den folkelege rettferdsensla. Den moralske økonomien krev at visse varer skal skjermast frå marknadens svingingar:
 
-1.  **Husleigetak og bustadpolitikk:** Før 1980-talet var den norske bustadmarknaden strengt regulert. Avreguleringa under Willoch-regjeringa førte oss dit me er i dag, der bustad er eit spekulobjekt snarare enn ein rett. Eit mellombels tak på husleige ville vera eit første steg mot å gjenoppretta den moralske økonomien i byane våre.
+1.  **Husleigetak og bustadpolitikk:** Før 1980-talet var den norske bustadmarknaden strengt regulert. Avreguleringa under Willoch-regjeringa førte oss dit me er i dag, der bustad eit spekulobjekt snarare enn ein rett. Eit mellombels tak på husleige ville vera eit første steg mot å gjenoppretta den moralske økonomien i byane våre.
 2.  **Omfordeling av nettleige:** Som Trym Joakim Ulriksen har peika på, er det urimeleg at hushalda skal finansiera infrastrukturen for ein industri som profitterer på høge kraftprisar [\[1\]](#ref-1). Me treng ei strukturell omlegging der kostnadene vert flytta dit betalingsevna er størst.
-3.  **Margin-kontroll i daglegvarebransjen:** I etterkrigstida hadde me eit apparat for å overvaka marginar. I dag veit me knapt kor mykje av prisstigninga på mat som skuldast faktiske kostnader, og kor mykje som er reine profitt-hopp i eit oligopolistisk marknad [\[2\]](#ref-2).
+3.  **Margin-kontroll i daglegvarebransjen:** I etterkrigstida hadde me eit apparat for å overvaka marginar. I dag veit me knapt kor mye av prisstigninga på mat som skuldast faktiske kostnader, og kor mykje som er reine profitt-hopp i eit oligopolistisk marknad [\[2\]](#ref-2).
 
 ### Frå teknokrati til demokratisk økonomi
 Å overlata alt ansvar til Norges Bank er ein måte å avpolitisere økonomien på. Det vert framstilt som ei naturlov at renta må opp når prisane stig. Men økonomien er ikkje ei naturkraft; han er ein sosial konstruksjon skapt av menneskelege avgjerder.
@@ -40,14 +40,14 @@ Me må tora å gjera som generasjonen før oss: Ta i bruk heile den politiske ve
 
 ## Kjelder
 
-<span id="ref-1" data-kvalitet="B" data-habilitet="1">B1</span> [1] T. J. Ulriksen, «Renteøkning er feil medisin», *NRK Ytring*, 24. apr. 2026. [Online]. Available: https://www.nrk.no/ytring/renteokning-er-feil-medisin-1.17857955
+<span id="ref-1" class="kjelde-badge" data-kvalitet="B">B</span><span class="kjelde-badge kjelde-badge--habilitet">1</span> [1] T. J. Ulriksen, «Renteøkning er feil medisin», *NRK Ytring*, 24. apr. 2026. [Online]. Available: https://www.nrk.no/ytring/renteokning-er-feil-medisin-1.17857955
 
-<span id="ref-2" data-kvalitet="B" data-habilitet="2">B2</span> [2] R. Bjørnstad, «En så stor renteøkning er feil medisin nå», *LO.no*, sep. 2022. [Online]. Available: https://www.lo.no/nyhetsbrev/en-sa-stor-renteokning-er-feil-medisin-na/
+<span id="ref-2" class="kjelde-badge" data-kvalitet="B">B</span><span class="kjelde-badge kjelde-badge--habilitet">2</span> [2] R. Bjørnstad, «En så stor renteøkning er feil medisin nå», *LO.no*, sep. 2022. [Online]. Available: https://www.lo.no/nyhetsbrev/en-sa-stor-renteokning-er-feil-medisin-na/
 
-<span id="ref-3" data-kvalitet="A" data-habilitet="1">A1</span> [3] Statistisk sentralbyrå, «Konsumprisindeksen og underliggende inflasjon», *ssb.no*, apr. 2026. [Online]. Available: https://www.ssb.no/priser-og-prisindekser/konsumpriser/statistikk/konsumprisindeksen
+<span id="ref-3" class="kjelde-badge" data-kvalitet="A">A</span><span class="kjelde-badge kjelde-badge--habilitet">1</span> [3] Statistisk sentralbyrå, «Konsumprisindeksen og underliggende inflasjon», *ssb.no*, apr. 2026. [Online]. Available: https://www.ssb.no/priser-og-prisindekser/konsumpriser/statistikk/konsumprisindeksen
 
-<span id="ref-4" data-kvalitet="A" data-habilitet="1">A1</span> [4] K. Polanyi, *The Great Transformation: The Political and Economic Origins of Our Time*. Boston: Beacon Press, 1944.
+<span id="ref-4" class="kjelde-badge" data-kvalitet="A">A</span><span class="kjelde-badge kjelde-badge--habilitet">1</span> [4] K. Polanyi, *The Great Transformation: The Political and Economic Origins of Our Time*. Boston: Beacon Press, 1944.
 
-<span id="ref-5" data-kvalitet="A" data-habilitet="1">A1</span> [5] E. P. Thompson, «The Moral Economy of the English Crowd in the Eighteenth Century», *Past & Present*, nr. 50, s. 76-136, 1971.
+<span id="ref-5" class="kjelde-badge" data-kvalitet="A">A</span><span class="kjelde-badge kjelde-badge--habilitet">1</span> [5] E. P. Thompson, «The Moral Economy of the English Crowd in the Eighteenth Century», *Past & Present*, nr. 50, s. 76-136, 1971.
 
-<span id="ref-6" data-kvalitet="A" data-habilitet="1">A1</span> [6] N. Christie, «Prisdirektoratets historie 1917-1950», *regjeringen.no*, 2021. [Online]. Available: https://www.regjeringen.no/no/dokumentarkiv/Regjeringen-Solberg/andre-dokumenter/nfd/2021/prisdirektoratets-historie-1917-1950/id2867894/
+<span id="ref-6" class="kjelde-badge" data-kvalitet="A">A</span><span class="kjelde-badge kjelde-badge--habilitet">1</span> [6] N. Christie, «Prisdirektoratets historie 1917-1950», *regjeringen.no*, 2021. [Online]. Available: https://www.regjeringen.no/no/dokumentarkiv/Regjeringen-Solberg/andre-dokumenter/nfd/2021/prisdirektoratets-historie-1917-1950/id2867894/

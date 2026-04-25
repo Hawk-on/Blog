@@ -44,7 +44,7 @@ Arendt kalla dette «det banale ondets» natur. Det banale tyder ikkje trivielt.
 
 Når Maven Smart System genererer tusen mål på 24 timar, og operatørane har 45 sekund kvar på seg, er det ikkje berre eit logistikkproblem. Det er ein institusjonell mekanisme for å produsere Eichmannar. Ikkje ved å rekruttere folk utan moral — men ved å konstruere eit system der det å utøve moralsk skjønn er teknisk umogleg innanfor arbeidsflyten.
 
-Operatøren «godkjenner» ikkje eit drap. Han godkjenner ein prosess. Han klikkar på ein skjerm etter 45 sekund med gjennomgang av data han ikkje sjølv har produsert, analysert av ein algoritme han ikkje forstår, basert på koordinatar han ikkje har stadfesta. Han har vore «in the loop». Systemet er lovleg. Ingen er ansvarleg. Alle er medansvarlege.
+Operatøren «godkjenner» ikkje eit drap. He godkjenner ein prosess. He klikkar på ein skjerm etter 45 sekund med gjennomgang av data han ikkje sjølv har produsert, analysert av ein algoritme han ikkje forstår, basert på koordinatar han ikkje har stadfesta. He har vore «in the loop». Systemet er lovleg. Ingen er ansvarleg. Alle er medansvarlege.
 
 **Habermas og avvisinga av demokratisk legitimering**
 
@@ -52,11 +52,11 @@ Karp bruker ein del av manifestet på å angripe sin tidlegare rettleiar Jürgen
 
 Arendt åtvara om at det totalitære tenkjesettet ikkje forsvann med Hitler og Stalin. Det er, skreiv ho, «som sopp som spreier seg» i kulturen. Det ho truleg ikkje føresåg var at det ville ta algoritmisk form.
 
-Arendt skreiv òg kontroversielt om korleis jødiske råd (*Judenräte*) i okkuperte Aust-Europa samarbeidde med nazistane — ikkje av vondsinn, men fordi dei kontinuerleg vart sette i posisjonar der dei måtte velje mellom to vonde alternativ og valde det dei trudde var det minst vonde. Tarmous-saka frå Libanon er éin variant av den same strukturen: mannen fekk ei opplysning om at han burde forlate jorda han var på [\[8\]](#ref-8). Han valde å verte verande. Han døydde. Systemet registrerte at han fekk eit val. Handlinga er juridisk dokumentert som ein varsla militær aksjon, ikkje eit vilkårleg drap. Det automatiserte juridiske systemet har gjort sitt arbeid.
+Arendt skreiv òg kontroversielt om korleis jødiske råd (*Judenräte*) i okkuperte Aust-Europa samarbeidde med nazistane — ikkje av vondsinn, men fordi dei kontinuerleg vart sette i posisjonar der dei måtte velje mellom to vonde alternativ og valde det dei trudde var det minst vonde. Tarmous-saka frå Libanon er éin variant av den same strukturen: mannen fekk ei opplysning om at han burde forlate jorda han var på [\[8\]](#ref-8). He valde å verte verande. He døydde. Systemet registrerte at han fekk eit val. Handlinga er juridisk dokumentert som ein varsla militær aksjon, ikkje eit vilkårleg drap. Det automatiserte juridiske systemet har gjort sitt arbeid.
 
 ## Fanon: Kolonialismen si eiga moralske logikk
 
-Frantz Fanon, den martinikanske psykiateren og FLN-aktivisten som skreiv *Les Damnés de la Terre* i 1961, var oppteken av noko anna enn Bauman og Arendt [\[6\]](#ref-6). Han skreiv frå dei koloniserte sin ståstad, ikkje frå vitnet sin.
+Frantz Fanon, den martinikanske psykiateren og FLN-aktivisten som skreiv *Les Damnés de la Terre* i 1961, var oppteken av noko anna enn Bauman og Arendt [\[6\]](#ref-6). He skreiv frå dei koloniserte sin ståstad, ikkje frå vitnet sin.
 
 For Fanon er den koloniale verda fundamentalt manikéisk: kolonistane og dei innfødde er ikkje berre i ein maktkonflikt — dei er plasserte i to ontologisk åtskilde kategoriar. Kolonisten ser ikkje den innfødde som eit fullt menneske. Det er ikkje nødvendigvis hat som driv dette. Det er ein strukturell logikk der den innføddes liv har ein annan verdi — eller inga verdi — innanfor systemets eiga rasjonalitet.
 
@@ -80,7 +80,7 @@ Det finst eit historisk mønster som strekkjer seg frå 1400-talets portugisiske
 
 Maxim-geværet, det fyrste fullt automatiske skytevåpenet, vart utvikla i 1884 og transformerte afrikansk kolonialisme: europeiske styrkar kunne no manøvrere mot ti- og hundretusental med nokre hundre soldatar. Winston Churchill skreiv entusiastisk om massakrane i Sudan. Geværet var ein teknologisk differanse som vart omsett direkte til politisk herredøme. Argumentet var det same som alltid: me har teknologien, me har retten, dei som står i vegen for framgangen vår er eit hinder som må fjernast.
 
-USA sine napalmbombar i Vietnam og Kambodsja, som drap hundretusental sivile, vart nytta under den same humanistiske retorikken: me forsvarar fridom mot kommunisme. Dei som drap hadde godkjende ordrar. Ingen var ansvarlege. Journalistane som dokumenterte My Lai vart behandla som forrædarar.
+USA sine napalmbombar i Vietnam og Kambodsja, som drap hundretusental sivile, vart nytta under den same humanistiske retorikken: me forsvarer fridom mot kommunisme. Dei som drap hadde godkjende ordrar. Ingen var ansvarlege. Journalistane som dokumenterte My Lai vart behandla som forrædarar.
 
 Obama-administrasjonens droneprogram opna ein ny epoke der USA gjennomførte drapsaksjonar mot personar som aldri var identifiserte ved namn — berre ved åtferdsmønster. «Signature strikes»: du er på feil stad til feil tid med feil folk rundt deg. Du liknar på ein trussel. Det er nok. Det krev ikkje eit namn. Det krev ikkje ein dom. Det krev ein prosedyre og ein klassifisering.
 
@@ -92,7 +92,7 @@ Det som er nytt er ikkje at ei stormakt nyttar si mest avanserte teknologi til m
 
 Klassisk fascisme — slik Mussolini og Hitler praktiserte det — var kjenneteikna ved at staten dirigerte kapital og næringsliv. Statsmakta var det primære. Selskapa var instrument.
 
-Det som skjer no er det motsette. Selskapa — Palantir, Anduril, SpaceX, OpenAI — leverer sjølve avgjerdsarkitekturen for statleg valdsmonopol. Dei er ikkje instrument for statsmakta. Dei *er* statsmakta, i den grad statsmakt tyder evne til å identifisere, klassifisere og eliminere fiendar.
+Det som skjer no er det motsette. Selskapa — Palantir, Anduril, SpaceX, OpenAI — leverer sjølve avgjerdsarkitekturen for statleg valdsmonopol. Dei er ikkje instrument for statsmakta. Dei *er* statsmakta, i den grad statsmakt tyder evne til å identifiserere, klassifisere og eliminere fiendar.
 
 Yanis Varoufakis sitt «technofeudalism»-omgrep fangar noko viktig her [\[10\]](#ref-10): det er ikkje lenger kapitalisme i klassisk forstand, der eigaren av produksjonsmidla sel varer på ein marknad. Det er eit system der tilgang til fundamentale infrastrukturar — informasjon, kommunikasjon, mobilitet, tryggleik — er kontrollert av private aktørar som kan trekkje tilbake tilgangen og forme røyndomen for statar og einskildpersonar.
 
@@ -122,30 +122,30 @@ Bauman, Arendt og Fanon gjev oss kvar sine bitar av eit sams bilete. Lat meg sam
 
 **Gaza er ikkje unntaket — det er malen.** Fanons observasjon om koloniterritorium som teknologiske testfelt gjentek seg med AI-krig. Det som vert kalibrert i Gaza vert eksportert. Det som vert normalisert i Libanon vert standard. Det som er lovleg i Iran vert presedens. Dei som trur dette er geografisk avgrensa, tek feil av kva teknologieksport er — og av kva normalisering gjer med grensene for det tenkjelege.
 
-**Systemet løyser moralproblemet ved å eliminere moralske aktørar.** Anthropic-saka er ikkje eit einskildtilfelle. Ho er ein demonstrasjon av den generelle mekanismen: marknaden, slik han er strukturert, favoriserer aktørar som ikkje stiller etiske spørsmål. Det produserer ikkje vonde einskildpersonar. Det produserer institusjonar der moralsk handlingsrom er bygd ut.
+**Systemet løyser moralproblemet ved å eliminere moralske aktørar.** Anthropic-saka er ikkje eit einskildtilfelle. Ho er ein demonstrasjon av den generelle mekanismen: marknaden, slik han er strukturert, favoriserer aktørar som ikkje stiller etiske spørsmål. Det produserer ikkje vonde einskildpersonar. Det produserer institusjoner der moralsk handlingsrom er bygd ut.
 
 Det Bauman, Arendt og Fanon saman syner oss er at dette ikkje er historisk unikt. Det er historisk gjenkjenneleg. Teknologien er ny. Strukturen er gamal. Og det er difor det er avgjerande å sjå han tydeleg.
 
 ## Kjelder
 
-<span id="ref-1"></span>\[1\] Palantir Technologies, «22-punkts manifest,» *X (Twitter)*, 19. apr. 2026. [Primærkjelde — lenkje ikkje stadfesta.]
+<span id="ref-1" class="kjelde-badge" data-kvalitet="C">C</span><span class="kjelde-badge kjelde-badge--habilitet">2</span> [1] Palantir Technologies, «22-punkts manifest,» *X (Twitter)*, 19. apr. 2026. [Primærkjelde — lenkje ikkje stadfesta.]
 
-<span id="ref-2"></span>\[2\] Z. Bauman, *Modernity and the Holocaust*. Cambridge: Polity Press, 1989.
+<span id="ref-2" class="kjelde-badge" data-kvalitet="A">A</span><span class="kjelde-badge kjelde-badge--habilitet">1</span> [2] Z. Bauman, *Modernity and the Holocaust*. Cambridge: Polity Press, 1989.
 
-<span id="ref-3" data-kvalitet="A" data-habilitet="1">A1</span>\[3\] H. Arendt, *Eichmann in Jerusalem: A Report on the Banality of Evil*. New York: Viking Press, 1963.
+<span id="ref-3" class="kjelde-badge" data-kvalitet="A">A</span><span class="kjelde-badge kjelde-badge--habilitet">1</span> [3] H. Arendt, *Eichmann in Jerusalem: A Report on the Banality of Evil*. New York: Viking Press, 1963.
 
-<span id="ref-4" data-kvalitet="A" data-habilitet="3">A3</span>\[4\] A. Karp og N. Zamiska, The Technological Republic: Hard Power, Soft Belief, and the Future of the West. New York: Crown Currency (Penguin Random House), Feb. 2025.
+<span id="ref-4" class="kjelde-badge" data-kvalitet="A">A</span><span class="kjelde-badge kjelde-badge--habilitet">3</span> [4] A. Karp og N. Zamiska, *The Technological Republic: Hard Power, Soft Belief, and the Future of the West*. New York: Crown Currency (Penguin Random House), Feb. 2025.
 
-<span id="ref-5" data-kvalitet="C" data-habilitet="2">C2</span>\[5\] Y. Kubovich og A. Hager, «A mass assassination factory: How Israel is using AI to generate targets in Gaza,» *+972 Magazine / Local Call*, 30. nov. 2023. [Online]. Available: https://www.972mag.com/mass-assassination-factory-israel-calculated-bombing-gaza/. [Accessed: 21. apr. 2026].
+<span id="ref-5" class="kjelde-badge" data-kvalitet="C">C</span><span class="kjelde-badge kjelde-badge--habilitet">2</span> [5] Y. Kubovich og A. Hager, «A mass assassination factory: How Israel is using AI to generate targets in Gaza,» *+972 Magazine / Local Call*, 30. nov. 2023. [Online]. Available: https://www.972mag.com/mass-assassination-factory-israel-calculated-bombing-gaza/. [Accessed: 21. apr. 2026].
 
-<span id="ref-6" data-kvalitet="A" data-habilitet="1">A1</span>\[6\] F. Fanon, *Les Damnés de la Terre*. Paris: Maspero, 1961. Engelsk omsetjing: *The Wretched of the Earth*, omsett av C. Farrington. New York: Grove Press, 1963.
+<span id="ref-6" class="kjelde-badge" data-kvalitet="A">A</span><span class="kjelde-badge kjelde-badge--habilitet">1</span> [6] F. Fanon, *Les Damnés de la Terre*. Paris: Maspero, 1961. Engelsk omsetjing: *The Wretched of the Earth*, omsett av C. Farrington. New York: Grove Press, 1963.
 
-<span id="ref-7" data-kvalitet="B" data-habilitet="2">B2</span>\[7\] C. Dickstein, "Deadly Iran school strike casts shadow over Pentagon's AI targeting push," Military Times, Apr. 2026. [Online]. Available: https://www.militarytimes.com/news/pentagon-congress/2026/04/09/deadly-iran-school-strike-casts-shadow-over-pentagons-ai-targeting-push/.
+<span id="ref-7" class="kjelde-badge" data-kvalitet="B">B</span><span class="kjelde-badge kjelde-badge--habilitet">2</span> [7] C. Dickstein, «Deadly Iran school strike casts shadow over Pentagon's AI targeting push,» *Military Times*, Apr. 2026. [Online]. Available: https://www.militarytimes.com/news/pentagon-congress/2026/04/09/deadly-iran-school-strike-casts-shadow-over-pentagons-ai-targeting-push/.
 
-<span id="ref-8" data-kvalitet="C" data-habilitet="2">C2</span>\[8\] "Lebanon man took Israeli call minutes before fatal drone strike," The New Arab, Apr. 8, 2026. [Online]. Available: https://www.newarab.com/news/lebanon-man-took-israeli-call-minutes-fatal-drone-strike.
+<span id="ref-8" class="kjelde-badge" data-kvalitet="C">C</span><span class="kjelde-badge kjelde-badge--habilitet">2</span> [8] «Lebanon man took Israeli call minutes before fatal drone strike,» *The New Arab*, Apr. 8, 2026. [Online]. Available: https://www.newarab.com/news/lebanon-man-took-israeli-call-minutes-fatal-drone-strike.
 
-<span id="ref-9" data-kvalitet="A" data-habilitet="1">A1</span>\[9\] F. Albanese, «Anatomy of a Genocide: Report of the Special Rapporteur on the situation of human rights in the Palestinian Territory occupied since 1967,» FN Generalforsamlinga, A/HRC/55/73, mars 2024. [Online]. Available: https://www.ohchr.org/en/documents/country-reports/ahrc5573-anatomy-genocide-report-special-rapporteur-situation-human. [Accessed: 21. apr. 2026].
+<span id="ref-9" class="kjelde-badge" data-kvalitet="A">A</span><span class="kjelde-badge kjelde-badge--habilitet">1</span> [9] F. Albanese, «Anatomy of a Genocide: Report of the Special Rapporteur on the situation of human rights in the Palestinian Territory occupied since 1967,» *FN Generalforsamlinga*, A/HRC/55/73, mars 2024. [Online]. Available: https://www.ohchr.org/en/documents/country-reports/ahrc5573-anatomy-genocide-report-special-rapporteur-situation-human. [Accessed: 21. apr. 2026].
 
-<span id="ref-10" data-kvalitet="C" data-habilitet="2">C2</span>\[10\] Y. Varoufakis, *Technofeudalism: What Killed Capitalism*. London: Bodley Head, 2023.
+<span id="ref-10" class="kjelde-badge" data-kvalitet="C">C</span><span class="kjelde-badge kjelde-badge--habilitet">2</span> [10] Y. Varoufakis, *Technofeudalism: What Killed Capitalism*. London: Bodley Head, 2023.
 
-<span id="ref-11" data-kvalitet="B" data-habilitet="2">B2</span>\[11\] A. Down og R. Booth, «Palantir manifesto described as ‘ramblings of a supervillain’ amid UK contract fears,» *The Guardian*, 21. apr. 2026. [Online]. Available: https://www.theguardian.com/technology/2026/apr/21/palantir-manifesto-uk-contract-fears-mps. [Accessed: 24. apr. 2026].
+<span id="ref-11" class="kjelde-badge" data-kvalitet="B">B</span><span class="kjelde-badge kjelde-badge--habilitet">2</span> [11] A. Down og R. Booth, «Palantir manifesto described as ‘ramblings of a supervillain’ amid UK contract fears,» *The Guardian*, 21. apr. 2026. [Online]. Available: https://www.theguardian.com/technology/2026/apr/21/palantir-manifesto-uk-contract-fears-mps. [Accessed: 24. apr. 2026].
