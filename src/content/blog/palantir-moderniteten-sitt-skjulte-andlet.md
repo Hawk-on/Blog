@@ -6,7 +6,7 @@ tags: ["palantir", "teknologi", "krig", "ai", "kolonialisme", "geopolitikk", "ga
 lesetid: 18
 ---
 
-Den 19. april 2026 publiserte Palantir eit 22-punkts manifest på X. Teksten hylla «hard power», avviste kulturell pluralisme og beklaga etterkrigstidas «kastrering» av Nazi-Tyskland [\[1\]](#ref-1). Reaksjonen var avgrensa — nokon akademikarar og aktivistar, lite anna.
+Den 19. april 2026 publiserte Palantir eit 22-punkts manifest på X. Teksten hylla «hard power», avviste kulturell pluralisme og beklaga etterkrigstidas «kastrering» av Nazi-Tyskland [\[1\]](#ref-1). Reaksjonen var fyrst avgrensa — nokon akademikarar og aktivistar, lite anna. Men berre dagar etterpå slo det britiske parlamentet alarm. Parlamentarikerar frå fleire parti skildra manifestet som «ramlingane til ein superskurk» og uttrykte djup frykt for kva deira ideologi betyr for dei massive kontraktane selskapet har med det britiske helsevesenet (NHS) og forsvaret [\[11\]](#ref-11).
 
 Det er freistande å avfeie dette som ein isolert provokasjon frå eksentriske milliardærar. Men teksten er samanhengande. Han har ein indre logikk. Og han vert omsett til praksis — i Gaza, i Iran, i Libanon, langs USAs sørlege grense. For å forstå kvifor dette skjer, og kvifor det ikkje er historisk nytt sjølv om det er teknologisk nytt, treng me eit teoriapparat som strekk seg lenger enn nyheitskommentaren.
 
@@ -146,3 +146,5 @@ Det Bauman, Arendt og Fanon saman syner oss er at dette ikkje er historisk unikt
 <span id="ref-9" data-kvalitet="A" data-habilitet="1">A1</span>\[9\] F. Albanese, «Anatomy of a Genocide: Report of the Special Rapporteur on the situation of human rights in the Palestinian Territory occupied since 1967,» FN Generalforsamlinga, A/HRC/55/73, mars 2024. [Online]. Available: https://www.ohchr.org/en/documents/country-reports/ahrc5573-anatomy-genocide-report-special-rapporteur-situation-human. [Accessed: 21. apr. 2026].
 
 <span id="ref-10" data-kvalitet="C" data-habilitet="2">C2</span>\[10\] Y. Varoufakis, *Technofeudalism: What Killed Capitalism*. London: Bodley Head, 2023.
+
+<span id="ref-11" data-kvalitet="B" data-habilitet="2">B2</span>\[11\] A. Down og R. Booth, «Palantir manifesto described as ‘ramblings of a supervillain’ amid UK contract fears,» *The Guardian*, 21. apr. 2026. [Online]. Available: https://www.theguardian.com/technology/2026/apr/21/palantir-manifesto-uk-contract-fears-mps. [Accessed: 24. apr. 2026].
