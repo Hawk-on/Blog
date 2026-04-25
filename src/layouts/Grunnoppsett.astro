@@ -52,7 +52,7 @@ const jsonLd = erArtikkel ? {
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://giscus.app; script-src 'self' 'unsafe-inline' https://cloud.umami.is https://giscus.app; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://giscus.app; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://* https://giscus.app; frame-src https://giscus.app; child-src https://giscus.app; connect-src 'self' https://cloud.umami.is https://hawk-on.github.io https://giscus.app;" />
+  <!-- CSP fjerna mellombels for debugging -->
   <meta name="description" content={beskriving} />
   <title>{fullTittel}</title>
   <link rel="canonical" href={kanoniskUrl} />
