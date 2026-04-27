@@ -1,5 +1,5 @@
 # hawk-on — Blogg
-Sist oppdatert: 24. april 2026.
+Sist oppdatert: 27. april 2026.
 
 Analysar av politikk, økonomi og teknologi frå eit strukturalistisk perspektiv.
 
@@ -20,8 +20,9 @@ npm run build   # Bygger nettstad og køyrer pagefind-indeksering
 ```
 
 ## Nyaste artiklar
-- **Renteauke er feil medisin:** Analyse av Norges Bank sin pengepolitikk og behovet for prisstyring. (24. april 2026)
-- **FMA-korrupsjon:** Blindsoner i forsvarssektoren. (23. april 2026)
+- **2026-04-27:** *Oljefondet: Frå finansiell fiksjon til geopolitisk slegge* (Sosiologisk økonomi og teknofeudalisme).
+- **2026-04-24:** *Renteauke er feil medisin:* Analyse av Norges Bank sin pengepolitikk og behovet for prisstyring.
+- **2026-04-23:** *FMA-korrupsjon:* Blindsoner i forsvarssektoren.
 
 ## Struktur
 - `src/content.config.ts`: Konfigurasjon for innhaldssamlingar.
